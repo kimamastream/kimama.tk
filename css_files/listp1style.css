@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@font-face {
+    src: url(../tools/fonts/SpringwoodBrushDemoRegular-GpWP.otf);
+    font-family: bk;
+}
+
+@font-face {
+    src: url(../tools/fonts/AquireBold-8Ma60.otf);
+    font-family: aq;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #161616;
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(to bottom,transparent,#fd1d1d,#833ab4);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: linear-gradient(to bottom,transparent,#833ab4,#fd1d1d);
+	border-radius: 5px;
+}
+
+
+
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Nav Bar  */
+#nav-bar {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: #161616;
+	opacity: .8;
+}
+.nav-bar {
+	background-color: #161616;
+	left: 0;
+	top: 0;
+	padding: 1rem 5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-bar .brand a {
+	font-family: 'Flash Back - Demo', sans-serif;
+	font-size: 3rem;
+	color: white;
+}
+.nav-bar .nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-bar .nav-list .hamburger {
+	border: 2px solid #9032F8;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	width: 70px;
+	transition: .3s ease transform;
+	cursor: pointer;
+}
+.nav-bar .nav-list .hamburger.active {
+	transform: rotate(360deg);
+}
+.nav-bar .nav-list .hamburger.active .bar:before {
+	top: 0;
+	transform: rotate(45deg);
+}
+.nav-bar .nav-list .hamburger.active .bar:after {
+	top: 0;
+	transform: rotate(-45deg);
+}
+.nav-bar .nav-list .hamburger.active .bar {
+	background-color: transparent;
+}
+.nav-bar .nav-list .hamburger .bar {
+	height: 2px;
+	width: 30px;
+	background-color: #FD4F66;
+	position: relative;
+	display: flex;
+}
+.nav-bar .nav-list .hamburger .bar::before,
+.nav-bar .nav-list .hamburger .bar::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color:#FD4F66;
+	transition: .3s ease all;
+}
+.nav-bar .nav-list .hamburger .bar::before {
+	top: 8px;
+}
+.nav-bar .nav-list .hamburger .bar::after {
+	bottom: 8px;
+}
+.nav-bar .nav-list ul {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgb(46, 45, 45);
+	padding: 5rem 0;
+	transform: translateY(-100%);
+	transition: .3s ease transform;
+	text-align: center;
+	z-index: -1;
+}
+.nav-bar .nav-list ul li {
+	list-style: none;
+	display: block;
+	position: relative;
+	left: 30px;
+}
+.nav-bar .nav-list ul li:hover:after {
+	transform: translateX(-50%) scale(1);
+}
+.nav-bar .nav-list ul li:after {
+	content: '';
+	position: absolute;
+	width: 5rem;
+	height: .2rem;
+	background-color:#FD4F66;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	bottom: 0;
+	transition: .3s ease transform;
+}
+.nav-bar .nav-list ul li a {
+	font-size: 3.9rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	letter-spacing: .15rem;
+	padding: 2rem 3rem;
+}
+.nav-bar .nav-list.open ul {
+	transform: translateY(90px);
+}
+
+.pages{
+	font-family: bk;
+}
+
+/* End Nav Bar */
+
+
+
+
+
+
+/* wrapper side */
+
+.wrapper{
+	width: 1335px;
+	display: flex;
+	background-color: #161616;
+	margin: 0 auto;
+}
+
+
+
+
+
+.animebox{
+	margin-top: 135px;
+	background-color: #303030;
+	color: #ababab;
+	font-size: 20px;
+	border-style: solid;
+	border-color: #303030;
+	border-radius: 15px 15px 10px 10px;
+	margin-left: 20px;
+	margin-bottom: 0;
+	width: 1300px;
+	height:auto;
+
+}
+
+.grid{
+	border:2px solid #ababab;
+	width: 1285px;
+	height: 1570px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+.abox{
+	width: 496px;
+	background-image:url(../tools/images/16138394052988635.jpg);
+	border:5px solid #663399 ;
+	padding: 12.9px;
+	border-radius: 10px;
+	margin-left: 400px;
+	margin-top: -81px;
+}
+
+.abox h3{
+	font-size: 45px;
+	letter-spacing: 5px;
+	font-family: aq;
+	color:#8000ff;
+	margin-left: 80.6px;
+}
+
+.lftbar{
+	background-color: #EE303B;
+	height: 79.4px;
+	width: 400px;
+	margin-top: -2px;
+	margin-left: -2px;
+	border-radius: 10px;
+}
+.lftimg img{
+	height: 120px;
+	width: 76.5px;
+	margin-top: -35px;
+	margin-left: 5px;
+	
+}
+
+.iconp{
+	margin-left: 100px;
+	margin-top: -125px;
+	margin-bottom: 33px;
+	height:80px;
+	width:80px;
+	transition: transform .5s;
+}
+.iconp:hover{
+	transform: scale(1.085);
+}
+
+.head-previous{
+	margin-left: 225px;
+	margin-top : -100px;
+	font-size: 45px;
+	color:white;
+	font-weight: 200;
+	font-family: 'Nerko One', cursive;
+}
+.head-previous,a{
+	text-decoration: none;
+}
+
+
+.rgtbar{
+	background-color: #EE303B;
+	height: 79.4px;
+	width: 400px;
+	margin-top: -79px;
+	margin-left: 898.6px;
+	border-radius: 10px;
+}
+
+.rgtimg img{
+	height: 111.23px;
+	width: 96.53px;
+	margin-left: 306px;
+	margin-top: -25.8px;
+}
+
+.iconn{
+	margin-left: 215px;
+	margin-top:-90px;
+	margin-bottom: 70px;
+	height:80px;
+	width:80px;	
+	transition: transform .5s;
+}
+.iconn:hover{
+	transform: scale(1.085);
+}
+.head-next{
+	margin-left: 80px;
+	margin-top : -145px;
+	font-size: 45px;
+	color:white;
+	font-weight: 200;
+	font-family: 'Nerko One', cursive;
+}
+
+
+/* Anime List */
+
+.lst li {
+	list-style-type: none;
+	margin-left: 24px;
+	margin:23px 14px;
+	float: left;
+	height:250px;
+	transition: transform .16s;
+}
+
+.lst li:hover{ 
+	transform: scale(1.1);
+}
+.lst img{
+	width:138.81px;
+	height:180.45px;
+	margin-top: 35px;
+	margin-left: 34.6px;
+	border-radius: 6px;
+}
+
+.lst a {
+	text-decoration: none;
+}
+
+.lst h5{
+	font-size: 23px;
+	font-weight: 50;
+	font-family: 'Nerko One', cursive;
+	margin-left: 28.5px;
+	width: 150px;
+	text-align: center;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 6px 6px 0 0;
+
+}
+.lst h5:hover{
+	background-color: #FD4F66;
+}
+.lst h6{
+	font-family: 'Nerko One', cursive;
+	font-size: 16px;
+	font-weight: 50;
+	margin-left: 28.5px;
+	text-align: center;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 0 0 6px 6px;
+
+}
+
+.dwnbar{
+	margin-top: 1530px;
+	margin-left: 1025px;
+}
+
+.dwnbar a{
+	text-decoration: none;
+	color: white;
+}
+
+.dwnbar1 {
+	width: 90px;
+	text-align: center;
+	background-color: #EE303B;
+	border-radius: 5px;
+	margin-left: 45px;
+	margin-top: -1px;
+	transition: transform .1s;
+}
+.dwnbar1:hover{
+	background-color: #833ab4;
+	transform: scale(1.085);
+}
+
+.dwnbar2 {
+	width: 90px;
+	text-align: center;
+	background-color: #833ab4;
+	border-radius: 5px;
+	margin-left:150px;
+	margin-top:-20px;
+	transition: transform .1s;
+}
+.dwnbar2:hover{
+	background-color:#EE303B;
+	transform: scale(1.085);
+}
+
+
+
+
+/* Anime List */
+ 
+
+
+
+
+/* .animebox::before {
+	content: "";
+	position: relative;
+	top: 100px;
+	color:aquamarine;
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  } */
+
+
+
+/* Hire Section  */
+.hire {
+	min-height: 10vh;
+	flex-direction: column;
+	width: 100%;
+	background-image: url(../tools/images/4706201.jpg);
+	background-size: cover;
+	padding: 3rem 2rem;
+	margin-top:15px; 
+	margin-bottom:0;
+	border-radius: 10px 10px 0px 0px;
+}
+
+
+.hire .hire-heading {
+	color: white;
+	font-size: 3.4rem;
+	font-weight: 200;
+	font-family: 'Nerko One', cursive;
+	padding: 5px;
+	border-radius: 10px;
+	background-image: linear-gradient(45deg,#9032F8,#FD4F66);
+}
+
+.hire .hire-button {
+	padding: 2rem 3rem;
+	display: inline-block;
+	background-color:#663399;
+	border-radius: 5px;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .2rem;
+	margin-top: 10px;
+	color: whitesmoke;
+	transition: .3s ease background-color;
+}
+.hire .hire-button:hover {
+	background-color:#EE303B;
+}
+/* End Hire Section  */
+
+
+
+
+
+/*message section*/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 16px
+  }
+  
+  input[type=submit] {
+	background-color: #663399;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: transform .2s;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #EE303B;
+	transform: scale(1.1);
+  }
+  
+  .container-1 {
+	background-image: url("https://drive.google.com/uc?id=1oa7vw-uQjK-NrCf3poSoWOuzL1QgBK4c");
+	padding: 20px;
+	width: 100%;
+  }
+  .container-1 h3{
+	  float: right;
+	  margin-top: 20px;
+	  color:#E83773;
+	  background-color: #663399;
+	  border-radius: 10px;
+	  padding: 5px;
+  }
+  label{
+	font-size: 16px;
+	background-color: #663399;
+	color:white;
+	padding: 6px;
+	border-radius: 8px;
+  }
+
+/*message section*/
+
+
+/* Footer section */
+.button{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	overflow: hidden;
+	background: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	transition: all 0.3s ease-out;
+	margin-left: 20px;
+	margin-top: -24px;
+  }
+.button:hover{
+	width: 200px;
+  }
+.button .icon{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	border-radius: 50px;
+	box-sizing: border-box;
+	transition: all 0.3s ease-out;
+  }
+.button .icon a{
+	text-decoration: none;
+	color: #161616;
+}
+.button:nth-child(1):hover .icon{
+	background: #1DA1F2;
+  }
+.button .icon i{
+	font-size: 20px;
+	line-height: 60px;
+	transition: all 0.3s ease-out;
+  }
+.button:hover .icon i{
+	color:#1DA1F2;
+  }
+.button span{
+	font-size: 20px;
+	font-weight: normal;
+	transition: all 0.3s ease-out;
+  }
+.button a{
+	text-decoration: none;
+	color:#1DA1F2;
+}
+/* Own footer */
+.own_footer {
+	height: 85px;
+	background-image:url(../tools/images/bg_footer1.jpg);
+	background-size: cover;
+	border-radius:0 0 10px 10px;
+	position: relative;
+}
+
+.own_footer h3{
+	font-size: 23px;
+	color:lightgreen;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+.pages_three{
+	margin-left: 410px;
+	margin-top: -40px;
+}
+.pages_three ul{
+	list-style-type: none;
+	width: 100%;
+}
+.pages_three li{
+	margin-left: 20px;
+	font-size: 20px;
+	float: left;
+	padding-left: 50px;
+	padding-top: 15px;
+	margin-right: 25px;
+	
+}
+.pages_three li a{
+	text-decoration:none;
+	color: white;
+	
+}
+.pages_three li a:hover{
+	text-decoration: underline;
+	text-decoration-color:#9032F8 ;
+}
+/* End of Footer section */
+
+
+
+/* Media query for desktop and tab  */
+@media only screen and (min-width: 768px) {
+	.nav-bar .nav-list .hamburger {
+		display: none;
+	}
+	.nav-bar {
+		width: 80%;
+	}
+	.nav-bar .nav-list ul {
+		transform: translateX(0);
+		position: initial;
+		padding: 0;
+		z-index: initial;
+		background-color: transparent;
+	}
+	.nav-bar .nav-list ul li {
+		display: inline-block;
+	}
+	.hero {
+		height: 100vh;
+		flex-direction: row;
+		padding-left: 10%;
+		justify-content: center;
+		align-items: center;
+	}
+	.hero .hero-info {
+		max-width: 30%;
+		text-align: left;
+	}
+	.hero .hero-info .hero-info-subheading {
+		font-size: 1.3rem;
+		letter-spacing: .5rem;
+	}
+	.hero .hero-img {
+		min-width: 400px;
+		max-width: 1000px;
+	}
+	.about {
+		width: 80%;
+		margin: 0 auto;
+		flex-direction: row;
+	}
+	.about .about-info {
+		width: 50%;
+		text-align: left;
+		padding-right: 17rem;
+	}
+	.services .services-header .services-header-desc {
+		max-width: 500px;
+		padding-top: 20px;
+		margin: 0 auto;
+	}
+	.services .services-info {
+		flex-direction: row;
+		width: 80%;
+	}
+	.services .services-info .service {
+		margin: 0;
+	}
+}
+/* End Media query for desktop and tab  */
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px) {
+	.hero .hero-info .hero-info-heading {
+		font-size: 6rem;
+	}
+	.hero .hero-info .hero-info-subheading {
+		letter-spacing: .8rem;
+	}
+}
+
+
+@media screen and (max-width: 53.125em){
+	
+	body{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		
+	}
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+	
+	/* MAIN stucture */
+	.wrapper{
+		width: 350px;
+		
+	}
+
+	.animebox{
+		width: 375px;
+		height:auto;
+		margin-left:-12px;
+		margin-top: 140px;	
+	}
+	.grid{
+		width: 364px;
+		height: 4760px;
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+		width: 373px;
+		padding: 14px;
+		margin-left: 0px;
+		margin-top: -157.6px;
+	}
+	.abox h3{
+		font-size: 39px;
+		margin-left: 45px;
+	}
+
+	.lftbar{
+		width: 360px;
+		margin-top: 78px;
+		margin-left: -1px;
+	}
+	.lftimg img{
+		margin-left: -2px;
+	}
+	.head-previous{
+		display: none;
+	}
+	 .iconp{
+		margin-left: 80px;
+		margin-top: -90px;
+	}
+
+
+	.rgtbar{
+		margin-left: 10px;
+		width: 365px;
+	}
+	.iconn{
+		margin-left: 200px;
+	}
+	.rgtimg img{
+		margin-left: 280px;
+	}
+
+	.head-next{
+		display: none;
+	}
+
+	/* end =Decorative stuff */
+
+
+
+	/* MAIN LIST */
+
+	.lst{
+		margin-top: -20px;
+		margin-left: -5px;
+	}
+
+	.lst li {
+		margin:30px 0px;
+	}
+	.lst img{
+		margin-top: 35px;
+		margin-left: 28px;
+
+	}
+	.lst h5{
+		margin-left: 22px;
+	}
+
+	.lst h6{
+		margin-left: 22px;
+	}
+
+	/* end =MAIN LIST */
+
+	.dwnbar{
+		margin-top: 4720px;
+		margin-left: 40px;
+		
+	}
+
+	/* $$$$$$$$ */
+
+	
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+	
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+
+
+
+}
