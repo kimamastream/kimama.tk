@@ -585,6 +585,60 @@ label{
 
 }
 
+@media screen and (max-width: 360px) {
+	.container img{
+		margin-left:-17px;
+	}
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+	
+	.proxyls h1{
+		margin:auto;
+		font-size: 50px;
+		width: auto;
+		padding-bottom: 6px;
+	}
+	.plist li{
+		margin-left: 17.3%;
+		padding-bottom: 6px;
+		font-size: 18.5px;
+		height: auto;
+		width: auto;
+	}
+
+	.hero .hero-info .hero-info-heading {
+		margin-left: 10px;
+	}
+	.hero .hero-info .hero-info-subheading {
+		font-size: 1.3rem;
+		letter-spacing: .5rem;
+		margin-left: 10px;
+	}
+	.hero .hero-info .hero-info-button{
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+	
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+}
+
+
 @media screen and (max-width: 53.125em) {
 	.nav-bar .nav-list ul li {
 		position: relative;
@@ -634,3 +688,4 @@ label{
 	}
 
 }
+

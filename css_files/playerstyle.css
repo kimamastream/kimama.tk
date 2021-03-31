@@ -177,16 +177,9 @@ body {
 
 .pages{
 	font-family: bk;
+	cursor: pointer;
 }
 
-.pages button{
-	font-family: bk;
-	border: none;
-	font-size: 40px;
-	background: none;
-	color: white;
-	outline: none;
-}
 
 /* End Nav Bar */
 
@@ -1024,12 +1017,12 @@ label{
 
 	.wrapper{
 		margin-left: -20px;
-		display:grid;
+		display: grid;
 	}
 
 	.updrv{
 		width: 373px;
-		font-size: 22.6px;
+		font-size: 21px;
 	}
 	
 	
@@ -1101,13 +1094,145 @@ label{
 	.related{
 		width:373px; 
 		margin-top: -115px;
-		margin-left: 8px;
+		margin-left: 10px;
 
 	}
 
 	.trend{
 		width: 373px;
-		margin-left: 8px;
+		margin-left: 10px;
+	}
+
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+	
+	/* mbl footer */
+	
+
+
+}
+
+
+@media screen and (max-width: 22.5em){
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.container img{
+		margin-left: -45px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 0;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 5px;
+	}
+
+	.wrapper{
+		margin-left: -29.6px;
+		display: grid;
+	}
+
+	.updrv{
+		width: 360px;
+		font-size: 21px;
+	}
+	
+	
+
+	.drive iframe{
+		width: 360px;
+		height: 200px;
+	}
+
+	.dwndrv{
+		font-size: 19px;
+		width: 360px;
+	}
+	.dwndrv li{
+		margin-top: 5px;
+		margin-left: 2px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+
+
+
+	.episode{
+		width: 360px;
+		height: 210px;
+		overflow:auto;
+	}
+	.episode ul{
+		margin-top: 10px;
+	}
+	.episode li{
+		margin-top: 15px;
+		margin-left: 10px;
+		width: 37px;
+		height: 42px;
+	}
+	.episode h4{
+		margin-left: 20px;
+	}
+	.anopart li{
+		width: 70px;
+		height: 42px;
+	}
+
+	.details{
+		width: 360px;
+	}
+	.details img{
+		margin-left: 15px;
+		margin-top:  10px;
+		float: none;
+
+	}
+	.details h2{
+		margin-top: -180px;
+		margin-left: 210px;
+	}
+	.details h4{
+		margin-left: 210px;
+	}
+
+	.details p{
+		margin-top: 105px;
+		margin-left: 15px;
+	}
+
+
+	.related{
+		width:360px; 
+		margin-top: -115px;
+		margin-left: 10px;
+
+	}
+
+	.trend{
+		width: 360px;
+		margin-left: 10px;
 	}
 
 

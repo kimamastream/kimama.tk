@@ -123,3 +123,21 @@
     }
   
   }  
+
+
+  @media screen and (max-width:22.5em) {
+    .slider {
+      position: relative;
+      width: 328.5px;
+      height: 198px;
+      margin-top: 63px;
+      margin-bottom: -30px;
+      margin-left: 1px;
+    }
+    .slide img{
+      width: 400px;
+      height: 250px;
+      margin-left: 0;
+    }
+  
+  } 

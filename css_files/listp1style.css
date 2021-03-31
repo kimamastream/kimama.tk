@@ -851,3 +851,155 @@ input[type=text], select, textarea {
 
 
 }
+
+
+@media screen and (max-width: 22.5em){
+	
+	body{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		
+	}
+	.container img{
+		margin-left: -45px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 0;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+	
+	/* MAIN stucture */
+	.wrapper{
+		width: 350px;
+		
+	}
+
+	.animebox{
+		width: 375px;
+		height:auto;
+		margin-left:-12px;
+		margin-top: 140px;	
+		border-radius: 0 0 22px 22px;
+	}
+	.grid{
+		width: 358px;
+		height: 4760px;
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+		width: 360px;
+		padding: 14px;
+		margin-left: 4px;
+		margin-top: -160px;
+	}
+	.abox h3{
+		font-size: 39px;
+		margin-left: 45px;
+	}
+
+	.lftbar{
+		width: 360px;
+		margin-top: 78px;
+		margin-left: -1px;
+	}
+	.lftimg img{
+		margin-left: 0px;
+	}
+	.head-previous{
+		display: none;
+	}
+	 .iconp{
+		margin-left: 75px;
+		margin-top: -90px;
+	}
+
+
+	.rgtbar{
+		margin-left: 10px;
+		width: 365px;
+	}
+	.iconn{
+		margin-left: 200px;
+	}
+	.rgtimg img{
+		margin-left: 270px;
+	}
+
+	.head-next{
+		display: none;
+	}
+
+	/* end =Decorative stuff */
+
+
+
+	/* MAIN LIST */
+
+	.lst{
+		margin-top: -20px;
+		margin-left: -5px;
+	}
+
+	.lst li {
+		margin:30px 0px;
+	}
+	.lst img{
+		margin-top: 35px;
+		margin-left: 28px;
+
+	}
+	.lst h5{
+		margin-left: 22px;
+	}
+
+	.lst h6{
+		margin-left: 22px;
+	}
+
+	/* end =MAIN LIST */
+
+	.dwnbar{
+		margin-top: 4720px;
+		margin-left: 40px;
+		
+	}
+
+	/* $$$$$$$$ */
+
+	
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+	
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+
+
+
+}

@@ -146,6 +146,8 @@ body {
 	position: relative;
 	left: 30px;
 }
+
+
 .nav-bar .nav-list ul li:hover:after {
 	transform: translateX(-50%) scale(1);
 }
@@ -173,7 +175,7 @@ body {
 	transform: translateY(90px);
 }
 
-.pages button{
+.pages{
 	font-family: bk;
 	border: none;
 	font-size: 40px;
@@ -346,24 +348,7 @@ body {
 		margin: 0;
 	}
 }
-/* End Media query for desktop and tab  */
 
-/* Media Query For Desktop Only  */
-@media only screen and (min-width: 1200px) {
-	.hero .hero-info .hero-info-heading {
-		font-size: 6rem;
-	}
-	.hero .hero-info .hero-info-subheading {
-		letter-spacing: .8rem;
-	}
-}
-
-@media screen and (max-width: 53.125em){
-	.animebox{
-		width: 425px;
-		margin: 130px 10px;
-	}
-}
 
 
 
@@ -514,3 +499,101 @@ label{
 	text-decoration-color:#9032F8 ;
 }
 /* End of Footer section */
+
+
+
+
+
+/* End Media query for desktop and tab  */
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px) {
+	.hero .hero-info .hero-info-heading {
+		font-size: 6rem;
+	}
+	.hero .hero-info .hero-info-subheading {
+		letter-spacing: .8rem;
+	}
+}
+
+@media screen and (max-width: 53.125em){
+
+
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+
+	.animebox{
+		width: 425px;
+		margin: 130px 10px;
+	}
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+	
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+}
+
+
+
+@media screen and (max-width: 22.5em){
+
+	body{
+		overflow-x: hidden;
+	}
+	.container img{
+		margin-left: -45px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 0px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+
+	.animebox{
+		width: 425px;
+		margin: 130px 10px;
+	}
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 360px;
+		height: 160px;
+	}
+	
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+}
