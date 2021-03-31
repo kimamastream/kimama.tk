@@ -607,11 +607,12 @@ label{
 	
 
 	.container img{
-		margin-left: -40px;
+		margin-left: -45px;
 	}
 	.nav-bar .nav-list .hamburger {
-		margin-left: 15px;
+		margin-left: 0;
 	}
+
 
 	.nav-bar .nav-list ul li {
 		position: relative;
