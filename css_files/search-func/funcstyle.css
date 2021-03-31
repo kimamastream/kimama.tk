@@ -358,7 +358,7 @@ input[type=submit]:hover {
 .container-1 h3{
 	float: right;
 	margin-top: 20px;
-	color:rgb(236, 139, 28);
+	color:#5DC8DC;
 	background-color: #663399;
 	border-radius: 10px;
 	padding: 5px;
@@ -607,12 +607,11 @@ label{
 	
 
 	.container img{
-		margin-left: -45px;
+		margin-left: -40px;
 	}
 	.nav-bar .nav-list .hamburger {
-		margin-left: 0;
+		margin-left: 15px;
 	}
-
 
 	.nav-bar .nav-list ul li {
 		position: relative;
@@ -625,3 +624,26 @@ label{
 	}
 
 }	
+
+
+@media screen and (max-width: 22.5em) {
+	
+
+	.container img{
+		margin-left: -45px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 0px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+	
+	#trend-effect{
+		margin: 600px 0 0 -30px;
+	}
+
+}
