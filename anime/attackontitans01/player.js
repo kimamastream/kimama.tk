@@ -1,29 +1,29 @@
 var quoteArry = [
-  "https://drive.google.com/file/d/1r47oKdJlSdmEW7UOLfJpdmdU_Ib8__36/preview",
-  "https://drive.google.com/file/d/19DmsUn_3JxdOuBiCvgkLUPK3rsSAARoE/preview",
-  "https://drive.google.com/file/d/1cVNWTsGvKuuuISKRreTIf4VusfmWWt2N/preview",
-  "https://drive.google.com/file/d/1OwB-__k3uKijmUGGU8LxZqN3t40pJEjx/preview",
-  "https://drive.google.com/file/d/1nAvZZbQw24D9SN7UOoavkaUeP_xijRBS/preview",
-  "https://drive.google.com/file/d/1LYfrUNy-C45HOHmrk8qYyyo4rcCbwb5f/preview",
-  "https://drive.google.com/file/d/1kbfyIUuI49j7A96XDDOEobQyZZJ1UQeh/preview",
-  "https://drive.google.com/file/d/1eKcjP2a83iq9naZ71Q1cQCA-0JO7d9cq/preview",
-  "https://drive.google.com/file/d/1-YWB210-_OBilToKcGXZaLXCKLun9XQJ/preview",
-  "https://drive.google.com/file/d/127d08uPlPBjpvfDWBU0EmElliJOalMvT/preview",
-  "https://drive.google.com/file/d/13u1sONxzT-lUZLdYvepbEMNdMzQt3CE8/preview",
-  "https://drive.google.com/file/d/18w3EM4BwQe2YtHVawUifAy8Ed6IWXCzM/preview",
-  "https://drive.google.com/file/d/19w4NS3_ddpLYlpLmSnuJZ1NxSm-jx8be/preview",
-  "https://drive.google.com/file/d/1xS6u_wVOHh6GxyzKWfHeQHqUqxOXlMSg/preview",
-  "https://drive.google.com/file/d/1r76HEKAsqDeM7FOkVGxyz1lA4mTOY9Ij/preview",
-  "https://drive.google.com/file/d/1CLoIOv_frHxJFxlbuG6fxNwDC2ClvzU9/preview",
-  "https://drive.google.com/file/d/1sy-d8UldFXkRsatC8Rxo068Qm3rC3Y9Q/preview",
-  "https://drive.google.com/file/d/1xFnf0jCBQ0ygGX99BQ6Inbgfcs7nirsq/preview",
-  "https://drive.google.com/file/d/1uLTfIvunRb_nZc1d6SMPmdbWA-8wpeEP/preview",
-  "https://drive.google.com/file/d/19tBINKcXwEngHba-Har1t2ERBHXgpEwh/preview",
-  "https://drive.google.com/file/d/1ppRq6Sti83g-MOiuzb5-EUcA6sCUxOES/preview",
-  "https://drive.google.com/file/d/1eRtYu-4CyHUK46Ry18g0bSuHg9EBMKjL/preview",
-  "https://drive.google.com/file/d/1vdPCtmP2JvGOwRwYclu-O6qxnpN0m3eT/preview",
-  "https://drive.google.com/file/d/1Gl3tJDklGSBG-jKGeb_Vg0gPkBlL3FjQ/preview",
-  "https://drive.google.com/file/d/1kCaO2Mk_XPdpFSJHEtXH2WZtkqGI0yvo/preview"
+  "https://drive.google.com/file/d/14uTyNlAuwAOM4KErhr56cnkI3jxYoBGd/preview",
+  "https://drive.google.com/file/d/13DugTIX4wok2FXaY-zUJyJMbpKh79JyR/preview",
+  "https://drive.google.com/file/d/11w3Dt_0z4XyMkU00K8W8ckOa7GKl3TpB/preview",
+  "https://drive.google.com/file/d/1raQBFoV72n94LnbvKIGGZIyphb_-7OmA/preview",
+  "https://drive.google.com/file/d/13DV1rm3jczeG2YB5BBv9eRiwTLsUfpct/preview",
+  "https://drive.google.com/file/d/1FErIar7_fplgWg0v-HpfPkkotebQfLbo/preview",
+  "https://drive.google.com/file/d/1SZEQaDPE0cUDYhP9UKBi-QrtZW5vCS4o/preview",
+  "https://drive.google.com/file/d/1oYTy_5ehToL_t3lhE66WNx9A_RtmeaOQ/preview",
+  "https://drive.google.com/file/d/1wmtIgxjIQLHns8jUoHG5mCeD7BaH8jl_/preview",
+  "https://drive.google.com/file/d/1ZnTiOh6qJ_0pdU_9K_eWYiLw6eBRkopZ/preview",
+  "https://drive.google.com/file/d/1JVQrdQBN8yoO6u3aRN5Jf9ZgJHqwpVBP/preview",
+  "https://drive.google.com/file/d/1YHy_yH6W7gEtWRIKyb82P7J-S0IwCn-2/preview",
+  "https://drive.google.com/file/d/1oNnkxf7xEFK0BOYlq3V8ng4nu_wMqmqh/preview",
+  "https://drive.google.com/file/d/14b_wRnVIpS-XWqulcayXTrZWJ0ayilX7/preview",
+  "https://drive.google.com/file/d/1jl-mtGOrhhfhSJlOaLNw2rmOJXgtoM6I/preview",
+  "https://drive.google.com/file/d/1GyoQMGjaRvuMnczZ31OzRkZS8q5p0_G2/preview",
+  "https://drive.google.com/file/d/18vLbqsDjNnz8XQN4ERaOEauSB7DkzKew/preview",
+  "https://drive.google.com/file/d/1BMF5T6do5jpusc37iIvf77PyA1iFRIu3/preview",
+  "https://drive.google.com/file/d/1bdaVsH9QsGRD1_17b_CV4movaNJRRbnh/preview",
+  "https://drive.google.com/file/d/1lKrc1WD7x_cxLhvDchpUte1wVpy3EGFy/preview",
+  "https://drive.google.com/file/d/1GmIxxDYVKggAfwjAWWcK-H8LFFQU4EEW/preview",
+  "https://drive.google.com/file/d/1HzfnWQA7jcsalkeeE8lg48PzOaZ_C-EO/preview",
+  "https://drive.google.com/file/d/1JcfoVwljD9U4kGSosrmLwLyulK1o3RS3/preview",
+  "https://drive.google.com/file/d/16X4QiAQp1_lx7bpCcO_F5X65VafEAOxT/preview",
+  "https://drive.google.com/file/d/1LPtA9WA4Wo7N6eVCmo0Z5bQ7_nz5xUWY/preview"
 ];
 
 var current_episode = 0;
@@ -117,5 +117,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "Attack On Titan Season 1  Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "Attack on Titan Season 1  Episode " + (i + 1);
 }

@@ -79,6 +79,7 @@ body {
 
 .morphsearch.open .morphsearch-input {
 	font-size: 7em;
+	width: auto;
 }
 
 /* placeholder */
@@ -275,6 +276,7 @@ body {
 	}
 	.morphsearch.open .morphsearch-input {
 		font-size: 2em;
+		width: 400px;
 	}
 	.dummy-column {
 		float: none;

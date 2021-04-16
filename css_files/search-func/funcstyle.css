@@ -647,3 +647,11 @@ label{
 	}
 
 }
+
+@media (max-width: 850px) and (min-width:839px){   /* poco x2 landscape */
+
+	.nav-bar{
+		width: 100%;
+	}
+
+}
