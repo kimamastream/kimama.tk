@@ -1,28 +1,28 @@
 var quoteArry = [
-  "https://drive.google.com/file/d/1PulFrImY1lh536dPfOnbeXgF8QCCotp8/preview",
-  "https://drive.google.com/file/d/10uWv6sC5eFcdAFXkrIHInkaAMtSTPLLJ/preview",
-  "https://drive.google.com/file/d/1rJMntq5d2n46TBFMxvNYnl1RKwCCgQSF/preview",
-  "https://drive.google.com/file/d/1PuFSgYtMQ_nlamDHeZHpaH2WEBU7YWar/preview",
-  "https://drive.google.com/file/d/1xzuwirE-UpSvmvSvheKhJbBJgkWlXyQc/preview",
-  "https://drive.google.com/file/d/1oCUKXSrvnNQV9ePlu2QTEnOfZAnjO_4G/preview",
-  "https://drive.google.com/file/d/1sBBhq16YXQwH83LDi2oX6Eq7K5MHFeXC/preview",
-  "https://drive.google.com/file/d/1uOWOvG5hSjWIcbVUsTDFmGQ2jI2thObk/preview",
-  "https://drive.google.com/file/d/1-Y1G6O6PowtOOTm-Qe0PUJZ1g36ow7IH/preview",
-  "https://drive.google.com/file/d/1ZJ_oKPt3Mb8D-rSB2AmqtlPIdqWt56f-/preview",
-  "https://drive.google.com/file/d/1_mtpGdJL8UxbUankBSywoopRBuG0iipf/preview",
-  "https://drive.google.com/file/d/1eu7pDK9BRk-_mzZF_5l4kHsimRSikxAe/preview",
-  "https://drive.google.com/file/d/1FiVPiLpbx4OPAuUZkMyUlkXdH3d34mFU/preview",
-  "https://drive.google.com/file/d/1vJ2yrOiAS-xlumMLK7MaVLXhAvRHkgIm/preview",
-  "https://drive.google.com/file/d/1EgvDsI5rncYNIuz0mJXUi_nZ_sP07Px8/preview",
-  "https://drive.google.com/file/d/1odZ3m-CUE_juKXskczvUoEfBQYa2cWXJ/preview",
-  "https://drive.google.com/file/d/1ascSLt0PJDqxoFHZPgTHb5CpL0AD51uw/preview",
-  "https://drive.google.com/file/d/1pv87PvVJTUAhErh3YI3CInYYXlzhMSEl/preview",
-  "https://drive.google.com/file/d/1OPyWBT3gXYKeSN74qj5x0k746Givr-FV/preview",
-  "https://drive.google.com/file/d/1XqvNHKpGBpwihmtPLogTMwgGkeYpDsEm/preview",
-  "https://drive.google.com/file/d/1I9ND-RsY60vbKbCbxdsnlZ2yFxFsnECa/preview",
-  "https://drive.google.com/file/d/1q6yEN19E3BrJZa-KdhVo7AWM0OQ3F9rn/preview",
-  "https://drive.google.com/file/d/1cHD_X0yvBGTpW9oiSLtbiIJsGk9MGVmQ/preview",
-  "https://drive.google.com/file/d/19XDu7yZ0B29EVJ5RU5ask-VlEGb5hu5T/preview"
+  "https://drive.google.com/file/d/1UMsjDIEMM9RR6qOrrSUzJgNgF2ELjEUN/preview",
+  "https://drive.google.com/file/d/1uIfQXxNvBA8J4paWWnFSMP1Ej_ZLqC7X/preview",
+  "https://drive.google.com/file/d/17kJXzW54zTvDTwioZw65E9jE8MFUvf85/preview",
+  "https://drive.google.com/file/d/1-XErGEKCJiGdOUWLh6lytolKRVB5ftjv/preview",
+  "https://drive.google.com/file/d/1d1xsLtsu33fx1F8zJ7YMLvxKv-IJpmOe/preview",
+  "https://drive.google.com/file/d/1srnsqYz9XuMKJ3HWI_ZFE8Z_5gZntp75/preview",
+  "https://drive.google.com/file/d/11BIdp4S3-e8jiOj05ohgbRzL3Tfc8JWB/preview",
+  "https://drive.google.com/file/d/1tlIeGMYvDUxP06xMtsO855pGJiFd6YLa/preview",
+  "https://drive.google.com/file/d/11iBIM7YOTCP49m6ACxgx_jVxVYNGcY55/preview",
+  "https://drive.google.com/file/d/1_Bmko1qUNFT7awSsGBWoHNB7iGnJfG_Z/preview",
+  "https://drive.google.com/file/d/1r1HKSqHRkijcsFWzqaMeaxSoTWxnPnMI/preview",
+  "https://drive.google.com/file/d/1AAsA0WDA-P31xyoglpP43F4TZg1P4v4X/preview",
+  "https://drive.google.com/file/d/1lh7I_5Qof1-wEFc3sjPruNe3I9_o9cLN/preview",
+  "https://drive.google.com/file/d/1F3NEIz2Exrjl_jifG7wjN6YRbQZPRQ8H/preview",
+  "https://drive.google.com/file/d/13ukQgN8AKN-tPr73RcOzZWvVC8Xf3iTt/preview",
+  "https://drive.google.com/file/d/1u7rM5DTUHWgPxXKoJJJis1jQ9KZSa3yG/preview",
+  "https://drive.google.com/file/d/1Xfo0SvfWMPRMWC8NMsv8Wh0B1qFUO58b/preview",
+  "https://drive.google.com/file/d/1sP5GT37W5we8jvZbnHSe92UO5yg_3Qtj/preview",
+  "https://drive.google.com/file/d/1U4v_Ihl8ZOVwAT2CpBi3o5ura6dyC1YF/preview",
+  "https://drive.google.com/file/d/1ijmfFplgetbLNDq_OCLeQFsQM6gBJtaZ/preview",
+  "https://drive.google.com/file/d/18j1IF4mPazZSqWGNVfPNEs0kBruKApNz/preview",
+  "https://drive.google.com/file/d/1O5w-ivf5hXuWlNi5MZfkAm92BH575K7O/preview",
+  "https://drive.google.com/file/d/1FaWWH0W_p4FufCybSfX4cQq1YG4MP3xT/preview",
+  "https://drive.google.com/file/d/1zVxZ6OXQ0NMCXPv6JBYHhr_s_muqdi-x/preview"
 ];
 
 var current_episode = 0;
@@ -113,5 +113,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "Soul Eater Season -  Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "Sword Art Online S02  Episode " + (i + 1);
 }

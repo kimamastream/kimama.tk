@@ -221,5 +221,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "Soul Eater -  Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "Soul Eater   Episode " + (i + 1);
 }
