@@ -706,7 +706,6 @@ input[type=text], select, textarea {
 	
 	body{
 		overflow-x: hidden;
-		overflow-y: scroll;
 		
 	}
 	.container img{
@@ -735,7 +734,7 @@ input[type=text], select, textarea {
 		margin-top: 140px;	
 	}
 	.grid{
-		width: 364px;
+		width: 361px;
 		height: 4760px;
 		margin-top: 100px;
 		margin-bottom: 10px;
@@ -748,18 +747,18 @@ input[type=text], select, textarea {
 	/* Decorative stuff */
 
 	.abox{
-		width: 373px;
+		width: 371px;
 		padding: 14px;
 		margin-left: 0px;
-		margin-top: -157.6px;
+		margin-top: -160px;
 	}
 	.abox h3{
 		font-size: 39px;
-		margin-left: 45px;
+		margin-left: 39px;
 	}
 
 	.lftbar{
-		width: 360px;
+		width: 220px;
 		margin-top: 78px;
 		margin-left: -1px;
 	}
@@ -770,20 +769,20 @@ input[type=text], select, textarea {
 		display: none;
 	}
 	 .iconp{
-		margin-left: 80px;
+		margin-left: 85px;
 		margin-top: -90px;
 	}
 
 
 	.rgtbar{
-		margin-left: 10px;
-		width: 365px;
+		margin-left: 202px;
+		width: 170px;
 	}
 	.iconn{
-		margin-left: 200px;
+		margin-left: 5px;
 	}
 	.rgtimg img{
-		margin-left: 280px;
+		margin-left: 84px;
 	}
 
 	.head-next{
@@ -907,35 +906,35 @@ input[type=text], select, textarea {
 	}
 	.abox h3{
 		font-size: 39px;
-		margin-left: 30px;
+		margin-left: 35px;
 	}
 
 	.lftbar{
-		width: 360px;
+		width: 220px;
 		margin-top: 78px;
 		margin-left: -1px;
 	}
 	.lftimg img{
-		margin-left: 0px;
+		margin-left: 2px;
 	}
 	.head-previous{
 		display: none;
 	}
 	 .iconp{
-		margin-left: 75px;
+		margin-left: 85px;
 		margin-top: -90px;
 	}
 
 
 	.rgtbar{
-		margin-left: 10px;
-		width: 365px;
+		margin-left: 200px;
+		width: 170px;
 	}
 	.iconn{
-		margin-left: 200px;
+		margin-left: 5px;
 	}
 	.rgtimg img{
-		margin-left: 270px;
+		margin-left: 79px;
 	}
 
 	.head-next{
