@@ -1,28 +1,28 @@
 var quoteArry = [
-  "https://drive.google.com/file/d/1sefvPKKd14aG1ApOrffMTSsYO2YfISbk/preview",
-  "https://drive.google.com/file/d/1tRwXwMlz0vUV4wY49ySteuogZmq__O97/preview",
-  "https://drive.google.com/file/d/1QVUjheSywwK8G1RBeoyi4w9Cycr4rbqy/preview",
-  "https://drive.google.com/file/d/1aCFoWbeqJrqPqg9H_iBVxipXklxFzPoC/preview",
-  "https://drive.google.com/file/d/141buXV0Oub80kx-oZeRimUIAGp5yXTqy/preview",
-  "https://drive.google.com/file/d/1nMVDUfI3UMpjb_hD_qvh13E1PupsuRUP/preview",
-  "https://drive.google.com/file/d/1HT8WatmKSaYHf0MSQ5j19htyYj4Wl_lv/preview",
-  "https://drive.google.com/file/d/1ATBX_KRfKlWKEbm06uXG8MXe0Rjc-T2y/preview",
-  "https://drive.google.com/file/d/1C8pssOjCNrmI254oWT0NL6VJEvs4K1ZM/preview",
-  "https://drive.google.com/file/d/1ZM6cgQMASNplMaFLnPh9UJdVoYzYPYUH/preview",
-  "https://drive.google.com/file/d/1JRDbGRSWFEA3OkQtTvdgNhaFXt_MwvFt/preview",
-  "https://drive.google.com/file/d/1YildqNPMomKsicwJjPiy1cybHPOLBb-5/preview",
-  "https://drive.google.com/file/d/19j-PcVP_j6TU1AD1Nh0HV7J7jHeS8cTr/preview",
-  "https://drive.google.com/file/d/1TKqiWjPOfeBHJBpaoSBzHPsoA8BtBF5f/preview",
-  "https://drive.google.com/file/d/1n7ywr55Rp4jRUgH6NbzB9xzQTlUWIreq/preview",
-  "https://drive.google.com/file/d/1dh35tbwgAN8noSfVGbZh57L9PvhP-I3r/preview",
-  "https://drive.google.com/file/d/1pVUbeKqabkU1yNhxQwGXPIyN2svgaIHB/preview",
-  "https://drive.google.com/file/d/14M8IZCoxmJBzZcwTmvsHPm7UeI1YYSx9/preview",
-  "https://drive.google.com/file/d/1d68luPg88r1VBV5zpnJRPrcTx90Xbtgk/preview",
-  "https://drive.google.com/file/d/1m-mCMtaCb-YeWO9PlIDxwMMcMEba26Q-/preview",
-  "https://drive.google.com/file/d/1SqZjet_UudN6ec1r6WjyZU-89iBbEofa/preview",
-  "https://drive.google.com/file/d/1hbFW-VGLnPHASTfrYNep_kyRp2_KgpIn/preview",
-  "https://drive.google.com/file/d/1TRULFqqUWA3q1R0bJdGTLwTQ3_gEa1Vr/preview",
-  "https://drive.google.com/file/d/1YqZBR2AW7ZL01kx6NBI8RxIHHw_KORCR/preview"
+  "https://drive.google.com/file/d/1SmeefFI4mc4V0Fk4e37o-RXCyd-thhcl/preview",
+  "https://drive.google.com/file/d/1MVp4WTNSpgLpeikcSecunVS6BheKSAGs/preview",
+  "https://drive.google.com/file/d/1ZuOToUeP8TnFfiwRbIqqUxel_sLh7P4a/preview",
+  "https://drive.google.com/file/d/16FGS-YbZTSQXO2PbEnekSLezchdaRhpR/preview",
+  "https://drive.google.com/file/d/1MlFG74E09-phVJdqbhAQT9iiYDa2r5uP/preview",
+  "https://drive.google.com/file/d/1ZTT-d08ClMB7oLEhKDXGXSYE2T-2q2eW/preview",
+  "https://drive.google.com/file/d/1c6Pm1JsGS178K2LfXJX1zaVvHYzGely-/preview",
+  "https://drive.google.com/file/d/1pSRTWQWSBnjPFsRr98-PKhf88gcl9cer/preview",
+  "https://drive.google.com/file/d/11qJxaseSz3d1fmZ-AjWFVdxfHCjisOn3/preview",
+  "https://drive.google.com/file/d/1pfrJr8n952sbgtfV0lRgHn6J3yONBzCo/preview",
+  "https://drive.google.com/file/d/1YT8DvCKZ7TJRrT8nqxQbatwXWqev2Akx/preview",
+  "https://drive.google.com/file/d/1aEkGm38rxG3VB8cJseZTUaK_0E18Ieli/preview",
+  "https://drive.google.com/file/d/1k0H7MUMIDG9mO9hew6oHt_LPyOh3J7hE/preview",
+  "https://drive.google.com/file/d/1mCad0uH1WD0qfBTTK0Ee_p_Z-stgsY-K/preview",
+  "https://drive.google.com/file/d/1v6i2a14DwteBPH-v9qYMREcYzYeoLKPL/preview",
+  "https://drive.google.com/file/d/1SErUk5QE9rqmYUBwRY6O1ZCVP5v6jyxH/preview",
+  "https://drive.google.com/file/d/13_NVa4XYkVuQ2tluv33D0PZHv-0byPuy/preview",
+  "https://drive.google.com/file/d/1rEtZGQ8e0NagTh4eueqkBDHn9NEoQMJV/preview",
+  "https://drive.google.com/file/d/1k-yzsL9UuAocJN7H2uPHgvohBnzYL6_E/preview",
+  "https://drive.google.com/file/d/1sWC2zhK35gNXbYvokwEPB8COPVGZS1NM/preview",
+  "https://drive.google.com/file/d/10zJs7I_UbnFpqfKOcu1_Hw1DGIadc9mP/preview",
+  "https://drive.google.com/file/d/10ivV4-wcfwO6lV9BtlUcd30uPwZBdoI1/preview",
+  "https://drive.google.com/file/d/1yR3Q0Qx_IGcETsyA0A5Sxg93dAREY4q8/preview",
+  "https://drive.google.com/file/d//preview"
 ];
 
 var current_episode = 0;
@@ -113,5 +113,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "Blue Exorcist Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "SAO Alicization-War of Underworld  Episode " + (i + 1);
 }

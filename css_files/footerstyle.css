@@ -517,7 +517,10 @@ label{
 }
 
 @media screen and (max-width: 53.125em){
-
+	
+	body{
+		overflow-x: hidden;
+	}
 
 	.container img{
 		margin-left: -40px;
@@ -596,4 +599,33 @@ label{
 	}
 
 	/* mbl footer */
+}
+
+
+
+@media (max-width: 850px) and (min-width:830px){
+	.animebox{
+		width: 775px;
+		margin: 130px 30px;
+	}
+		.button{
+		margin-top: 5px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 839px;
+		height: 120px;
+	}
+		
+	.own_footer ul{
+		margin-left: -160px;
+		margin-top: -60px;
+		
+	}
+
+	.own_footer li{
+		padding-left: 10px;
+		
+	}
 }

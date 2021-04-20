@@ -271,7 +271,7 @@ body{
 	border-radius: 20px;
 	color:#EDE6F2;
 	padding-bottom: 6px;
-	margin-top: -15px;
+	margin-top: -23px;
 	margin-left:528px;
 }
 
@@ -599,6 +599,7 @@ label{
 		font-size: 50px;
 		width: auto;
 		padding-bottom: 6px;
+		margin-top: -20px;
 	}
 	.plist li{
 		margin-left: 17.3%;
@@ -650,6 +651,7 @@ label{
 		font-size: 50px;
 		width: auto;
 		padding-bottom: 6px;
+		margin-top: -20px;
 	}
 	.plist li{
 		margin-left: 17.3%;
@@ -688,4 +690,49 @@ label{
 	}
 
 }
+
+@media (max-width: 850px) and (min-width:839px){
+
+	.nav-bar{
+		width: 100%;
+	}
+	.hero .hero-info .hero-info-heading{
+		margin-left:-15px;
+	}
+	.hero .hero-info .hero-info-subheading{
+		margin-left: -55px;
+	}
+	.hero .hero-info .hero-info-button{
+		margin-left: -76px;
+	}
+	.proxyls h1{
+		width: 300px;
+	}
+	.proxyls ul{
+		margin-left: 125px;
+	}
+	.button{
+		margin-top: 5px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 839px;
+		height: 120px;
+	}
+		
+	.own_footer ul{
+		margin-left: -160px;
+		margin-top: -60px;
+		
+	}
+
+	.own_footer li{
+		padding-left: 10px;
+		
+	}
+
+
+}
+
 
