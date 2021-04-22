@@ -415,7 +415,7 @@ label{
 
 /* Footer section */
 .button{
-	display: inline-block;
+	display: block;
 	height: 60px;
 	width: 60px;
 	overflow: hidden;

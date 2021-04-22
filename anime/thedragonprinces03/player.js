@@ -1,13 +1,13 @@
 var quoteArry = [
-  "https://drive.google.com/file/d/1N2MQPL3feKIMCG4oOXdCJBEfDDwB8ox0/preview",
-  "https://drive.google.com/file/d/1JvGzvo3VAlYY17X9q0DzaLveghbSXP0G/preview",
-  "https://drive.google.com/file/d/1XfNWn53hmQe9ohi01Y8fAhf_PnW1WoIf/preview",
-  "https://drive.google.com/file/d/1EayAEDox-FC8D_0CMSZ5wLOdM41Fu0QJ/preview",
-  "https://drive.google.com/file/d/1ul-WavuXtRg4aBY1LPyCPgk-E5oNnMaz/preview",
-  "https://drive.google.com/file/d/1-Xp7ZKAcYINO8kjrID00EJtaTI5uMuIc/preview",
-  "https://drive.google.com/file/d/1z7MHGhGBaf-DUnr3P3GuMLjfyPlY2R8h/preview",
-  "https://drive.google.com/file/d/1yah28e6BmwF0pmjxadLfK9vAQQ_MQGKB/preview",
-  "https://drive.google.com/file/d/1lE0tnR5d3qUXW4-H10AvA-0OxFV_fHEJ/preview"
+  "https://drive.google.com/file/d/1rJTvbDuArpwyVALxNL2-H6RwKu6y3q-t/preview",
+  "https://drive.google.com/file/d/18fpbBKfKhcdbQbZRl-dt80iZIda_jTtJ/preview",
+  "https://drive.google.com/file/d/1-2T4e6K1UtSkXAEWN4_EnGzLCG_SeKaq/preview",
+  "https://drive.google.com/file/d/1GRazAIOmOY-RbLyhMewydcZcD0pywtTr/preview",
+  "https://drive.google.com/file/d/1xeXZVOMYWI6oE8iFHULt-relLjv0cnaJ/preview",
+  "https://drive.google.com/file/d/1cSQcZqKy98H5Akd9275540d7wIneQCkd/preview",
+  "https://drive.google.com/file/d/17Tvn_RK-nNFqNYCA1Oi4nkAc_5i2xmet/preview",
+  "https://drive.google.com/file/d/1YGOWlisRNWiN7B94e3JTGF5UOK71xsMU/preview",
+  "https://drive.google.com/file/d/1w1_Hjp4iHBXmhc2WwWj56sROTX8VpyrY/preview"
 ];
 
 var current_episode = 0;
@@ -53,5 +53,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "The Dragon Prince Season 3  Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "The Dragon Prince Season 3 Episode " + (i + 1);
 }
