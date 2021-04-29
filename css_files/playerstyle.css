@@ -993,7 +993,7 @@ label{
 }
 
 
-@media (min-width: 390px) and (max-width: 31.25em){     /* 390 px width poco x2, nokia saad */
+@media (min-width: 390px) and (max-width: 409px){     /* 390 px width poco x2, nokia saad */
 
 	body{
 		overflow-x: hidden;
@@ -1126,17 +1126,17 @@ label{
 }
 
 
-@media (min-width: 350px) and (max-width: 370px){   /* 360 px width redmi note7,asus zenphone,vivo y15. */
+@media (min-width: 350px) and (max-width: 389px){   /* 360 px width redmi note7,asus zenphone,vivo y15. */
 
 	body{
 		overflow-x: hidden;
 	}
 
 	.container img{
-		margin-left: -45px;
+		margin-left: -20%;
 	}
 	.nav-bar .nav-list .hamburger {
-		margin-left: 0;
+		margin-left: -40px;
 	}
 
 	.nav-bar .nav-list ul li {
@@ -1769,42 +1769,41 @@ label{
 
 
 @media (max-width: 730px) and (min-width:660px){  /* redmi note7,asus zenphone,vivo y15. landscape */
-	body{
+	/*body{
 		overflow-x: hidden;
-	}
+	}*/
 	
 	.nav-bar {
 		width: 100%;
 	}
 
 	.wrapper{
-		margin-left: -30px;
-		margin: 0 auto;
+		margin-left: -4.5%;
 	}
 	.updrv{
-		width: 685px;
+		width: 665px;
 		font-size: 25px;
 	}
 	
 	.drive iframe{
-		width: 685px;
-		height: 439.1px;
+		width: 665px;
+		height: 426.27px;
 	}
 	
 	.dwndrv{
 		font-size: 25px;
-		width: 685px;
+		width: 665px;
 	}
 	.lgt /*light*/{
 		display: none;
 	}
 	.episode{
-		width: 685px;
+		width: 665px;
 		height:200px;
 		overflow:auto;
 	}
 	.details{
-		width: 685px;
+		width: 665px;
 	}
 	
 	.related{
@@ -1824,25 +1823,25 @@ label{
 	}
 	
 	.own_footer{
-		width: 839px;
+		width: 730px;
 		height: 120px;
 	}
-		
-	.own_footer ul{
-		margin-left: -210px;
-		margin-top: -65px;
-		
-	}
-
+	
 	.own_footer h3{
-		margin-left: -100px;
+		margin-left: -4%;
 	}
-
+		
 	.own_footer li{
-		padding-left: 10px;
+		width: 80px;
+		text-align: center;
+		margin-left: -30px;
+		padding: 0 20px;
 		
 	}
-
+	
+	.own_footer a{
+		
+	}	
 	
 	/* mbl footer */
 }

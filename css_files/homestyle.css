@@ -736,3 +736,21 @@ label{
 }
 
 
+@media (min-width:320px) and (max-width: 349px){     /* 320 px width oppo joy 3, samsung */
+
+	.container img{
+		margin-left: -5%;
+		width: 227.71px;
+		height: 72.57px;
+		
+	}
+	
+	.nav-bar .nav-list .hamburger {
+		height: 60px;
+		width: 60px;
+		margin-left: -50%;
+		
+	}
+}
+
+
