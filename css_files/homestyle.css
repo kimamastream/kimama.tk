@@ -511,6 +511,7 @@ label{
 
 /* Media query for desktop and tab  */
 @media only screen and (min-width: 816px) {
+
 	
 	.nav-bar .nav-list .hamburger {
 		display: none;
@@ -586,6 +587,9 @@ label{
 }
 
 @media screen and (max-width: 360px) {
+	body{
+		overflow-x: hidden;
+	}
 	.container img{
 		margin-left:-17px;
 	}
@@ -641,6 +645,9 @@ label{
 
 
 @media screen and (max-width: 53.125em) {
+	body{
+		overflow-x: hidden;
+	}
 	.nav-bar .nav-list ul li {
 		position: relative;
 		left: 0;
@@ -692,6 +699,9 @@ label{
 }
 
 @media (max-width: 850px) and (min-width:839px){
+	body{
+		overflow-x: hidden;
+	}
 
 	.nav-bar{
 		width: 100%;
@@ -735,8 +745,13 @@ label{
 
 }
 
+/* Small smartphone portrate */
 
-@media (min-width:320px) and (max-width: 349px){     /* 320 px width oppo joy 3, samsung */
+@media (min-width:320px) and (max-width: 349px){  
+
+	body{
+		overflow-x: hidden;
+	}   
 
 	.container img{
 		margin-left: -5%;

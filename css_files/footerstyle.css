@@ -525,16 +525,10 @@ label{
 	
 	
 	.container img{
-		margin-left: -18%;
-		width: ;
-		height: 72.57px;
-		
+		margin-left: -15%;
 	}
 	.nav-bar .nav-list .hamburger {
-		height: 60px;
-		width: 60px;
-		margin-left: -90%;
-		
+		margin-left: -40px;
 	}
 
 	.nav-bar .nav-list ul li {
