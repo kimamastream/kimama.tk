@@ -993,12 +993,409 @@ label{
 }
 
 
-/* Small Smart Phone */
-@media (max-width:349px) and (min-width: 320px) {
+@media (min-width: 390px) and (max-width: 409px){     /* 390 px width poco x2, nokia saad */
 
-	/*body{
+	body{
 		overflow-x: hidden;
-	} */  
+	}
+
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 5px;
+	}
+
+	.wrapper{
+		margin-left: -20px;
+		display: grid;
+	}
+
+	.updrv{
+		width: 373px;
+		font-size: 21px;
+	}
+	
+	
+
+	.drive iframe{
+		width: 372px;
+		height: 200px;
+	}
+
+	.dwndrv{
+		font-size: 20px;
+		width: 373px;
+	}
+	.dwndrv li{
+		margin-top: 5px;
+		margin-left: 2px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+
+
+
+	.episode{
+		width: 373px;
+		height: 210px;
+		overflow:auto;
+	}
+	.episode ul{
+		margin-top: 10px;
+	}
+	.episode li{
+		margin-top: 15px;
+		margin-left: 20px;
+		width: 37px;
+		height: 42px;
+	}
+	.episode h4{
+		margin-left: 20px;
+	}
+	.anopart li{
+		width: 70px;
+		height: 42px;
+	}
+
+	.details{
+		width: 373px;
+	}
+	.details img{
+		margin-left: 15px;
+		margin-top:  10px;
+		float: none;
+
+	}
+	.details h2{
+		margin-top: -180px;
+		margin-left: 210px;
+		font-size: 29px;
+	}
+	.details h4{
+		margin-left: 210px;
+	}
+
+	.details p{
+		margin-top: 105px;
+		margin-left: 15px;
+	}
+
+
+	.related{
+		width:373px; 
+		margin-top: -115px;
+		margin-left: 10px;
+
+	}
+
+	.trend{
+		width: 373px;
+		margin-left: 10px;
+	}
+
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 393px;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+	
+	/* mbl footer */
+	
+
+
+}
+
+
+@media (min-width: 350px) and (max-width: 389px){   /* 360 px width redmi note7,asus zenphone,vivo y15. */
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.container img{
+		margin-left: -20%;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: -40px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 5px;
+	}
+
+	.wrapper{
+		margin-left: -29.6px;
+		display: grid;
+	}
+
+	.updrv{
+		width: 360px;
+		font-size: 21px;
+	}
+	
+	
+
+	.drive iframe{
+		width: 360px;
+		height: 200px;
+	}
+
+	.dwndrv{
+		font-size: 19px;
+		width: 360px;
+	}
+	.dwndrv li{
+		margin-top: 5px;
+		margin-left: 2px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+
+
+
+	.episode{
+		width: 360px;
+		height: 210px;
+		overflow:auto;
+	}
+	.episode ul{
+		margin-top: 10px;
+	}
+	.episode li{
+		margin-top: 15px;
+		margin-left: 10px;
+		width: 37px;
+		height: 42px;
+	}
+	.episode h4{
+		margin-left: 20px;
+	}
+	.anopart li{
+		width: 70px;
+		height: 42px;
+	}
+
+	.details{
+		width: 360px;
+	}
+	.details img{
+		margin-left: 5px;
+		margin-top:  10px;
+		float: none;
+
+	}
+	.details h2{
+		margin-top: -180px;
+		margin-left: 190px;
+	}
+	.details h4{
+		margin-left: 190px;
+	}
+
+	.details p{
+		margin-top: 105px;
+		margin-left: 5px;
+	}
+
+
+	.related{
+		width:360px; 
+		margin-top: -115px;
+		margin-left: 10px;
+
+	}
+
+	.trend{
+		width: 360px;
+		margin-left: 10px;
+	}
+
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 360px;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+	
+	/* mbl footer */
+	
+
+
+}
+
+
+@media (min-width:410px) and (max-width: 430px){     /* 421 px width realme 5i */
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.container img{
+		margin-left: -25px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 5px;
+	}
+
+	.wrapper{
+		margin-left: -7.5px;
+		display: grid;
+	}
+
+	.updrv{
+		width: 373px;
+		font-size: 21px;
+	}
+	
+	
+
+	.drive iframe{
+		width: 372px;
+		height: 200px;
+	}
+
+	.dwndrv{
+		font-size: 20px;
+		width: 373px;
+	}
+	.dwndrv li{
+		margin-top: 5px;
+		margin-left: 2px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+
+
+
+	.episode{
+		width: 373px;
+		height: 210px;
+		overflow:auto;
+	}
+	.episode ul{
+		margin-top: 10px;
+	}
+	.episode li{
+		margin-top: 15px;
+		margin-left: 20px;
+		width: 37px;
+		height: 42px;
+	}
+	.episode h4{
+		margin-left: 20px;
+	}
+	.anopart li{
+		width: 70px;
+		height: 42px;
+	}
+
+	.details{
+		width: 373px;
+	}
+	.details img{
+		margin-left: 15px;
+		margin-top:  10px;
+		float: none;
+
+	}
+	.details h2{
+		margin-top: -180px;
+		margin-left: 210px;
+	}
+	.details h4{
+		margin-left: 210px;
+	}
+
+	.details p{
+		margin-top: 105px;
+		margin-left: 15px;
+	}
+
+
+	.related{
+		width:373px; 
+		margin-top: -115px;
+		margin-left: 10px;
+
+	}
+
+	.trend{
+		width: 373px;
+		margin-left: 10px;
+	}
+
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 421px;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -250px;
+		margin-top: -90px;
+	}
+	
+	/* mbl footer */
+	
+
+
+}
+
+
+
+@media (min-width:320px) and (max-width: 349px){     /* 320 px width oppo joy 3, samsung */
+
+	 body{
+		overflow-x: hidden;
+	}   
 	
 	
 	.container img{
@@ -1022,24 +1419,23 @@ label{
 	.wrapper{
 		margin-left: -29px;
 		display: grid;
-		width: 100%;
 	}
 
 	.updrv{
-		width: 100%;
+		width: 318px;
 		font-size: 19px;
 	}
 	
 	
 
 	.drive iframe{
-		width: 100%;
+		width: 318px;
 		height: 179.1px;
 	}
 
 	.dwndrv{
 		font-size: 18px;
-		width: 100%;
+		width: 318px;
 	}
 	.dwndrv li{
 		margin-top: 5px;
@@ -1056,7 +1452,7 @@ label{
 
 
 	.episode{
-		width: 100%;
+		width: 318px;
 		height: 210px;
 		overflow:auto;
 	}
@@ -1078,7 +1474,7 @@ label{
 	}
 
 	.details{
-		width: 100%;
+		width: 318px;
 	}
 	.details img{
 		margin-left: 21%;
@@ -1108,14 +1504,14 @@ label{
 
 
 	.related{
-		width: 105%; 
+		width:318px; 
 		margin-top: -115px;
 		margin-left: 10px;
 
 	}
 
 	.trend{
-		width: 105%;
+		width: 318px;
 		margin-left: 10px;
 	}
 
@@ -1129,7 +1525,7 @@ label{
 	}
 	
 	.own_footer{
-		width: 100%;
+		width: 349px;
 		height: 160px;
 	}
 	
@@ -1143,162 +1539,13 @@ label{
 	}
 	
 	/* mbl footer */
-
-
-}
-
-
-/* SMARTPHONES PORTRAIT */
-@media (max-width:479px) and (min-width: 350px){  
-
-	body{
-		overflow-x: hidden;
-	}
-
-	.container img{
-		margin-left: -15%;
-	}
-	.nav-bar .nav-list .hamburger {
-		margin-left: -40px;
-	}
-
-	.nav-bar .nav-list ul li {
-		position: relative;
-		left: 5px;
-	}
-
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
-	}
-
-	.updrv{
-		width:100%;
-		font-size: 21px;
-	}
-	
-	
-
-	.drive iframe{
-		width: 100%;
-		height: 250px;
-		
-	}
-
-	.dwndrv{
-		font-size: 19px;
-		width: 100%;
-	}
-	.dwndrv li{
-		margin-top: 5px;
-		margin-left: 2px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-
-
-
-	.episode{
-		width: 100%;
-		height: 210px;
-		overflow:auto;
-		
-	}
-	.episode ul{
-		margin-top: 10px;
-		
-	}
-	.episode li{
-		margin-top: 15px;
-		margin-left: 10px;
-		width: 37px;
-		height: 42px;
-	}
-	.episode h4{
-		margin-left: 20px;
-	}
-	.anopart li{
-		width: 70px;
-		height: 42px;
-	}
-
-	.details{
-		width: 94%;
-		margin-left: 40px;
-	}
-	.details img{
-		margin-left: 5px;
-		margin-top:  10px;
-		float: none;
-
-	}
-	.details h2{
-		font-size: 20px;
-		margin-top: -180px;
-		margin-left: 182px;
-		text-align:center;
-		
-	}
-	.details h4{
-		margin-left: 182px;
-		text-align:center;
-		
-	}
-
-	.details p{
-		margin-top: 120px;
-		margin-left: 5px;
-		
-	}
-
-
-	.related{
-		width:100%; 
-		margin-top: -115px;
-		margin-left: 20px;
-		
-
-	}
-
-	.trend{
-		width: 100%;
-		margin-left: 20px;
-		
-	}
-
-
-
-
-	/* mbl footer */
-	.button{
-		margin-top: 25px;
-		margin-left:10px;
-	}
-	
-	.own_footer{
-		width: 100%;
-		height: 160px;
-		border-radius:0 0 10px 10px;
-	}
-		
-	.own_footer ul{
-		margin-left: -260px;
-		margin-top: -90px;
-	}
-	
-	/* mbl footer */
 	
 
 
 }
 
 
-/* SMARTPHONES LANDSCAPE */
-
-@media (max-width:767px) and (min-width:480px) { 
-	
+@media (max-width: 850px) and (min-width:830px){  /* poco x2 landscape */
 	body{
 		overflow-x: hidden;
 	}
@@ -1306,60 +1553,30 @@ label{
 	.nav-bar {
 		width: 100%;
 	}
-	
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
-	}
-	
 	.updrv{
-		width: 100%;
+		width: 780px;
 		font-size: 25px;
 	}
 	
 	.drive iframe{
-		width: 100%;
-		height: 300px;
+		width: 780px;
+		height: 500px;
 	}
 	
 	.dwndrv{
 		font-size: 25px;
-		width: 100%;
+		width: 780px;
 	}
 	.lgt /*light*/{
 		display: none;
 	}
 	.episode{
-		width: 100%;
+		width: 780px;
 		height:200px;
 		overflow:auto;
 	}
 	.details{
-		width: 100%;
-		
-		
-	}
-	
-	.details h2{
-		font-size: 20px;
-		margin-top: 90px;
-		margin-left: 182px;
-		text-align:center;
-	 
-	
-	}
-	
-	.details h4{
-		margin-left: 182px;
-		text-align:center;
-		
-	}
-	
-	.details p{
-		margin-top: 110px;
-		margin-left: 5px;
-		
+		width: 780px;
 	}
 	
 	.related{
@@ -1379,9 +1596,8 @@ label{
 	}
 	
 	.own_footer{
-		width: 100%;
-		height: 150px;
-		border-radius:0 0 10px 10px;
+		width: 839px;
+		height: 120px;
 	}
 		
 	.own_footer ul{
@@ -1396,13 +1612,12 @@ label{
 	}
 
 	
+	/* mbl footer */
 }
 
 
 
-/* TABLETS PORTRAIT */
-@media (max-width: 1199px) and (min-width: 768px) {
-	
+@media (max-width: 915px) and (min-width:875px){   /*realme 5i landscape*/
 	body{
 		overflow-x: hidden;
 	}
@@ -1410,80 +1625,42 @@ label{
 	.nav-bar {
 		width: 100%;
 	}
-	
+
 	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
+		margin-left: 30px;
 	}
-	
 	.updrv{
-		width: 100%;
+		width: 780px;
 		font-size: 25px;
 	}
 	
 	.drive iframe{
-		width: 100%;
-		height: 400px;
+		width: 780px;
+		height: 500px;
 	}
 	
 	.dwndrv{
 		font-size: 25px;
-		width: 100%;
+		width: 780px;
 	}
-	
-	.lgt{
-		margin-left: 610px;
-		font-size: 25px;
-		padding: 0 15px;
-		
-}
-	
+	.lgt /*light*/{
+		display: none;
+	}
 	.episode{
-		width: 100%;
+		width: 780px;
 		height:200px;
 		overflow:auto;
 	}
 	.details{
-		width: 100%;
-		
-		
-	}
-	
-	.details h2{
-		font-size: 20px;
-		margin-top: 90px;
-		margin-left: 182px;
-		text-align:center;
-	 
-	
-	}
-	
-	.details h4{
-		margin-left: 182px;
-		text-align:center;
-		
-	}
-	
-	.details p{
-		margin-top: 110px;
-		margin-left: 5px;
-		
+		width: 780px;
 	}
 	
 	.related{
-		width:45%; 
-		margin-top: -115px;
-		margin-left: 20px;
-		
-
+		display: none;
 	}
-
+	
 	.trend{
-		width: 45%;
-		margin-left: 57.5%;
-		margin-top: -186.5px;
-		
+		display: none;	
 	}
 
 
@@ -1495,14 +1672,13 @@ label{
 	}
 	
 	.own_footer{
-		width: 100%;
-		height: 150px;
-		border-radius:0 0 10px 10px;
+		width: 899px;
+		height: 120px;
 	}
 		
 	.own_footer ul{
 		margin-left: -160px;
-		margin-top: -60px;
+		margin-top: -65px;
 		
 	}
 
@@ -1511,20 +1687,164 @@ label{
 		
 	}
 
-} 
+	
+	
+}
 
 
+@media (max-width: 610px) and (min-width:570px){   /*min-width 570 oppo joy 3, samsung landscape*/
+	/*body{
+		overflow-x: hidden;
+	}*/
+	
+	.nav-bar {
+		width: 100%;
+	}
 
-
-
-
-
+	.wrapper{
+		margin-left: -4.5%;
+	}
+	.updrv{
+		width: 564px;
+		font-size: 25px;
+	}
+	
+	.drive iframe{
+		width: 564px;
+		height: 317.655px;
+	}
+	
+	.dwndrv{
+		font-size: 25px;
+		width: 564px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+	.episode{
+		width: 564px;
+		height:200px;
+		overflow:auto;
+	}
+	.details{
+		width: 564px;
+	}
+	
+	.related{
+		display: none;
+	}
+	
+	.trend{
+		display: none;	
+	}
 
 
 	
+	/* mbl footer */
+	.button{
+		margin-top: 5px;
+		margin-left:10px;
+	}
 	
+	.own_footer{
+		width: 610px;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -160px;
+		margin-top: -65px;
+		
+	}
+
+	.own_footer li{
+		padding-left: 10px;
+		
+	}
+
+	
+	
+}
 
 
+
+@media (max-width: 730px) and (min-width:660px){  /* redmi note7,asus zenphone,vivo y15. landscape */
+	/*body{
+		overflow-x: hidden;
+	}*/
+	
+	.nav-bar {
+		width: 100%;
+	}
+
+	.wrapper{
+		margin-left: -4.5%;
+	}
+	.updrv{
+		width: 665px;
+		font-size: 25px;
+	}
+	
+	.drive iframe{
+		width: 665px;
+		height: 426.27px;
+	}
+	
+	.dwndrv{
+		font-size: 25px;
+		width: 665px;
+	}
+	.lgt /*light*/{
+		display: none;
+	}
+	.episode{
+		width: 665px;
+		height:200px;
+		overflow:auto;
+	}
+	.details{
+		width: 665px;
+	}
+	
+	.related{
+		display: none;
+	}
+	
+	.trend{
+		display: none;	
+	}
+
+
+	
+	/* mbl footer */
+	.button{
+		margin-top: 5px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 730px;
+		height: 120px;
+	}
+	
+	.own_footer h3{
+		margin-left: -4%;
+	}
+		
+	.own_footer li{
+		width: 80px;
+		text-align: center;
+		margin-left: -30px;
+		padding: 0 20px;
+		
+	}
+	
+	.own_footer a{
+		
+	}	
+	
+	/* mbl footer */
+}
 
 
 

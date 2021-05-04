@@ -289,7 +289,7 @@ body {
 
 
 /* Media query for desktop and tab  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 816px) {
 	.nav-bar .nav-list .hamburger {
 		display: none;
 	}
@@ -516,27 +516,35 @@ label{
 	}
 }
 
-@media screen and (max-width: 53.125em){
+/* SMARTPHONES PORTRAIT */
+@media (max-width:479px) and (min-width: 350px){  
 	
 	body{
 		overflow-x: hidden;
-	}
-
+	} 
+	
+	
 	.container img{
-		margin-left: -40px;
+		margin-left: -18%;
+		width: ;
+		height: 72.57px;
+		
 	}
 	.nav-bar .nav-list .hamburger {
-		margin-left: 15px;
+		height: 60px;
+		width: 60px;
+		margin-left: -90%;
+		
 	}
 
 	.nav-bar .nav-list ul li {
 		position: relative;
-		left: 0;
+		left: 5px;
 	}
 
 
 	.animebox{
-		width: 425px;
+		width: 100%;
 		margin: 130px 10px;
 	}
 	/* mbl footer */
@@ -544,12 +552,12 @@ label{
 		margin-top: 25px;
 		margin-left:10px;
 	}
-
+	
 	.own_footer{
-		width: 393px;
+		width: 100%;
 		height: 160px;
 	}
-	
+		
 	.own_footer ul{
 		margin-left: -260px;
 		margin-top: -90px;
@@ -559,8 +567,8 @@ label{
 }
 
 
-
-@media screen and (max-width: 22.5em){
+/* smartphone landscape*/
+@media (max-width:767px) and (min-width:480px){
 
 	body{
 		overflow-x: hidden;
@@ -579,43 +587,18 @@ label{
 
 
 	.animebox{
-		width: 425px;
+		width: 100%;
 		margin: 130px 10px;
 	}
 	/* mbl footer */
-	.button{
-		margin-top: 25px;
-		margin-left:10px;
-	}
-
-	.own_footer{
-		width: 360px;
-		height: 160px;
-	}
-	
-	.own_footer ul{
-		margin-left: -260px;
-		margin-top: -90px;
-	}
-
-	/* mbl footer */
-}
-
-
-
-@media (max-width: 850px) and (min-width:830px){
-	.animebox{
-		width: 775px;
-		margin: 130px 30px;
-	}
 		.button{
 		margin-top: 5px;
 		margin-left:10px;
 	}
 	
 	.own_footer{
-		width: 839px;
-		height: 120px;
+		width: 100%;
+		height: 150px;
 	}
 		
 	.own_footer ul{
@@ -627,5 +610,47 @@ label{
 	.own_footer li{
 		padding-left: 10px;
 		
+	}
+
+	/* mbl footer */
+}
+
+
+
+
+/* small smart phone*/
+
+@media (min-width:320px) and (max-width: 349px){     
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.container img{
+		margin-left: -18%;
+		width: ;
+		height: 72.57px;
+		
+	}
+	.nav-bar .nav-list .hamburger {
+		height: 60px;
+		width: 60px;
+		margin-left: -90%;
+		
+	}
+	
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+	
+	.own_footer{
+		width: 100%;
+		height: 160px;
+	}
+		
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
 	}
 }

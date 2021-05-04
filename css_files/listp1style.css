@@ -631,7 +631,7 @@ input[type=text], select, textarea {
 
 
 /* Media query for desktop and tab  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 816px) {
 	.nav-bar .nav-list .hamburger {
 		display: none;
 	}
