@@ -877,7 +877,7 @@ input[type=text], select, textarea {
 	/* MAIN stucture */
 	.wrapper{
 		width: 100%;
-		margin-left:3%;
+		margin-left:2.5%;
 		
 	}
 
@@ -922,7 +922,7 @@ input[type=text], select, textarea {
 		display: none;
 	}
 	 .iconp{
-		margin-left: 85px;
+		margin-left: 75px;
 		margin-top: -90px;
 	}
 
@@ -932,10 +932,10 @@ input[type=text], select, textarea {
 		width: 44%;
 	}
 	.iconn{
-		margin-left: ;
+		margin-left:8%;
 	}
 	.rgtimg img{
-		margin-left:50%;
+		margin-left:51%;
 	}
 
 	.head-next{
@@ -948,13 +948,10 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.lst{
-		margin-top: -20px;
-		margin-left: -5px;
-	}
+	
 
 	.lst li {
-		margin:30px 0px;
+		margin:30px 0;
 	}
 	.lst img{
 		margin-top: 35px;
