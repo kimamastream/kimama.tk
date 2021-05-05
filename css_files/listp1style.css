@@ -237,7 +237,7 @@ body {
 	letter-spacing: 5px;
 	font-family: aq;
 	color:#8000ff;
-	margin-left: 80.6px;
+	text-align:center;
 }
 
 .lftbar{
@@ -853,7 +853,8 @@ input[type=text], select, textarea {
 }
 
 
-@media screen and (max-width: 22.5em){
+/*Smartphones potrait*/
+@media (max-width:479px) and (min-width: 360px){  
 	
 	body{
 		overflow-x: hidden;
@@ -875,19 +876,18 @@ input[type=text], select, textarea {
 	
 	/* MAIN stucture */
 	.wrapper{
-		width: 350px;
+		width: 100%;
+		margin-left:3%;
 		
 	}
 
 	.animebox{
-		width: 375px;
+		width: 100%;
 		height:auto;
-		margin-left:-12px;
-		margin-top: 140px;	
-		border-radius: 0 0 22px 22px;
+		border-radius: 22px 22px 22px 22px;
 	}
 	.grid{
-		width: 358px;
+		width: 98%;
 		height: 4760px;
 		margin-top: 100px;
 		margin-bottom: 10px;
@@ -900,18 +900,18 @@ input[type=text], select, textarea {
 	/* Decorative stuff */
 
 	.abox{
-		width: 360px;
+		width: 101%;
 		padding: 14px;
-		margin-left: 4px;
+		margin-left: -2px;
 		margin-top: -160px;
 	}
 	.abox h3{
-		font-size: 39px;
-		margin-left: 35px;
+		margin-left:1px;
+		font-size:35px;
 	}
 
 	.lftbar{
-		width: 220px;
+		width: 278px;
 		margin-top: 78px;
 		margin-left: -1px;
 	}
@@ -928,14 +928,14 @@ input[type=text], select, textarea {
 
 
 	.rgtbar{
-		margin-left: 200px;
-		width: 170px;
+		margin-left:56%;
+		width: 44%;
 	}
 	.iconn{
-		margin-left: 5px;
+		margin-left: ;
 	}
 	.rgtimg img{
-		margin-left: 79px;
+		margin-left:50%;
 	}
 
 	.head-next{
