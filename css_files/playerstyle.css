@@ -16,7 +16,7 @@
     src: url(../tools/fonts/SpringwoodBrushDemoRegular-GpWP.otf);
     font-family: bk;
 }
-    
+
 
 
 * {
@@ -265,7 +265,7 @@ body {
 	background-color: #303030;
 	color: #ababab;
 	font-size: 25px;
-	font-family: 'Jockey One', sans-serif;	
+	font-family: 'Jockey One', sans-serif;
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 0 0 15px 15px;
@@ -278,7 +278,7 @@ body {
 }
 
 .dwndrv li{
-	padding:0 10px 0 10px; 
+	padding:0 10px 0 10px;
 	list-style-type: none;
 	float: left;
 	text-align: center;
@@ -315,7 +315,7 @@ body {
 	background-color: #EE303B;
 	border-radius: 15px;
 	color: #fff;
-	
+
 }
 
 
@@ -329,7 +329,7 @@ body {
 
 /*episode*/
 .episode {
-	
+
 	background-color: #303030;
 	border-style: solid;
 	border-color: #303030;
@@ -338,8 +338,9 @@ body {
 	margin-bottom: 15px;
 	text-align: center;
 	width: 870px;
-	min-height:210px;
-	
+	height:300px;
+  overflow:auto;
+
 }
 
 
@@ -356,8 +357,8 @@ body {
 	text-decoration: none;
 	float: left;
 	transition: .3s all ease;
-	width: 30px;
-	height: 35px;
+	width: 45px;
+	height: 46px;
 	text-align: center;
 }
 
@@ -387,7 +388,7 @@ body {
 .episode li:hover{
 	background-color: #EE303B;
 }
-.episode li:hover a{  
+.episode li:hover a{
 	color:#fff ;
 }
 .episode h4{
@@ -409,7 +410,7 @@ body {
 	background-color: #303030;
 	color: #ababab;
 	font-size: 25px;
-	font-family: 'Jockey One', sans-serif;	
+	font-family: 'Jockey One', sans-serif;
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 15px;
@@ -424,7 +425,7 @@ body {
 }
 
 .seasons li{
-	padding:0 15px 0 10px; 
+	padding:0 15px 0 10px;
 	list-style-type: none;
 	float: left;
 	text-align: center;
@@ -453,10 +454,10 @@ body {
 
 /*details*/
 .details{
-	border:solid; 
+	border:solid;
 	border-radius: 15px;
 	border-color: transparent;
-	
+
 	background-color: #303030;
 	color: #ababab;
 	font-size: 15px;
@@ -540,15 +541,15 @@ body {
 .related{
 	color: #ababab;
 	font-size: 15px;
-	border:solid; 
+	border:solid;
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:350px; 
+	width:350px;
 	height: auto;
 	margin-bottom: 15px;
 
-	
+
 }
 
 
@@ -572,7 +573,7 @@ body {
 	margin-top: 25px;
 	margin-bottom: 5px;
 	text-decoration: underline;
-	text-decoration-color: #EE303B; 
+	text-decoration-color: #EE303B;
 }
 .related h3{
 	font-size: 18px;
@@ -608,7 +609,7 @@ body {
 	color: #EE303B;
 	font-family: 'Jockey One', sans-serif;
 	font-size: 18px;
-		
+
 }
 .related a {
 	margin-left: 10px;
@@ -624,14 +625,14 @@ body {
 .trend{
 	color: #ababab;
 	font-size: 15px;
-	border:solid; 
+	border:solid;
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:350px; 
+	width:350px;
 	height: auto;
 
-	
+
 }
 
 
@@ -655,7 +656,7 @@ body {
 	margin-top: 25px;
 	margin-bottom: 5px;
 	text-decoration: underline;
-	text-decoration-color: #EE303B; 
+	text-decoration-color: #EE303B;
 }
 .trend h3{
 	font-size: 19px;
@@ -691,7 +692,7 @@ body {
 	color: #EE303B;
 	font-family: 'Jockey One', sans-serif;
 	font-size: 18px;
-	
+
 }
 .trend a {
 	margin-left: 10px;
@@ -710,7 +711,7 @@ body {
 	background-image: url(../tools/images/3955269.jpg);
 	background-size: cover;
 	padding: 3rem 2rem;
-	margin-top:15px; 
+	margin-top:15px;
 	margin-bottom:0;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -882,12 +883,12 @@ label{
 	padding-left: 50px;
 	padding-top: 15px;
 	margin-right: 25px;
-	
+
 }
 .pages_three li a{
 	text-decoration:none;
 	color: white;
-	
+
 }
 .pages_three li a:hover{
 	text-decoration: underline;
@@ -998,20 +999,20 @@ label{
 
 	body{
 		overflow-x: hidden;
-	} 
-	
-	
+	}
+
+
 	.container img{
 		margin-left: -18%;
 		width: 227.71px;
 		height: 72.57px;
-		
+
 	}
 	.nav-bar .nav-list .hamburger {
 		height: 60px;
 		width: 60px;
 		margin-left: -90%;
-		
+
 	}
 
 	.nav-bar .nav-list ul li {
@@ -1029,8 +1030,8 @@ label{
 		width: 100%;
 		font-size: 19px;
 	}
-	
-	
+
+
 
 	.drive iframe{
 		width: 100%;
@@ -1045,9 +1046,9 @@ label{
 		margin-top: 5px;
 		margin-left: 2px;
 		padding:0 5px 0 5px;
-		
+
 	}
-	
+
 
 	.lgt /*light*/{
 		display: none;
@@ -1091,8 +1092,8 @@ label{
 		margin-left: 22%;
 		width: 176px;
 		text-align:center;
-		
-	
+
+
 	}
 	.details h4{
 		margin-left: 22%;
@@ -1108,7 +1109,7 @@ label{
 
 
 	.related{
-		width: 105%; 
+		width: 105%;
 		margin-top: -115px;
 		margin-left: 10px;
 
@@ -1127,21 +1128,21 @@ label{
 		margin-top: 25px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
 		width: 100%;
 		height: 160px;
 	}
-	
+
 	.own_footer h3{
 		margin-left: -4%;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -250px;
 		margin-top: -90px;
 	}
-	
+
 	/* mbl footer */
 
 
@@ -1149,7 +1150,7 @@ label{
 
 
 /* SMARTPHONES PORTRAIT */
-@media (max-width:479px) and (min-width: 350px){  
+@media (max-width:479px) and (min-width: 350px){
 
 	body{
 		overflow-x: hidden;
@@ -1177,13 +1178,13 @@ label{
 		width:100%;
 		font-size: 21px;
 	}
-	
-	
+
+
 
 	.drive iframe{
 		width: 100%;
 		height: 250px;
-		
+
 	}
 
 	.dwndrv{
@@ -1204,11 +1205,11 @@ label{
 		width: 100%;
 		height: 210px;
 		overflow:auto;
-		
+
 	}
 	.episode ul{
 		margin-top: 10px;
-		
+
 	}
 	.episode li{
 		margin-top: 15px;
@@ -1239,33 +1240,33 @@ label{
 		margin-top: -180px;
 		margin-left: 182px;
 		text-align:center;
-		
+
 	}
 	.details h4{
 		margin-left: 182px;
 		text-align:center;
-		
+
 	}
 
 	.details p{
 		margin-top: 120px;
 		margin-left: 5px;
-		
+
 	}
 
 
 	.related{
-		width:100%; 
+		width:100%;
 		margin-top: -115px;
 		margin-left: 20px;
-		
+
 
 	}
 
 	.trend{
 		width: 100%;
 		margin-left: 20px;
-		
+
 	}
 
 
@@ -1276,20 +1277,20 @@ label{
 		margin-top: 25px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
 		width: 100%;
 		height: 160px;
 		border-radius:0 0 10px 10px;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -260px;
 		margin-top: -90px;
 	}
-	
+
 	/* mbl footer */
-	
+
 
 
 }
@@ -1297,32 +1298,32 @@ label{
 
 /* SMARTPHONES LANDSCAPE */
 
-@media (max-width:767px) and (min-width:480px) { 
-	
+@media (max-width:767px) and (min-width:480px) {
+
 	body{
 		overflow-x: hidden;
 	}
-	
+
 	.nav-bar {
 		width: 100%;
 	}
-	
+
 	.wrapper{
 		margin-left: -29.6px;
 		display: grid;
 		width: 100%;
 	}
-	
+
 	.updrv{
 		width: 100%;
 		font-size: 25px;
 	}
-	
+
 	.drive iframe{
 		width: 100%;
 		height: 300px;
 	}
-	
+
 	.dwndrv{
 		font-size: 25px;
 		width: 100%;
@@ -1337,108 +1338,108 @@ label{
 	}
 	.details{
 		width: 100%;
-		
-		
+
+
 	}
-	
+
 	.details h2{
 		font-size: 20px;
 		margin-top: 90px;
 		margin-left: 182px;
 		text-align:center;
-	 
-	
+
+
 	}
-	
+
 	.details h4{
 		margin-left: 182px;
 		text-align:center;
-		
+
 	}
-	
+
 	.details p{
 		margin-top: 110px;
 		margin-left: 5px;
-		
+
 	}
-	
+
 	.related{
 		display: none;
 	}
-	
+
 	.trend{
-		display: none;	
+		display: none;
 	}
 
 
-	
+
 	/* mbl footer */
 	.button{
 		margin-top: 5px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
 		width: 100%;
 		height: 150px;
 		border-radius:0 0 10px 10px;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -160px;
 		margin-top: -60px;
-		
+
 	}
 
 	.own_footer li{
 		padding-left: 10px;
-		
+
 	}
 
-	
+
 }
 
 
 
 /* TABLETS PORTRAIT */
 @media (max-width: 1199px) and (min-width: 768px) {
-	
+
 	body{
 		overflow-x: hidden;
 	}
-	
+
 	.nav-bar {
 		width: 100%;
 	}
-	
+
 	.wrapper{
 		margin-left: -29.6px;
 		display: grid;
 		width: 100%;
 	}
-	
+
 	.updrv{
 		width: 100%;
 		font-size: 25px;
 	}
-	
+
 	.drive iframe{
 		width: 100%;
 		height: 400px;
 	}
-	
+
 	.dwndrv{
 		font-size: 25px;
 		width: 100%;
 	}
-	
+
 	.lgt{
 		margin-left: 610px;
 		font-size: 25px;
 		padding: 0 15px;
-		
+
 }
-	
+
 	.episode{
 		width: 100%;
 		height:200px;
@@ -1446,72 +1447,73 @@ label{
 	}
 	.details{
 		width: 100%;
-		
-		
+
+
 	}
-	
+
 	.details h2{
 		font-size: 20px;
 		margin-top: 90px;
 		margin-left: 182px;
 		text-align:center;
-	 
-	
+
+
 	}
-	
+
 	.details h4{
 		margin-left: 182px;
 		text-align:center;
-		
+
 	}
-	
+
 	.details p{
 		margin-top: 110px;
 		margin-left: 5px;
-		
+
 	}
-	
+
 	.related{
-		width:45%; 
+		width:45%;
 		margin-top: -115px;
-		margin-left: 20px;
-		
+		margin-left: 30%;
+
 
 	}
 
 	.trend{
-		width: 45%;
+		/*width: 45%;
 		margin-left: 57.5%;
-		margin-top: -186.5px;
-		
+		margin-top: -186.5px;*/
+		display: none;
+
 	}
 
 
-	
+
 	/* mbl footer */
 	.button{
 		margin-top: 5px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
 		width: 100%;
 		height: 150px;
 		border-radius:0 0 10px 10px;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -160px;
 		margin-top: -60px;
-		
+
 	}
 
 	.own_footer li{
 		padding-left: 10px;
-		
+
 	}
 
-} 
+}
 
 
 
@@ -1521,8 +1523,8 @@ label{
 
 
 
-	
-	
+
+
 
 
 
@@ -1542,9 +1544,3 @@ label{
 		letter-spacing: .8rem;
 	}
 }
-
-
-
-
-
-

@@ -30,7 +30,39 @@ var quoteArry = [
   "https://drive.google.com/file/d/1PYbly77ev0bskqxzfUPOPCSQxlhAQ3hT/preview",
   "https://drive.google.com/file/d/1zH6Mv7l-cyd-xvYU9W0qwNB5GMGCmwXt/preview",
   "https://drive.google.com/file/d/11VTf3ztgucVXmXtG0FX-fgyKo2ZM6zNd/preview",
-  "https://drive.google.com/file/d/1tsb_zogUuyQ-Tbyk4AeaDi1btp8W2eGE/preview"
+  "https://drive.google.com/file/d/1tsb_zogUuyQ-Tbyk4AeaDi1btp8W2eGE/preview",
+  "https://drive.google.com/file/d/1sPNMOSUv8GV6cbwNJDpTkmLEyBZ_lIEa/preview",
+  "https://drive.google.com/file/d/1wo_ktp6ABq3vt6TioegtmGBNGfYsK4wY/preview",
+  "https://drive.google.com/file/d/1K6WN_w3DGm4tnqeR42ljwYfxl8iO0_yd/preview",
+  "https://drive.google.com/file/d/1qdqFpbS5ny9jndyP7BpKMbqUL1bk8Lg5/preview",
+  "https://drive.google.com/file/d/1bq-cko6CgqN-SUonPBud-Bp5jpI0WFNA/preview",
+  "https://drive.google.com/file/d/12Gnqsl6T6_L3j-wYbFqdY_XBS5i_L8Ko/preview",
+  "https://drive.google.com/file/d/1JC1ViCTTVw4u0aAMGzpaSL7_HjW6IKzG/preview",
+  "https://drive.google.com/file/d/1WHRIszbKOCdnwCmQAI6t8FHiAihrK_zw/preview",
+  "https://drive.google.com/file/d/18GyYdjR7ifsMUuwNLO7bx09KJ_KHxFGm/preview",
+  "https://drive.google.com/file/d/1SwHHNQL12D9uKA3Wm_HRuMWwv8JjHjZs/preview",
+  "https://drive.google.com/file/d/14-YF5pkZ_ZKf4SqVqVvf-uA_Lsbc-V_2/preview",
+  "https://drive.google.com/file/d/1jfNnSoMxepxWVhcqIs2WxXkA_81WqkNj/preview",
+  "https://drive.google.com/file/d/1IxVi6gIB-ofEm8yEy3FPGWrmwXR4oXfk/preview",
+  "https://drive.google.com/file/d/1EcdPRv9z69kSKLO-wQBxsdkhQKV_TLsX/preview",
+  "https://drive.google.com/file/d/1LE1MaIXpf2_iCdt9KnB3zYE2Xx_4q6Ue/preview",
+  "https://drive.google.com/file/d/188Wp6ULJXViTflFP5EqL6ySrOQpbd7M8/preview",
+  "https://drive.google.com/file/d/1K1jORqO13oQxtRaUOqNHh3803db2sHNc/preview",
+  "https://drive.google.com/file/d/1-Ws9WZ_CD3gwJtOfuqkQoYZye5CKFfnO/preview",
+  "https://drive.google.com/file/d/19SS50Tr8w2DbKX3zuGY-5FXwD00Uce4Y/preview",
+  "https://drive.google.com/file/d/1k3UqJwFUa5qwKbHRs9vCTBQA0vrkgVxk/preview",
+  "https://drive.google.com/file/d/1aQ9ksfl6I3g0Uxvv7hU8MvzkBXY44UGY/preview",
+  "https://drive.google.com/file/d/1hC488AgTwlsFXT_PhxZWyuFmVOJ4oj2W/preview",
+  "https://drive.google.com/file/d/1FEbiBat2RZLdoxdTrKH03Qly9QeVbe19/preview",
+  "https://drive.google.com/file/d/1pdFfWngVc58SwgdLmM4n2WIl-0UiJlb-/preview",
+  "https://drive.google.com/file/d/1DLCEcUNpxFs4yW_-fKmMr8A8cHkk5Vfv/preview",
+  "https://drive.google.com/file/d/1YQWfr_6a7D7ho0vS1Vrb-jamesGpXPJf/preview",
+  "https://drive.google.com/file/d/1JvLVCWQkTYNMgj0WJlX61ooWum2X7yXf/preview",
+  "https://drive.google.com/file/d/1KBI8Ot2dJupa3e2y3l8Mfzjl8ec0QEZx/preview",
+  "https://drive.google.com/file/d/1L_efC8yRczce7HdBPlRGjXG3O2w6CAoA/preview",
+  "https://drive.google.com/file/d/1SONvQlTUiE32kJTU066IcfYVtJaSyVBR/preview",
+  "https://drive.google.com/file/d/1Og2-LHg8AUcHVS_WvhW0Gr6VMX8fpokl/preview",
+  "https://drive.google.com/file/d/1AD-bSpWB40UzpCrCpNeZFvhvKhYamKy4/preview"
 ];
 
 var current_episode = 0;
@@ -137,6 +169,102 @@ btn31.addEventListener('click', function() { generate_episode(30); });
 var btn32 = document.querySelector('.btn32');
 btn32.addEventListener('click', function() { generate_episode(31); });
 
+var btn33 = document.querySelector('.btn33');
+btn33.addEventListener('click', function() { generate_episode(32); });
+
+var btn34 = document.querySelector('.btn34');
+btn34.addEventListener('click', function() { generate_episode(33); });
+
+var btn35 = document.querySelector('.btn35');
+btn35.addEventListener('click', function() { generate_episode(34); });
+
+var btn36 = document.querySelector('.btn36');
+btn36.addEventListener('click', function() { generate_episode(35); });
+
+var btn37 = document.querySelector('.btn37');
+btn37.addEventListener('click', function() { generate_episode(36); });
+
+var btn38 = document.querySelector('.btn38');
+btn38.addEventListener('click', function() { generate_episode(37); });
+
+var btn39 = document.querySelector('.btn39');
+btn39.addEventListener('click', function() { generate_episode(38); });
+
+var btn40 = document.querySelector('.btn40');
+btn40.addEventListener('click', function() { generate_episode(39); });
+
+var btn41 = document.querySelector('.btn41');
+btn41.addEventListener('click', function() { generate_episode(40); });
+
+var btn42 = document.querySelector('.btn42');
+btn42.addEventListener('click', function() { generate_episode(41); });
+
+var btn43 = document.querySelector('.btn43');
+btn43.addEventListener('click', function() { generate_episode(42); });
+
+var btn44 = document.querySelector('.btn44');
+btn44.addEventListener('click', function() { generate_episode(43); });
+
+var btn45 = document.querySelector('.btn45');
+btn45.addEventListener('click', function() { generate_episode(44); });
+
+var btn46 = document.querySelector('.btn46');
+btn46.addEventListener('click', function() { generate_episode(45); });
+
+var btn47 = document.querySelector('.btn47');
+btn47.addEventListener('click', function() { generate_episode(46); });
+
+var btn48 = document.querySelector('.btn48');
+btn48.addEventListener('click', function() { generate_episode(47); });
+
+var btn49 = document.querySelector('.btn49');
+btn49.addEventListener('click', function() { generate_episode(48); });
+
+var btn50 = document.querySelector('.btn50');
+btn50.addEventListener('click', function() { generate_episode(49); });
+
+var btn51 = document.querySelector('.btn51');
+btn51.addEventListener('click', function() { generate_episode(50); });
+
+var btn52 = document.querySelector('.btn52');
+btn52.addEventListener('click', function() { generate_episode(51); });
+
+var btn53 = document.querySelector('.btn53');
+btn53.addEventListener('click', function() { generate_episode(52); });
+
+var btn54 = document.querySelector('.btn54');
+btn54.addEventListener('click', function() { generate_episode(53); });
+
+var btn55 = document.querySelector('.btn55');
+btn55.addEventListener('click', function() { generate_episode(54); });
+
+var btn56 = document.querySelector('.btn56');
+btn56.addEventListener('click', function() { generate_episode(55); });
+
+var btn57 = document.querySelector('.btn57');
+btn57.addEventListener('click', function() { generate_episode(56); });
+
+var btn58 = document.querySelector('.btn58');
+btn58.addEventListener('click', function() { generate_episode(57); });
+
+var btn59 = document.querySelector('.btn59');
+btn59.addEventListener('click', function() { generate_episode(58); });
+
+var btn60 = document.querySelector('.btn60');
+btn60.addEventListener('click', function() { generate_episode(59); });
+
+var btn61 = document.querySelector('.btn61');
+btn61.addEventListener('click', function() { generate_episode(60); });
+
+var btn62 = document.querySelector('.btn62');
+btn62.addEventListener('click', function() { generate_episode(61); });
+
+var btn63 = document.querySelector('.btn63');
+btn63.addEventListener('click', function() { generate_episode(62); });
+
+var btn64 = document.querySelector('.btn64');
+btn64.addEventListener('click', function() { generate_episode(63); });
+
 
 function generate_episode(i) {
   if (quoteArry[i] === undefined) {
@@ -145,5 +273,5 @@ function generate_episode(i) {
 
   current_episode = i;
   document.getElementById('link-1').src = quoteArry[i];
-  document.getElementById('link-2').innerHTML = "Fullmetal Alchemist Brotherhood Season 1  Episode " + (i + 1);
+  document.getElementById('link-2').innerHTML = "Fullmetal Alchemist Brotherhood  Episode " + (i + 1);
 }
