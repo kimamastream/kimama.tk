@@ -996,11 +996,13 @@ input[type=text], select, textarea {
   .anime-list img{
     width: 39.3vw;
     height: 55vw;
+
   }
 
 
   .anime-list h5{
     width: 94%;
+    
   }
 
     .anime-list h6{

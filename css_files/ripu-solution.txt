@@ -1,0 +1,9 @@
+1. anime-list page:::::
+    img gular mddhe gap drkr. karon,,, hover korlei bujhba!!! voyaboho obostha!!
+
+2. player page er tablet responsive e,, top-4 jhamela pakay! related r top4k        details er age newa jay kina??
+
+3. player page er tablet e, player only bttn jhamela kore   (solved)
+
+4. MAIN:::--- page er history thik thake na. alternative solution chai!
+ 

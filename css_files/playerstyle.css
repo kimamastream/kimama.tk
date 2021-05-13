@@ -1434,10 +1434,7 @@ label{
 	}
 
 	.lgt{
-		margin-left: 610px;
-		font-size: 25px;
-		padding: 0 15px;
-
+	display: none;
 }
 
 	.episode{
