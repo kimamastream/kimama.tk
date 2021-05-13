@@ -1002,7 +1002,7 @@ input[type=text], select, textarea {
 
   .anime-list h5{
     width: 94%;
-    
+
   }
 
     .anime-list h6{
@@ -1047,8 +1047,8 @@ input[type=text], select, textarea {
 }
 
 
-/*Smartphones potrait*/
-@media (max-width:767px) and (min-width: 480px){
+/*Smartphones landscape(1)*/
+@media (max-width:639px) and (min-width: 480px){
 
 
 	body{
@@ -1070,22 +1070,28 @@ input[type=text], select, textarea {
 
 	/* MAIN stucture */
 	.wrapper{
-		width: 350px;
-
+		width: 480px;
+    margin: 0 auto;
 	}
 
 	.animebox{
-		width: 375px;
-		height:auto;
-		margin-left:-12px;
+		width: 480px;
+		height:3280px;
+    margin-left: -2px;
 		margin-top: 140px;
 	}
 	.grid{
-		width: 361px;
-		height: 4760px;
+		width: 476px;
+		height: 3100px;
 		margin-top: 100px;
+    margin-left:-.7px;
 		margin-bottom: 10px;
 	}
+
+  .dwnbar{
+    margin-top: 3050px;
+    margin-left: 18%;
+  }
 	/* End =MAIN stucture */
 
 
@@ -1094,9 +1100,9 @@ input[type=text], select, textarea {
 	/* Decorative stuff */
 
 	.abox{
-		width: 371px;
+		width: 480px;
 		padding: 14px;
-		margin-left: 0px;
+		margin-left: -2px;
 		margin-top: -160px;
 	}
 	.abox h3{
@@ -1105,7 +1111,7 @@ input[type=text], select, textarea {
 	}
 
 	.lftbar{
-		width: 220px;
+		width: 250px;
 		margin-top: 78px;
 		margin-left: -1px;
 	}
@@ -1122,14 +1128,14 @@ input[type=text], select, textarea {
 
 
 	.rgtbar{
-		margin-left: 202px;
-		width: 170px;
+		margin-left: 227px;
+		width: 250px;
 	}
 	.iconn{
-		margin-left: 5px;
+		margin-left: 80px;
 	}
 	.rgtimg img{
-		margin-left: 84px;
+		margin-left: 165px;
 	}
 
 	.head-next{
@@ -1143,33 +1149,635 @@ input[type=text], select, textarea {
 	/* MAIN LIST */
 
 	.anime-list{
-		margin-top: -20px;
-		margin-left: -5px;
+		margin-top: -30px;
+		margin-left: -10px;
 	}
 
 	.anime-list li {
-		margin:30px 0px;
+		margin:24px 0px;
 	}
 	.anime-list img{
 		margin-top: 35px;
 		margin-left: 28px;
-
+    width: 124.929px;
+    height:162.4px;
 	}
 	.anime-list h5{
-		margin-left: 22px;
+		margin-left: 26px;
+    width: 129px;
 	}
 
 	.anime-list h6{
-		margin-left: 22px;
+		margin-left: 26px;
+    width: 129px;
 	}
 
 	/* end =MAIN LIST */
 
-	.dwnbar{
-		margin-top: 4720px;
-		margin-left: 40px;
+
+
+	/* $$$$$$$$ */
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 100%;
+		height: 160px;
+	}
+
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+}
+
+
+/*Smartphones+tablet landscape(2)*/
+@media (max-width: 780px) and (min-width: 640px){
+
+
+	body{
+		overflow-x: hidden;
 
 	}
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+
+	/* MAIN stucture */
+	.wrapper{
+		width: 640px;
+    margin: 0 auto;
+	}
+
+	.animebox{
+		width: 640px;
+		height:2680px;
+    margin-left: 0px;
+		margin-top: 140px;
+	}
+	.grid{
+		width: 639px;
+		height: 2500px;
+		margin-top: 100px;
+    margin-left:-2.5px;
+		margin-bottom: 10px;
+	}
+  .dwnbar{
+    margin-top: 2460px;
+    margin-left: 28%;
+  }
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+		width: 640px;
+		padding: 14px;
+		margin-left: -2.7px;
+		margin-top: -160px;
+	}
+	.abox h3{
+		font-size: 39px;
+		text-align: center;
+	}
+
+	.lftbar{
+		width: 330px;
+		margin-top: 78px;
+		margin-left: -1px;
+	}
+	.lftimg img{
+		margin-left: -2px;
+	}
+	.head-previous{
+		display: none;
+	}
+	 .iconp{
+		margin-left: 85px;
+		margin-top: -90px;
+	}
+
+
+	.rgtbar{
+		margin-left: 307px;
+		width: 330px;
+	}
+	.iconn{
+		margin-left: 155px;
+	}
+	.rgtimg img{
+		margin-left: 240px;
+	}
+
+	.head-next{
+		display: none;
+	}
+
+	/* end =Decorative stuff */
+
+
+
+	/* MAIN LIST */
+
+	.anime-list{
+		margin-top: -30px;
+		margin-left: -5.5px;
+	}
+
+	.anime-list li {
+		margin:24px 0px;
+	}
+	.anime-list img{
+		margin-top: 35px;
+		margin-left: 28px;
+    width: 124.929px;
+    height:162.4px;
+	}
+	.anime-list h5{
+		margin-left: 26px;
+    width: 129px;
+	}
+
+	.anime-list h6{
+		margin-left: 26px;
+    width: 129px;
+	}
+
+	/* end =MAIN LIST */
+
+
+
+	/* $$$$$$$$ */
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 100%;
+		height: 160px;
+	}
+
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+}
+
+
+/*Smartphones+tablet landscape(3)*/
+@media (max-width: 900px) and (min-width: 781px){
+
+
+	body{
+		overflow-x: hidden;
+
+	}
+  .nav-bar {
+    width: 100%;
+  }
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+
+	/* MAIN stucture */
+	.wrapper{
+		width: 771px;
+    margin: 0 auto;
+	}
+
+	.animebox{
+		width: 771px;
+		height:2130px;
+    margin-left: 0px;
+		margin-top: 140px;
+	}
+	.grid{
+		width: 770px;
+		height: 1950px;
+		margin-top: 100px;
+    margin-left:-2.5px;
+		margin-bottom: 10px;
+	}
+  .dwnbar{
+    margin-top: 1900px;
+    margin-left: 30%;
+  }
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+		width: 771px;
+		padding: 14px;
+		margin-left: -2.7px;
+		margin-top: -160px;
+	}
+	.abox h3{
+		font-size: 39px;
+		text-align: center;
+	}
+
+	.lftbar{
+		width: 390px;
+		margin-top: 78px;
+		margin-left: -1px;
+	}
+	.lftimg img{
+		margin-left: -2px;
+	}
+	.head-previous{
+		display: none;
+	}
+	 .iconp{
+		margin-left: 85px;
+		margin-top: -90px;
+	}
+
+
+	.rgtbar{
+		margin-left: 352px;
+		width: 415px;
+	}
+	.iconn{
+		margin-left: 235px;
+	}
+	.rgtimg img{
+		margin-left: 325px;
+	}
+
+	.head-next{
+		display: none;
+	}
+
+	/* end =Decorative stuff */
+
+
+
+	/* MAIN LIST */
+
+	.anime-list{
+		margin-top: -30px;
+		margin-left: -17px;
+	}
+
+	.anime-list li {
+		margin:24px 0px;
+	}
+	.anime-list img{
+		margin-top: 35px;
+		margin-left: 28px;
+    width: 124.929px;
+    height:162.4px;
+	}
+	.anime-list h5{
+		margin-left: 26px;
+    width: 129px;
+	}
+
+	.anime-list h6{
+		margin-left: 26px;
+    width: 129px;
+	}
+
+	/* end =MAIN LIST */
+
+
+
+	/* $$$$$$$$ */
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 100%;
+		height: 160px;
+	}
+
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+}
+
+
+
+
+/*tablet landscape(confiused)*/
+@media (max-width: 1199px) and (min-width: 901px){
+
+
+	body{
+		overflow-x: hidden;
+
+	}
+  .nav-bar {
+    width: 100%;
+  }
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: 15px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 0;
+	}
+
+
+	/* MAIN stucture */
+	.wrapper{
+		width: 901px;
+    margin: 0 auto;
+	}
+
+	.animebox{
+		width: 901px;
+		height:2130px;
+    margin-left: 0px;
+		margin-top: 140px;
+	}
+	.grid{
+		width: 901px;
+		height: 1950px;
+		margin-top: 100px;
+    margin-left:-2.5px;
+		margin-bottom: 10px;
+	}
+  .dwnbar{
+    margin-top: 1900px;
+    margin-left: 36%;
+  }
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+		width: 901px;
+		padding: 14px;
+		margin-left: -2.7px;
+		margin-top: -160px;
+	}
+	.abox h3{
+		font-size: 39px;
+		text-align: center;
+	}
+
+	.lftbar{
+		width: 450px;
+		margin-top: 78px;
+		margin-left: -1px;
+	}
+	.lftimg img{
+		margin-left: -2px;
+	}
+	.head-previous{
+		display: none;
+	}
+	 .iconp{
+		margin-left: 85px;
+		margin-top: -90px;
+	}
+
+
+	.rgtbar{
+		margin-left: 417px;
+		width: 480px;
+	}
+	.iconn{
+		margin-left: 300px;
+	}
+	.rgtimg img{
+		margin-left: 390px;
+	}
+
+	.head-next{
+		display: none;
+	}
+
+	/* end =Decorative stuff */
+
+
+
+	/* MAIN LIST */
+
+	.anime-list{
+		margin-top: -30px;
+		margin-left: -17px;
+	}
+
+	.anime-list li {
+		margin:24px 0px;
+	}
+	.anime-list img{
+		margin-top: 35px;
+		margin-left: 39px;
+    width:138.81px;
+  	height:180.45px;
+	}
+	.anime-list h5{
+		margin-left: 38.7px;
+    width: 139px;
+	}
+
+	.anime-list h6{
+		margin-left: 38.7px;
+    width: 139px;
+	}
+
+	/* end =MAIN LIST */
+
+
+
+	/* $$$$$$$$ */
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 100%;
+		height: 160px;
+	}
+
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+}
+
+
+/* Big Screen*/
+@media (max-width: 1900px) and (min-width: 1700px){
+
+
+	body{
+		overflow-x: hidden;
+
+	}
+  .nav-bar {
+    width:80%;
+  }
+	.container img{
+		margin-left: -40px;
+	}
+	.nav-bar .nav-list .hamburger {
+		display: none;
+	}
+
+
+
+
+	/* MAIN stucture */
+	.wrapper{
+    width: 1700px;
+	}
+
+	.animebox{
+
+	}
+	.grid{
+    width: 1700px;
+	}
+  .dwnbar{
+
+  }
+	/* End =MAIN stucture */
+
+
+
+
+	/* Decorative stuff */
+
+	.abox{
+
+	}
+	.abox h3{
+
+	}
+
+	.lftbar{
+
+	}
+
+	.lftimg img{
+	}
+
+	.head-previous{
+	}
+	 .iconp{
+
+	}
+
+
+	.rgtbar{
+
+	}
+	.iconn{
+
+	}
+	.rgtimg img{
+
+	}
+
+	.head-next{
+
+	}
+
+	/* end =Decorative stuff
+
+
+
+	/* MAIN LIST */
+
+	.anime-list{
+		margin-top: -30px;
+		margin-left: -17px;
+	}
+
+	.anime-list li {
+		margin:24px 0px;
+	}
+	.anime-list img{
+		margin-top: 35px;
+		margin-left: 39px;
+    width:208.215px;
+  	height:270.675px;
+	}
+	.anime-list h5{
+		margin-left: 38.7px;
+    width: 139px;
+	}
+
+	.anime-list h6{
+		margin-left: 38.7px;
+    width: 139px;
+	}
+
+	/* end =MAIN LIST */
+
+
 
 	/* $$$$$$$$ */
 
