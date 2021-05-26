@@ -1,3 +1,7 @@
+// hamburger //////////////////////////////////////////////////
+// hamburger
+// hamburger
+// hamburger //////////////////////////////////////////////////
 const hamburger_icon = document.querySelector('#nav-bar .nav-bar .nav-list .hamburger');
 const nav_list = document.querySelector('#nav-bar .nav-bar .nav-list');
 
@@ -9,9 +13,9 @@ hamburger_icon.addEventListener('click', () => {
 
 
 
-// slider
-// sliders
 // slider  ///////////////////////////////////////////////////////////
+// slider
+// slider
 // slider ////////////////////////////////////////////////////////////
 var counter = 1;
 setInterval(function(){
@@ -55,4 +59,27 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+
+
+// adbd slide for mobile///////////////////////////////////////
+var slideIndexmbl = 0;
+showSlidesmbl();
+
+function showSlidesmbl() {
+  var i;
+  var slidesmbl = document.getElementsByClassName("mySlidesmbl");
+  var dotsmbl = document.getElementsByClassName("dotmbl");
+  for (i = 0; i < slidesmbl.length; i++) {
+    slidesmbl[i].style.display = "none";
+  }
+  slideIndexmbl++;
+  if (slideIndexmbl > slidesmbl.length) {slideIndexmbl = 1}
+  for (i = 0; i < dotsmbl.length; i++) {
+    dotsmbl[i].className = dotsmbl[i].className.replace(" activembl", "");
+  }
+  slidesmbl[slideIndexmbl-1].style.display = "block";
+  dotsmbl[slideIndexmbl-1].className += " activembl";
+  setTimeout(showSlidesmbl, 4000); // Change image every 2 seconds
 }
