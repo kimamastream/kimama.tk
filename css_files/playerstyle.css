@@ -593,17 +593,17 @@ body {
   top: 0;
   right: 0;
   cursor: pointer;
+  color: #c32b34;
 }
 
 .adbd img {
-  width:350px;
-  height:200px;
+  height:201.48px;
   border-radius: 15px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 350px;
+  max-width: 385px;
   position: relative;
   margin: auto;
 }
@@ -648,7 +648,7 @@ body {
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:350px;
+	width:385px;
 	height: auto;
 	margin-bottom: 15px;
 
@@ -732,7 +732,7 @@ body {
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:350px;
+	width:385px;
 	height: auto;
 
 
