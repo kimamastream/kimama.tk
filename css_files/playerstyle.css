@@ -57,7 +57,7 @@ body {
 #nav-bar {
 	height: auto;
 	width: 100%;
-	position: fixed;
+	/* position: fixed; */
 	z-index: 100;
 	background-color: #161616;
 	opacity: .8;
@@ -201,11 +201,11 @@ body {
 	margin: 0 auto;
 }
 .wrapper .lft{
-	margin-top: 114px;
+	/* margin-top: 114px; */
 }
 .wrapper .rgt{
 	margin-left: 20px;
-	margin-top: 114px;
+	/* margin-top: 114px; */
 }
 
 /* End of wrapper side */
