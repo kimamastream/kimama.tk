@@ -391,7 +391,7 @@ body {
 	text-align: center;
 	width: 870px;
 	height:250px;
-  overflow:auto;
+  	overflow:auto;
 
 }
 
@@ -402,7 +402,7 @@ body {
 	border-radius: 4px;
 	background-color: #663399;
 	margin-top: 20px;
-	margin-left: 10.62px;
+	margin-left: 15px;
 	font-family: 'Jockey One', sans-serif;
 	font-size: 25px;
 	list-style-type: none;
