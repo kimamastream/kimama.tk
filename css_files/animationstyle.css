@@ -224,15 +224,15 @@ body {
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 15px 15px 0 0;
-	margin-left: 30px;
+	margin-left: 50px;
 	margin-bottom: 0;
-	width: 870px;
+	width: 1240px;
 	height:40px;
 }
 
 .updrv p{
   margin-top: -9px;
-	padding: 5px 0 0 5px;
+  padding: 5px 0 0 5px;
   text-align: center;
 
 }
@@ -246,11 +246,11 @@ body {
 /*main player*/
 
 .drive iframe{
-	margin-left: 30px;
+	margin-left: 50px;
 	margin-bottom: 0;
 	border: none;
-	width: 870px;
-	height: 490px;
+	width: 1240px;
+	height: 600px;
 }
 .drive {
 	cursor: none;
@@ -271,10 +271,10 @@ body {
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 0 0 15px 15px;
-	margin-left: 30px;
+	margin-left: 50px;
 	margin-bottom: 15px;
 	margin-top: -3px;
-	width: 870px;
+	width: 1240px;
 	min-height:43px;
 
 }
@@ -391,7 +391,7 @@ body {
 	text-align: center;
 	width: 870px;
 	height:250px;
-  	overflow:auto;
+    overflow:auto;
 
 }
 
@@ -402,7 +402,7 @@ body {
 	border-radius: 4px;
 	background-color: #663399;
 	margin-top: 20px;
-	margin-left: 15px;
+	margin-left: 10.62px;
 	font-family: 'Jockey One', sans-serif;
 	font-size: 25px;
 	list-style-type: none;
@@ -509,15 +509,14 @@ body {
 	border:solid;
 	border-radius: 15px;
 	border-color: transparent;
-	background-color: #303030;
+	background-color: #161616;
 	color: #ababab;
 	font-size: 15px;
-	width: 850px;
+	width: 830px;
 	margin-top: 15px;
-	margin-left: 30px;
+	margin-left: 33px;
 	margin-bottom: 15px;
 	height: auto;
-	width: 870px;
 }
 
 .details img{
@@ -645,12 +644,13 @@ body {
 	font-size: 15px;
 	border:solid;
 	border-radius: 15px;
-	border-color: #303030;
-	background-color: #303030;
+	border-color: #161616;
+	background-color: #161616;
 	width:385px;
 	height: auto;
+	margin-top: 700px;
 	margin-bottom: 15px;
-
+	margin-left: -405px;
 
 }
 
@@ -681,7 +681,7 @@ body {
 	font-size: 18px;
 	color: #666;
 	width: 213px;
-	border-radius: 7px;
+	border-radius: 15px;
 	margin-left: 65px;
 	margin-bottom: -2px;
 	transition: .3s all ease;
@@ -764,7 +764,7 @@ body {
 	font-size: 19px;
 	color: #666;
 	width: 213px;
-	border-radius: 7px;
+	border-radius: 15px;
 	margin-left: 65px;
 	margin-bottom: -2px;
 	transition: .3s all ease;

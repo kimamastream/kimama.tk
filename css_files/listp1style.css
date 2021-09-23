@@ -215,7 +215,7 @@ body {
 .grid{
 	border:2px solid #ababab;
 	width: 1285px;
-	height: 1900px;
+	height: 1600px;
 	border-radius: 10px;
 	margin-top: 20px;
 	margin-left: 5px;
@@ -260,7 +260,7 @@ body {
 .iconp{
 	margin-left: 100px;
 	margin-top: -125px;
-	margin-bottom: 33px;
+	margin-bottom: 29px;
 	height:80px;
 	width:80px;
 	transition: transform .5s;
@@ -430,7 +430,7 @@ body {
 }
 
 .dwnbar{
-	margin-top: 1840px;
+	margin-top: 1520px;
 	margin-left: 1010px;
 }
 
@@ -872,6 +872,8 @@ input[type=text], select, textarea {
 		clear: both;
 		content: ""
 	}
+
+	
 
 
 
@@ -1725,7 +1727,7 @@ input[type=text], select, textarea {
 
 
 /* Big Screen*/
-@media (max-width: 1900px) and (min-width: 1700px){
+/* @media (max-width: 1900px) and (min-width: 1700px){
 
 
 	body{
@@ -1740,25 +1742,25 @@ input[type=text], select, textarea {
 	}
 	.nav-bar .nav-list .hamburger {
 		display: none;
-	}
+	} */
 
 
 
 
 	/* MAIN stucture */
-	.wrapper{
+	/* .wrapper{
     width: 1700px;
 	}
 
 	.animebox{
-
+		width: 1720px;
 	}
 	.grid{
     width: 1700px;
 	}
   .dwnbar{
 
-  }
+  } */
 	/* End =MAIN stucture */
 
 
@@ -1766,7 +1768,7 @@ input[type=text], select, textarea {
 
 	/* Decorative stuff */
 
-	.abox{
+	/* .abox{
 
 	}
 	.abox h3{
@@ -1799,7 +1801,7 @@ input[type=text], select, textarea {
 
 	.head-next{
 
-	}
+	} */
 
 	/* end =Decorative stuff
 
@@ -1807,7 +1809,7 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.anime-list{
+	/* .anime-list{
 		margin-top: -30px;
 		margin-left: -17px;
 	}
@@ -1829,7 +1831,7 @@ input[type=text], select, textarea {
 	.anime-list h6{
 		margin-left: 38.7px;
     width: 139px;
-	}
+	} */
 
 	/* end =MAIN LIST */
 
@@ -1840,7 +1842,7 @@ input[type=text], select, textarea {
 
 
 	/* mbl footer */
-	.button{
+	/* .button{
 		margin-top: 25px;
 		margin-left:10px;
 	}
@@ -1853,7 +1855,7 @@ input[type=text], select, textarea {
 	.own_footer ul{
 		margin-left: -260px;
 		margin-top: -90px;
-	}
+	} */
 
 	/* mbl footer */
 
