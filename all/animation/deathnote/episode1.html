@@ -9,7 +9,7 @@
   <title>Watch Death Note</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
   <link rel="shortcut icon" type="image/x-icon" href="https://drive.google.com/uc?id=1d0S10L5eNVz71lAH-rqzQ1lqarLotb_Z">
-  <link rel="stylesheet" href="../../../css_files/animationstyle.css">
+  <link rel="stylesheet" href="../../../css_files/player-animation.css">
 
 
 
@@ -55,92 +55,147 @@ $(document).ready(function(){
   <!-- End nav-bar  -->
 
 
-
-
-
   <div class="wrapper">
-
     <div class="player">
 
-      <div class="updrv">
-        <p id="link-2">Death Note Episode 1</p>
-      </div>
-
       <div class="drive">
-        <iframe  src="https://drive.google.com/file/d/1pXQHLrZ9CsW8BKJBmD2L1fSfPYgiK1Fz/preview" poster="KIMAMASTREAM.png" id="link-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe  src="https://drive.google.com/file/d/1T_4UlA6i4esxmqmXxWcQX-rHILOyuRWs/preview" poster="KIMAMASTREAM.png" id="link-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div class="dwndrv">
-        <ul>
-          <li><a href="https://drive.google.com/drive/folders/1-Gh2XWYx16KO8alWti0M0omVRG2G3uuf?usp=sharing" target="blank"><i class="fas fa-cloud-download-alt"></i> Opening</a></li>
+        <!-- <ul>
+          <li><a href="https://drive.google.com/drive/folders/1DL5FDO0RhOPEP4O-qUiiSCE2hTo6_mml?usp=sharing" target="blank"><i class="fas fa-cloud-download-alt"></i> Opening</a></li>
           <li><a href="#" class="prevbtn">Previous</a></li>
           <li><a href="#" class="nextbtn">Next</a></li>
-          <li><a href="https://drive.google.com/drive/folders/1-NTOnBoOjSmWa2QFkvMlfcm2y-mGL1Z3?usp=sharing" target="blank"><i class="fas fa-cloud-download-alt"></i> Ending</a></li>
-        </ul>
+          <li><a href="https://drive.google.com/drive/folders/1rkAI5OZFqFPLLvv3wCTJpWfgfc7tm9PM?usp=sharing" target="blank"><i class="fas fa-cloud-download-alt"></i> Ending</a></li>
+        </ul> -->
         <button class="lgt">Player Only</button>
-      </div>
-
-
-
-
-
-          <div id="lgt2" class="details">
-            <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS"> <br>
-            <h2>Death Note</h2>
-            <h4>Completed</h4>
-            <p>Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die.With the Death Note in hand, he goes on a personal crusade and moves to kill all evil in the world and become God. He does this all in his new name, Kira, and declares himself the law and justice of the world. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.</p>
-          </div>
-        </div>
-
-
-      <div class="rgt" id="lgt3">
-
-
-          <div class="related">
-          <h2>Related Anime</h2>
-          <ul>
-            <li>
-              <img src="https://drive.google.com/uc?export=view&id=1gjcUXh6oathlCSuPfD-gPt4fH-CjXt7l"> <br>
-              <a href="../fullmetalalchemistbrotherhoodpart2/episode1.html">
-                <h3>Fullmetal Alchemist Brotherhood</h3>
-              </a>
-              <h5>Part 2</h5>
-              <p>Published on 2009</p>
-            </li>
-            <br>
-
-
-            <li>
-              <img src="https://drive.google.com/uc?export=view&id=1orUQK2m8fS2jaL6dsVMBF1OhYAA6dzMA"> <br>
-              <a href="../onepunchmans01/episode1.html">
-                <h3>One Punch Man</h3>
-              </a>
-              <h5>Season 1</h5>
-              <p>Published on 2015</p>
-            </li>
-            <br>
-
-            <li>
-              <img src="https://drive.google.com/uc?export=view&id=1-5VUrKTORcQGQs_YuFHpYVnzR8nRDION"> <br>
-              <a href="../onepunchmanova/roadtohero.html">
-                <h3>One Punch Man</h3>
-              </a>
-              <h5>Road To Hero</h5>
-              <p>Published on 2015</p>
-            </li>
-            <br>
-
-
-          </ul>
-        </div>
-
       </div>
 
     </div>
 
+    <div class="flex-rgt">
+      <div class="lft">
+      
+        <div id="lgt1" class="details">
+          <img src="https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua"> <br>
+          <h2>Assassina-tion Classroom</h2>
+          <h4>Season 1</h4>
+          <p>When a mysterious creature chops the moon down to a permanent crescent, the students of class 3-E of Kunugigaoka Middle School find themselves confronted with an enormous task: assassinate the creature responsible for the disaster before Earth suffers a similar fate. However, the monster, dubbed Koro-sensei (the indestructible teacher), is able to fly at speeds of up to Mach 20, which he demonstrates freely, leaving any attempt to subdue him in his extraterrestrial dust. Furthermore, the misfits of 3-E soon find that the strange, tentacled beast is more than just indomitable—he is the best teacher they have ever had! Adapted from the humorous hit manga by Yuusei Matsui, Ansatsu Kyoushitsu tells the story of these junior high pupils as they polish their assassination skills and grow in order to stand strong against the oppressive school system, their own life problems, and one day, Koro-sensei.</p>
+        </div>
+      
+      </div>
+      
+      <div class="rgt" id="lgt2">
+        <div class="related">
+        
+          <h2>Related Movies</h2>
+            <ul class="flex-related">
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+
+              <li><a href="../../all/anime/deathnote/episode1.html">
+                <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+                <h5>Death Note</h5>
+                <h6>Completed</h6></a>
+              </li>
+            
+            </ul>  
+        </div>
+      </div>
+    </div>
+
+    <div class="trend" id="lgt3">
+
+      <h2>Trending</h2>
+
+      <ul class="flex-trend">
+
+        <li><a href="../../all/anime/deathnote/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS" alt="">
+          <h5>Death Note</h5>
+          <h6>Completed</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans01/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1GI_EeMIZHTxFP2B99Y5oiTlpl1J2mIa-" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 1</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans02/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1oaGR2hMQ3BQfnzTeU9_7YBv5jScyy54t" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 2</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans03/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1bnRSjrboNtHbbP3fEZVYpZERBMUJu9mw" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 3</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans04/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1hPmkt_HZhUQo86__II7hGH7ai_J7Reku" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 4</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans04/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1hPmkt_HZhUQo86__II7hGH7ai_J7Reku" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 4</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans03/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1bnRSjrboNtHbbP3fEZVYpZERBMUJu9mw" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 3</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans04/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1hPmkt_HZhUQo86__II7hGH7ai_J7Reku" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 4</h6></a>
+        </li>
+
+        <li><a href="../../all/anime/attackontitans04/episode1.html">
+          <img src=" https://drive.google.com/uc?export=view&id=1hPmkt_HZhUQo86__II7hGH7ai_J7Reku" alt="">
+          <h5>Attack on Titan</h5>
+          <h6>Season 4</h6></a>
+        </li>
+      </ul>  
+    </div>
 
 
-
+  </div>
 
 
   <!-- Hire Section  -->

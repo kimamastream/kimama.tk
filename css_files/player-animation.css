@@ -16,7 +16,7 @@
     src: url(../tools/fonts/SpringwoodBrushDemoRegular-GpWP.otf);
     font-family: bk;
 }
-    
+
 
 
 * {
@@ -194,69 +194,26 @@ body {
 /* wraper side */
 
 .wrapper{
-	width: 1335px;
-	display: flex;
-	position: relative;
 	background: #161616;
+	width: 92%;
 	margin: 0 auto;
-}
-.wrapper .lft{
-	margin-top: 114px;
-}
-.wrapper .rgt{
-	margin-left: 20px;
-	margin-top: 114px;
 }
 
 /* End of wrapper side */
 
 
 
-
-
-/* updrive */
-
-.updrv{
-	background-color: #303030;
-	color: #ababab;
-	font-size: 30px;
-	font-family: 'Jockey One', sans-serif;
-	border-style: solid;
-	border-color: #303030;
-	border-radius: 15px 15px 0 0;
-	margin-left: 30px;
-	margin-bottom: 0;
-	width: 870px;
-	min-height:40px;
-}
-
-.updrv p{
-	padding: 5px 0 0 5px;
-
-}
-
-
-/* END of updrive */
-
-
-
-
 /*main player*/
 
 .drive iframe{
-	margin-left: 30px;
-	margin-bottom: 0;
-	border: none;
-	width: 870px;
-	height: 490px;
+	border: 5px solid #ababab ;
+	width: 100%;
+	height: 750px;
 }
 .drive {
 	cursor: none;
 }
 /* END of main player */
-
-
-
 
 /*downdrive*/
 
@@ -265,20 +222,17 @@ body {
 	background-color: #303030;
 	color: #ababab;
 	font-size: 25px;
-	font-family: 'Jockey One', sans-serif;	
-	border-style: solid;
-	border-color: #303030;
+	font-family: 'Jockey One', sans-serif;
+	border: solid #303030;
 	border-radius: 0 0 15px 15px;
-	margin-left: 30px;
-	margin-bottom: 15px;
-	margin-top: -3px;
-	width: 870px;
+	margin: -3px 0px 15px -1px ;
+	width: 100.17%;
 	min-height:43px;
-
+	
 }
 
 .dwndrv li{
-	padding:0 10px 0 10px; 
+	padding:0 10px 0 10px;
 	list-style-type: none;
 	float: left;
 	text-align: center;
@@ -295,12 +249,12 @@ body {
 }
 
 .dwndrv li, a {
-	display: block;
+	/* display: block; */
 	color: black;
 
 }
 .lgt{
-	margin-left:250px;
+	float: right;
 	border-radius: 10px;
 	background-color: transparent;
 	border-color: transparent;
@@ -315,165 +269,40 @@ body {
 	background-color: #EE303B;
 	border-radius: 15px;
 	color: #fff;
-	
+
 }
 
 
 /* downdrive*/
 
-
-
-
-
-
-
-/*episode*/
-.episode {
-	
-	background-color: #303030;
-	border-style: solid;
-	border-color: #303030;
-	border-radius: 15px;
-	margin-left: 30px;
-	margin-bottom: 15px;
-	text-align: center;
-	width: 870px;
-	min-height:210px;
-	
+.flex-rgt{
+	display: flex;
+	flex-basis: 10%;
 }
-
-
-.episode li {
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 4px;
-	background-color: #663399;
-	margin-top: 20px;
-	margin-left: 10.62px;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 25px;
-	list-style-type: none;
-	text-decoration: none;
-	float: left;
-	transition: .3s all ease;
-	width: 30px;
-	height: 35px;
-	text-align: center;
-}
-
-.anopart li{
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 4px;
-	background-color: #EE303B;
-	margin-top: 20px;
-	margin-left: 10.62px;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 25px;
-	list-style-type: none;
-	text-decoration: none;
-	transition: .3s all ease;
-	width: 70px;
-	height: 35px;
-	text-align: center;
-}
-
-.episode li a{
-	display: block;
-	color: black;
-	transition: .3s all ease;
-}
-
-.episode li:hover{
-	background-color: #EE303B;
-}
-.episode li:hover a{  
-	color:#fff ;
-}
-.episode h4{
-	margin-top: 15px;
-	margin-bottom: 5px;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 36px;
-	letter-spacing: 3px;
-	line-height: 10px;
-	color: #ababab;
-	text-decoration: underline;
-	text-decoration-color:  #EE303B;
-}
-
-/*episode*/
-
-/* Season */
-/* .seasons{
-	background-color: #303030;
-	color: #ababab;
-	font-size: 25px;
-	font-family: 'Jockey One', sans-serif;	
-	border-style: solid;
-	border-color: #303030;
-	border-radius: 15px;
-	margin-left: 30px;
-	margin-bottom: 15px;
-	margin-top: -3px;
-	width: 870px;
-	min-height:50px;
-	padding-top: 5px;
-	padding-left: 215px;
-
-}
-
-.seasons li{
-	padding:0 15px 0 10px; 
-	list-style-type: none;
-	float: left;
-	text-align: center;
-}
-
-.seasons li:hover{
-	background-color: #EE303B;
-	border-radius: 15px;
-}
-.seasons :hover a {
-	color: #fff;
-}
-
-.seasons li, a {
-	display: block;
-	color: black;
-} */
-
-/* Seasons */
-
-
-
-
-
-
 
 /*details*/
 .details{
-	border:solid; 
+	border:solid;
 	border-radius: 15px;
 	border-color: transparent;
-	
-	background-color: #303030;
+	background-color: transparent;
 	color: #ababab;
 	font-size: 15px;
 	width: 850px;
 	margin-top: 15px;
-	margin-left: 30px;
 	margin-bottom: 15px;
 	height: auto;
-	width: 870px;
+	width: 95%;
+	
 }
 
 .details img{
 	border-style: solid;
-	border-color: transparent;
+	border-color: #9032F8;
 	border-radius: 10px;
-	height: 237px;
-	width: 183px;
+	border-width: 4px;
+	/* height: 237px; */
+	width: 240px;
 	float: left;
 	margin-left: 10px;
 	margin-top:  30px;
@@ -481,7 +310,7 @@ body {
 
 .details h2{
 	margin-top: 10px;
-	margin-left: 220px;
+	margin-left: 300px;
 	color: #ababab;
 	font-size: 29px;
 
@@ -491,7 +320,7 @@ body {
 }
 
 .details h4{
-	margin-left: 220px;
+	margin-left: 300px;
 	font-style: italic;
 	font-family: 'Permanent Marker', cursive;
 	color: #ababab;
@@ -506,63 +335,56 @@ body {
 .details p {
 	border-style: solid;
 	border-color: transparent;
-	/* font-family: 'Oswald', sans-serif; */
 	font-family: 'Stick', sans-serif;
-	/* font-family: 'Architects Daughter', cursive; */
 	font-size: 20px;
 	letter-spacing: 0.4px;
+	text-align: justify;
 	color: #ababab;
-	margin-left: 215px;
+	margin-left: 300px;
 	margin-top:  5px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
 
 .details p:hover{
-	color: white;
+	color: #dcdada;
 }
-
-
-
 
 
 /*details*/
 
 
-
-
-
-
-
-
-
 /*related*/
-.related{
-	color: #ababab;
-	font-size: 15px;
-	border:solid; 
-	border-radius: 15px;
-	border-color: #303030;
-	background-color: #303030;
-	width:350px; 
-	height: auto;
-	margin-bottom: 15px;
 
+.flex-related{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-top: 40px;
 	
 }
 
-
-.related img{
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 10px;
-	height: 86px;
-	width: 66px;
-	margin-left: 10px;
-	margin-top:  25px;
-	float: left;
-
+.related{
+	color: #ababab;
+	font-size: 15px;
+	border:solid;
+	border-radius: 15px;
+	border-color: #ababab;
+	background-color: transparent;
+	width: 500px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	margin-top: 48px;
 }
+
+.related li, a {
+	text-decoration: none;
+	list-style: none;
+	margin-right: 13px;
+	margin-bottom: 15px;
+}
+
 .related h2 {
 	font-family: 'Jockey One', sans-serif;
 	font-size: 36px;
@@ -572,135 +394,114 @@ body {
 	margin-top: 25px;
 	margin-bottom: 5px;
 	text-decoration: underline;
-	text-decoration-color: #EE303B; 
-}
-.related h3{
-	font-size: 18px;
-	color: #666;
-	width: 213px;
-	border-radius: 15px;
-	margin-left: 65px;
-	margin-bottom: -2px;
-	transition: .3s all ease;
-	padding-left: 5px;
-	margin-top: 9px;
+	text-decoration-color: #EE303B;
 }
 
-.related li, a {
-	list-style-type: none;
-	text-decoration : none;
-	color: #ababab;
+.related h5{
+	font-size: 23px;
+	font-weight: 50;
+	font-family: 'Nerko One', cursive;
+	width: 139px;
+	text-align: center;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 6px 6px 0 0;
+
 }
-.related h3:hover{
-	background-color: #b446f0;
-	color:#fff ;
+
+
+.related h6{
+	font-family: 'Nerko One', cursive;
+	font-size: 20px;
+	font-weight: 60;
+	/* margin-left: 34px; */
+	text-align: center;
+    width: 139px;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 0 0 6px 6px;
+
 }
-.related h5 {
-	margin-left: 81px;
-	margin-top: 5px;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 16.6px;
-	letter-spacing: 1px;
-}
-.related p{
-	margin-top: 5px;
-	margin-left: 81px;
-	color: #EE303B;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 18px;
-		
-}
-.related a {
-	margin-left: 10px;
+
+.related img{
+	width:140px;
+	margin-top:0px;
+	border-radius: 6px;
 }
 
 
 /*related*/
 
 
+/* trend */
 
-
-/*trend*/
-.trend{
-	color: #ababab;
-	font-size: 15px;
-	border:solid; 
-	border-radius: 15px;
-	border-color: #303030;
-	background-color: #303030;
-	width:350px; 
-	height: auto;
-
+.flex-trend{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
 	
 }
 
-
-.trend img{
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 10px;
-	height: 86px;
-	width: 66px;
-	margin-left: 10px;
-	margin-top:  25px;
-	float: left;
-
-}
 .trend h2 {
+	color: #ababab;
 	font-family: 'Jockey One', sans-serif;
 	font-size: 36px;
 	letter-spacing: 3px;
 	line-height: 10px;
 	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 5px;
 	text-decoration: underline;
-	text-decoration-color: #EE303B; 
-}
-.trend h3{
-	font-size: 19px;
-	color: #666;
-	width: 213px;
-	border-radius: 15px;
-	margin-left: 65px;
-	margin-bottom: -2px;
-	transition: .3s all ease;
-	padding-left: 5px;
-	margin-top: 9px;
-}
-
-.trend li, a {
-	list-style-type: none;
-	text-decoration : none;
-	color: #ababab;
-}
-.trend h3:hover{
-	background-color: #b446f0;
-	color:#fff ;
-}
-.trend h5 {
-	margin-left: 81px;
-	margin-top: 5px;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 17.6px;
-	letter-spacing: 1px;
-}
-.trend p{
-	margin-top: 5px;
-	margin-left: 81px;
-	color: #EE303B;
-	font-family: 'Jockey One', sans-serif;
-	font-size: 18px;
+	text-decoration-color: #EE303B;
 	
 }
+
+.trend li{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.trend img{
+	width:175px;
+	margin-top:0px;
+	border-radius: 6px;
+}
+
+
 .trend a {
-	margin-left: 10px;
+	text-decoration: none;
+}
+
+.trend h5{
+	font-size: 23px;
+	font-weight: 50;
+	font-family: 'Nerko One', cursive;
+	width: 177px;
+	text-align: center;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 6px 6px 0 0;
+
+}
+
+
+.trend h6{
+	font-family: 'Nerko One', cursive;
+	font-size: 20px;
+	font-weight: 60;
+	/* margin-left: 34px; */
+	text-align: center;
+    width: 177px;
+	background-color: #833ab4;
+	color: white;
+	border-radius: 0 0 6px 6px;
+
 }
 
 
 
 
 
+/* end of trend */
 
 /* Hire Section  */
 .hire {
@@ -710,7 +511,7 @@ body {
 	background-image: url(../tools/images/3955269.jpg);
 	background-size: cover;
 	padding: 3rem 2rem;
-	margin-top:15px; 
+	margin-top:15px;
 	margin-bottom:0;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -882,12 +683,12 @@ label{
 	padding-left: 50px;
 	padding-top: 15px;
 	margin-right: 25px;
-	
+
 }
 .pages_three li a{
 	text-decoration:none;
 	color: white;
-	
+
 }
 .pages_three li a:hover{
 	text-decoration: underline;
@@ -910,6 +711,10 @@ label{
 
 
 
+/* Big Screen*/
+@media (max-width: 1080px) and (min-width: 1080px){
+	
+}
 
 
 
@@ -993,422 +798,25 @@ label{
 }
 
 
-@media (min-width: 390px) and (max-width: 409px){     /* 390 px width poco x2, nokia saad */
+/* Small Smart Phone */
+@media (max-width:349px) and (min-width: 320px) {
 
 	body{
 		overflow-x: hidden;
 	}
 
-	.container img{
-		margin-left: -40px;
-	}
-	.nav-bar .nav-list .hamburger {
-		margin-left: 15px;
-	}
 
-	.nav-bar .nav-list ul li {
-		position: relative;
-		left: 5px;
-	}
-
-	.wrapper{
-		margin-left: -20px;
-		display: grid;
-	}
-
-	.updrv{
-		width: 373px;
-		font-size: 21px;
-	}
-	
-	
-
-	.drive iframe{
-		width: 372px;
-		height: 200px;
-	}
-
-	.dwndrv{
-		font-size: 20px;
-		width: 373px;
-	}
-	.dwndrv li{
-		margin-top: 5px;
-		margin-left: 2px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-
-
-
-	.episode{
-		width: 373px;
-		height: 210px;
-		overflow:auto;
-	}
-	.episode ul{
-		margin-top: 10px;
-	}
-	.episode li{
-		margin-top: 15px;
-		margin-left: 20px;
-		width: 37px;
-		height: 42px;
-	}
-	.episode h4{
-		margin-left: 20px;
-	}
-	.anopart li{
-		width: 70px;
-		height: 42px;
-	}
-
-	.details{
-		width: 373px;
-	}
-	.details img{
-		margin-left: 15px;
-		margin-top:  10px;
-		float: none;
-
-	}
-	.details h2{
-		margin-top: -180px;
-		margin-left: 210px;
-		font-size: 29px;
-	}
-	.details h4{
-		margin-left: 210px;
-	}
-
-	.details p{
-		margin-top: 105px;
-		margin-left: 15px;
-	}
-
-
-	.related{
-		width:373px; 
-		margin-top: -115px;
-		margin-left: 10px;
-
-	}
-
-	.trend{
-		width: 373px;
-		margin-left: 10px;
-	}
-
-
-
-
-	/* mbl footer */
-	.button{
-		margin-top: 25px;
-		margin-left:10px;
-	}
-	
-	.own_footer{
-		width: 393px;
-		height: 160px;
-	}
-		
-	.own_footer ul{
-		margin-left: -260px;
-		margin-top: -90px;
-	}
-	
-	/* mbl footer */
-	
-
-
-}
-
-
-@media (min-width: 350px) and (max-width: 389px){   /* 360 px width redmi note7,asus zenphone,vivo y15. */
-
-	body{
-		overflow-x: hidden;
-	}
-
-	.container img{
-		margin-left: -20%;
-	}
-	.nav-bar .nav-list .hamburger {
-		margin-left: -40px;
-	}
-
-	.nav-bar .nav-list ul li {
-		position: relative;
-		left: 5px;
-	}
-
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-	}
-
-	.updrv{
-		width: 360px;
-		font-size: 21px;
-	}
-	
-	
-
-	.drive iframe{
-		width: 360px;
-		height: 200px;
-	}
-
-	.dwndrv{
-		font-size: 19px;
-		width: 360px;
-	}
-	.dwndrv li{
-		margin-top: 5px;
-		margin-left: 2px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-
-
-
-	.episode{
-		width: 360px;
-		height: 210px;
-		overflow:auto;
-	}
-	.episode ul{
-		margin-top: 10px;
-	}
-	.episode li{
-		margin-top: 15px;
-		margin-left: 10px;
-		width: 37px;
-		height: 42px;
-	}
-	.episode h4{
-		margin-left: 20px;
-	}
-	.anopart li{
-		width: 70px;
-		height: 42px;
-	}
-
-	.details{
-		width: 360px;
-	}
-	.details img{
-		margin-left: 5px;
-		margin-top:  10px;
-		float: none;
-
-	}
-	.details h2{
-		margin-top: -180px;
-		margin-left: 190px;
-	}
-	.details h4{
-		margin-left: 190px;
-	}
-
-	.details p{
-		margin-top: 105px;
-		margin-left: 5px;
-	}
-
-
-	.related{
-		width:360px; 
-		margin-top: -115px;
-		margin-left: 10px;
-
-	}
-
-	.trend{
-		width: 360px;
-		margin-left: 10px;
-	}
-
-
-
-
-	/* mbl footer */
-	.button{
-		margin-top: 25px;
-		margin-left:10px;
-	}
-	
-	.own_footer{
-		width: 360px;
-		height: 160px;
-	}
-		
-	.own_footer ul{
-		margin-left: -260px;
-		margin-top: -90px;
-	}
-	
-	/* mbl footer */
-	
-
-
-}
-
-
-@media (min-width:410px) and (max-width: 430px){     /* 421 px width realme 5i */
-
-	body{
-		overflow-x: hidden;
-	}
-
-	.container img{
-		margin-left: -25px;
-	}
-	.nav-bar .nav-list .hamburger {
-		margin-left: 15px;
-	}
-
-	.nav-bar .nav-list ul li {
-		position: relative;
-		left: 5px;
-	}
-
-	.wrapper{
-		margin-left: -7.5px;
-		display: grid;
-	}
-
-	.updrv{
-		width: 373px;
-		font-size: 21px;
-	}
-	
-	
-
-	.drive iframe{
-		width: 372px;
-		height: 200px;
-	}
-
-	.dwndrv{
-		font-size: 20px;
-		width: 373px;
-	}
-	.dwndrv li{
-		margin-top: 5px;
-		margin-left: 2px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-
-
-
-	.episode{
-		width: 373px;
-		height: 210px;
-		overflow:auto;
-	}
-	.episode ul{
-		margin-top: 10px;
-	}
-	.episode li{
-		margin-top: 15px;
-		margin-left: 20px;
-		width: 37px;
-		height: 42px;
-	}
-	.episode h4{
-		margin-left: 20px;
-	}
-	.anopart li{
-		width: 70px;
-		height: 42px;
-	}
-
-	.details{
-		width: 373px;
-	}
-	.details img{
-		margin-left: 15px;
-		margin-top:  10px;
-		float: none;
-
-	}
-	.details h2{
-		margin-top: -180px;
-		margin-left: 210px;
-	}
-	.details h4{
-		margin-left: 210px;
-	}
-
-	.details p{
-		margin-top: 105px;
-		margin-left: 15px;
-	}
-
-
-	.related{
-		width:373px; 
-		margin-top: -115px;
-		margin-left: 10px;
-
-	}
-
-	.trend{
-		width: 373px;
-		margin-left: 10px;
-	}
-
-
-
-
-	/* mbl footer */
-	.button{
-		margin-top: 25px;
-		margin-left:10px;
-	}
-	
-	.own_footer{
-		width: 421px;
-		height: 160px;
-	}
-		
-	.own_footer ul{
-		margin-left: -250px;
-		margin-top: -90px;
-	}
-	
-	/* mbl footer */
-	
-
-
-}
-
-
-
-@media (min-width:320px) and (max-width: 349px){     /* 320 px width oppo joy 3, samsung */
-
-	 body{
-		overflow-x: hidden;
-	}   
-	
-	
 	.container img{
 		margin-left: -18%;
 		width: 227.71px;
 		height: 72.57px;
-		
+
 	}
 	.nav-bar .nav-list .hamburger {
 		height: 60px;
 		width: 60px;
 		margin-left: -90%;
-		
+
 	}
 
 	.nav-bar .nav-list ul li {
@@ -1419,62 +827,43 @@ label{
 	.wrapper{
 		margin-left: -29px;
 		display: grid;
+		width: 100%;
 	}
 
-	.updrv{
-		width: 318px;
-		font-size: 19px;
-	}
-	
-	
 
 	.drive iframe{
-		width: 318px;
+		width: 100%;
 		height: 179.1px;
 	}
 
 	.dwndrv{
 		font-size: 18px;
-		width: 318px;
+		width: 100%;
 	}
 	.dwndrv li{
 		margin-top: 5px;
 		margin-left: 2px;
 		padding:0 5px 0 5px;
-		
+
 	}
-	
+
 
 	.lgt /*light*/{
 		display: none;
 	}
 
 
+  .slideshow-containermbl{
+    margin-left: 30px;
+    width: 100%;
+  }
 
-	.episode{
-		width: 318px;
-		height: 210px;
-		overflow:auto;
-	}
-	.episode ul{
-		margin-top: 10px;
-	}
-	.episode li{
-		margin-top: 15px;
-		margin-left: 20px;
-		width: 37px;
-		height: 42px;
-	}
-	.episode h4{
-		margin-left: 20px;
-	}
-	.anopart li{
-		width: 70px;
-		height: 42px;
-	}
+  .flex-rgt{
+	  display: block;
+  }
 
 	.details{
-		width: 318px;
+		width: 100%;
 	}
 	.details img{
 		margin-left: 21%;
@@ -1487,8 +876,8 @@ label{
 		margin-left: 22%;
 		width: 176px;
 		text-align:center;
-		
-	
+
+
 	}
 	.details h4{
 		margin-left: 22%;
@@ -1498,20 +887,23 @@ label{
 
 	.details p{
 		margin-top: 12%;
-		margin-left: 15px;
+		margin-left: 50px;
 		text-align:center;
 	}
 
+  .adbd{
+    display: none;
+  }
 
 	.related{
-		width:318px; 
+		width: 105%;
 		margin-top: -115px;
 		margin-left: 10px;
 
 	}
 
 	.trend{
-		width: 318px;
+		width: 105%;
 		margin-left: 10px;
 	}
 
@@ -1523,328 +915,424 @@ label{
 		margin-top: 25px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
-		width: 349px;
+		width: 100%;
 		height: 160px;
 	}
-	
+
 	.own_footer h3{
 		margin-left: -4%;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -250px;
 		margin-top: -90px;
 	}
-	
+
 	/* mbl footer */
-	
 
 
 }
 
 
-@media (max-width: 850px) and (min-width:830px){  /* poco x2 landscape */
+/* SMARTPHONES PORTRAIT */
+@media (max-width:479px) and (min-width: 350px){
+
 	body{
 		overflow-x: hidden;
 	}
-	
-	.nav-bar {
+
+	.container img{
+		margin-left: -15%;
+	}
+	.nav-bar .nav-list .hamburger {
+		margin-left: -40px;
+	}
+
+	.nav-bar .nav-list ul li {
+		position: relative;
+		left: 5px;
+	}
+
+	.wrapper{
+		display: grid;
 		width: 100%;
 	}
-	.updrv{
-		width: 780px;
-		font-size: 25px;
-	}
-	
+
+
+
 	.drive iframe{
-		width: 780px;
-		height: 500px;
+		margin-top: 109px;
+		width: 100%;
+		height: 240px;
+
 	}
-	
+
 	.dwndrv{
-		font-size: 25px;
-		width: 780px;
+		font-size: 19px;
+		width: 100%;
+	}
+	.dwndrv li{
+		margin-top: 5px;
+		margin-left: 2px;
 	}
 	.lgt /*light*/{
 		display: none;
 	}
+
+  .slideshow-containermbl{
+    margin-left: 31.7px;
+    width: 99%;
+  }
+  .flex-rgt{
+	  display: block;
+  }
+	
+	.details{
+		width: 100%;
+		margin-left: 31px;
+	}
+	.details img{
+		margin-left: 5px;
+		margin-top:  10px;
+		float: none;
+
+	}
+	.details h2{
+		font-size: 20px;
+		margin-top: -180px;
+		margin-left: 182px;
+		text-align:center;
+
+	}
+	.details h4{
+		margin-left: 182px;
+		text-align:center;
+
+	}
+
+	.details p{
+		margin-top: 120px;
+		margin-left: 5px;
+
+	}
+
+
+  .adbd{
+    display: none;
+  }
+
+	.related{
+		width:104.5%;
+		margin-top: -115px;
+		margin-left: 11.2px;
+
+
+	}
+
+	.trend{
+		width: 104.5%;
+		margin-left: 11.2px;
+
+	}
+
+
+
+
+	/* mbl footer */
+	.button{
+		margin-top: 25px;
+		margin-left:10px;
+	}
+
+	.own_footer{
+		width: 100%;
+		height: 160px;
+		border-radius:0 0 10px 10px;
+	}
+
+	.own_footer ul{
+		margin-left: -260px;
+		margin-top: -90px;
+	}
+
+	/* mbl footer */
+
+
+
+}
+
+
+/* SMARTPHONES LANDSCAPE */
+
+@media (max-width:767px) and (min-width:480px) {
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.nav-bar {
+		width: 100%;
+	}
+
+	.wrapper{
+		margin-left: -29.6px;
+		display: grid;
+		width: 100%;
+	}
+
+	.updrv{
+		width: 100%;
+		font-size: 25px;
+	}
+
+  .updrv p{
+    margin-top: -5px;
+  }
+
+	.drive iframe{
+		width: 100%;
+		height: 300px;
+	}
+
+	.dwndrv{
+		font-size: 25px;
+		width: 100%;
+	}
+
+	.lgt /*light*/{
+		display: none;
+	}
+
+  .slideshow-containermbl{
+    margin-left: 31.7px;
+    width: 99%;
+  }
+
 	.episode{
-		width: 780px;
+		width: 100%;
 		height:200px;
 		overflow:auto;
 	}
 	.details{
-		width: 780px;
+		width: 100%;
+
+
 	}
-	
+
+	.details h2{
+		font-size: 20px;
+		margin-top: 90px;
+		margin-left: 182px;
+		text-align:center;
+
+
+	}
+
+	.details h4{
+		margin-left: 182px;
+		text-align:center;
+
+	}
+
+	.details p{
+		margin-top: 110px;
+		margin-left: 5px;
+
+	}
+
+  .adbd{
+    display: none;
+  }
+
 	.related{
 		display: none;
 	}
-	
+
 	.trend{
-		display: none;	
+		display: none;
 	}
 
 
-	
+
 	/* mbl footer */
 	.button{
 		margin-top: 5px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
-		width: 839px;
-		height: 120px;
+		width: 100%;
+		height: 150px;
+		border-radius:0 0 10px 10px;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -160px;
 		margin-top: -60px;
-		
+
 	}
 
 	.own_footer li{
 		padding-left: 10px;
-		
+
 	}
 
-	
-	/* mbl footer */
+
 }
 
 
 
-@media (max-width: 915px) and (min-width:875px){   /*realme 5i landscape*/
+/* TABLETS PORTRAIT */
+@media (max-width: 1199px) and (min-width: 768px) {
+
 	body{
 		overflow-x: hidden;
 	}
-	
+
 	.nav-bar {
 		width: 100%;
 	}
 
 	.wrapper{
-		margin-left: 30px;
+		margin-left: -29.6px;
+		display: grid;
+		width: 100%;
 	}
+
 	.updrv{
-		width: 780px;
+		width: 100%;
 		font-size: 25px;
 	}
-	
+
+  .updrv p{
+    margin-top: -5px;
+  }
+
 	.drive iframe{
-		width: 780px;
-		height: 500px;
+		width: 100%;
+		height: 400px;
 	}
-	
+
 	.dwndrv{
 		font-size: 25px;
-		width: 780px;
+		width: 100%;
 	}
-	.lgt /*light*/{
-		display: none;
-	}
+
+	.lgt{
+	display: none;
+  }
+
+  .slideshow-containermbl{
+    margin-left: 30.5px;
+    width: 100%;
+  }
+
 	.episode{
-		width: 780px;
+		width: 100%;
 		height:200px;
 		overflow:auto;
 	}
 	.details{
-		width: 780px;
+		width: 100%;
+
+
 	}
-	
+
+	.details h2{
+		font-size: 20px;
+		margin-top: 90px;
+		margin-left: 182px;
+		text-align:center;
+
+
+	}
+
+	.details h4{
+		margin-left: 182px;
+		text-align:center;
+
+	}
+
+	.details p{
+		margin-top: 110px;
+		margin-left: 5px;
+
+	}
+
+  .adbd{
+    display: none;
+  }
+
 	.related{
-		display: none;
+		width:45%;
+		margin-top: -115px;
+		margin-left: 30%;
+
+
 	}
-	
+
 	.trend{
-		display: none;	
+		/*width: 45%;
+		margin-left: 57.5%;
+		margin-top: -186.5px;*/
+		display: none;
+
 	}
 
 
-	
+
 	/* mbl footer */
 	.button{
 		margin-top: 5px;
 		margin-left:10px;
 	}
-	
+
 	.own_footer{
-		width: 899px;
-		height: 120px;
+		width: 100%;
+		height: 150px;
+		border-radius:0 0 10px 10px;
 	}
-		
+
 	.own_footer ul{
 		margin-left: -160px;
-		margin-top: -65px;
-		
+		margin-top: -60px;
+
 	}
 
 	.own_footer li{
 		padding-left: 10px;
-		
+
 	}
 
-	
-	
-}
-
-
-@media (max-width: 610px) and (min-width:570px){   /*min-width 570 oppo joy 3, samsung landscape*/
-	/*body{
-		overflow-x: hidden;
-	}*/
-	
-	.nav-bar {
-		width: 100%;
-	}
-
-	.wrapper{
-		margin-left: -4.5%;
-	}
-	.updrv{
-		width: 564px;
-		font-size: 25px;
-	}
-	
-	.drive iframe{
-		width: 564px;
-		height: 317.655px;
-	}
-	
-	.dwndrv{
-		font-size: 25px;
-		width: 564px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-	.episode{
-		width: 564px;
-		height:200px;
-		overflow:auto;
-	}
-	.details{
-		width: 564px;
-	}
-	
-	.related{
-		display: none;
-	}
-	
-	.trend{
-		display: none;	
-	}
-
-
-	
-	/* mbl footer */
-	.button{
-		margin-top: 5px;
-		margin-left:10px;
-	}
-	
-	.own_footer{
-		width: 610px;
-		height: 160px;
-	}
-		
-	.own_footer ul{
-		margin-left: -160px;
-		margin-top: -65px;
-		
-	}
-
-	.own_footer li{
-		padding-left: 10px;
-		
-	}
-
-	
-	
 }
 
 
 
-@media (max-width: 730px) and (min-width:660px){  /* redmi note7,asus zenphone,vivo y15. landscape */
-	/*body{
-		overflow-x: hidden;
-	}*/
-	
-	.nav-bar {
-		width: 100%;
-	}
-
-	.wrapper{
-		margin-left: -4.5%;
-	}
-	.updrv{
-		width: 665px;
-		font-size: 25px;
-	}
-	
-	.drive iframe{
-		width: 665px;
-		height: 426.27px;
-	}
-	
-	.dwndrv{
-		font-size: 25px;
-		width: 665px;
-	}
-	.lgt /*light*/{
-		display: none;
-	}
-	.episode{
-		width: 665px;
-		height:200px;
-		overflow:auto;
-	}
-	.details{
-		width: 665px;
-	}
-	
-	.related{
-		display: none;
-	}
-	
-	.trend{
-		display: none;	
-	}
 
 
-	
-	/* mbl footer */
-	.button{
-		margin-top: 5px;
-		margin-left:10px;
+
+
+@media only screen and (min-width: 768px) {
+	#nav-bar{
+		position: relative;
 	}
-	
-	.own_footer{
-		width: 730px;
-		height: 120px;
+
+	.wrapper .lft{
+		margin-top: 0px;
 	}
-	
-	.own_footer h3{
-		margin-left: -4%;
+	.wrapper .rgt{
+		margin-top: 0px;
 	}
-		
-	.own_footer li{
-		width: 80px;
-		text-align: center;
-		margin-left: -30px;
-		padding: 0 20px;
-		
-	}
-	
-	.own_footer a{
-		
-	}	
-	
-	/* mbl footer */
 }
+
+
+
+
+
+
+
 
 
 
@@ -1861,10 +1349,7 @@ label{
 	.hero .hero-info .hero-info-subheading {
 		letter-spacing: .8rem;
 	}
+  .slideshow-containermbl{
+    display: none;
+  }
 }
-
-
-
-
-
-
