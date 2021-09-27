@@ -277,7 +277,7 @@ body {
 
 .flex-rgt{
 	display: flex;
-	flex-basis: 10%;
+	/* flex-basis: 10%; */
 }
 
 /*details*/
@@ -292,7 +292,7 @@ body {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	height: auto;
-	width: 95%;
+	width: 99%;
 	
 }
 
@@ -304,13 +304,13 @@ body {
 	/* height: 237px; */
 	width: 240px;
 	float: left;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	margin-top:  30px;
 }
 
 .details h2{
 	margin-top: 10px;
-	margin-left: 300px;
+	margin-left: 255px;
 	color: #ababab;
 	font-size: 29px;
 
@@ -320,7 +320,7 @@ body {
 }
 
 .details h4{
-	margin-left: 300px;
+	margin-left: 255px;
 	font-style: italic;
 	font-family: 'Permanent Marker', cursive;
 	color: #ababab;
@@ -340,7 +340,7 @@ body {
 	letter-spacing: 0.4px;
 	text-align: justify;
 	color: #ababab;
-	margin-left: 300px;
+	margin-left: 255px;
 	margin-top:  5px;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -370,12 +370,12 @@ body {
 	font-size: 15px;
 	border:solid;
 	border-radius: 15px;
-	border-color: #ababab;
+	border-color: transparent;
 	background-color: transparent;
-	width: 500px;
+	width: 450px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
-	margin-top: 48px;
+	margin-top: 28px;
 }
 
 .related li, a {
@@ -401,7 +401,7 @@ body {
 	font-size: 23px;
 	font-weight: 50;
 	font-family: 'Nerko One', cursive;
-	width: 139px;
+	width: 129px;
 	text-align: center;
 	background-color: #833ab4;
 	color: white;
@@ -416,7 +416,7 @@ body {
 	font-weight: 60;
 	/* margin-left: 34px; */
 	text-align: center;
-    width: 139px;
+    width: 129px;
 	background-color: #833ab4;
 	color: white;
 	border-radius: 0 0 6px 6px;
@@ -424,7 +424,7 @@ body {
 }
 
 .related img{
-	width:140px;
+	width:130px;
 	margin-top:0px;
 	border-radius: 6px;
 }
@@ -939,21 +939,23 @@ label{
 /* SMARTPHONES PORTRAIT */
 @media (max-width:479px) and (min-width: 350px){
 
+	
 	body{
 		overflow-x: hidden;
 	}
 
 	.container img{
-		margin-left: -15%;
+		margin-left: -20%;
 	}
 	.nav-bar .nav-list .hamburger {
-		margin-left: -40px;
+		margin-left: -55px;
 	}
 
 	.nav-bar .nav-list ul li {
 		position: relative;
 		left: 5px;
 	}
+
 
 	.wrapper{
 		display: grid;
@@ -963,20 +965,15 @@ label{
 
 
 	.drive iframe{
-		margin-top: 109px;
-		width: 100%;
+		margin-top: 114px;
 		height: 240px;
 
 	}
 
 	.dwndrv{
-		font-size: 19px;
-		width: 100%;
+		display: none;
 	}
-	.dwndrv li{
-		margin-top: 5px;
-		margin-left: 2px;
-	}
+	
 	.lgt /*light*/{
 		display: none;
 	}
@@ -985,8 +982,9 @@ label{
     margin-left: 31.7px;
     width: 99%;
   }
+  
   .flex-rgt{
-	  display: block;
+	  flex-direction: column; 
   }
 	
 	.details{
@@ -994,28 +992,31 @@ label{
 		margin-left: 31px;
 	}
 	.details img{
-		margin-left: 5px;
+		margin-left: -20px;
 		margin-top:  10px;
 		float: none;
+		width: 180px;
 
 	}
 	.details h2{
 		font-size: 20px;
 		margin-top: -180px;
-		margin-left: 182px;
+		margin-left: 132px;
 		text-align:center;
 
 	}
 	.details h4{
-		margin-left: 182px;
+		margin-left: 132px;
 		text-align:center;
 
 	}
 
 	.details p{
 		margin-top: 120px;
-		margin-left: 5px;
-
+		margin-left: -53px;
+		text-align: justify;
+		padding: 0 20px
+		
 	}
 
 
@@ -1025,15 +1026,24 @@ label{
 
 	.related{
 		width:104.5%;
-		margin-top: -115px;
-		margin-left: 11.2px;
+		/* margin-top: -115px; */
+		/* margin-left: 11.2px; */
 
+	}
 
+	.related img{
+		width: 175px;
+	}
+	.related h5{
+		width: 174px;
+	}
+	.related h6{
+		width: 174px;
 	}
 
 	.trend{
 		width: 104.5%;
-		margin-left: 11.2px;
+		/* margin-left: 11.2px; */
 
 	}
 
