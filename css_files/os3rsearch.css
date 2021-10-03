@@ -1,0 +1,134 @@
+@font-face {
+  src: url(../tools/fonts/SpringwoodBrushDemoRegular-GpWP.otf);
+  font-family: bk;
+}
+
+
+
+
+
+body{
+  background-color: #161616;
+}
+
+
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(to bottom,transparent,#fd1d1d,#833ab4);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: linear-gradient(to bottom,transparent,#833ab4,#fd1d1d);
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.div {
+  display: none;
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  cursor:default;
+  position:fixed;
+  left: 300px;
+  top: 130px;
+  
+  
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-color: #303030;
+  /* background-position: 14px 12px; */
+  background-repeat: no-repeat;
+  font-size: 19.8px;
+  padding: 14px 20px 12px 45px;
+  border: 3px solid #b446f0 ;
+  border-radius: 17px;
+  color: #fff;
+}
+
+#myInput:focus {
+  outline: none;
+  border-color: red;
+}
+
+.dropdown {
+  position: relative;
+  left: 300px;
+  top: 170px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  max-height: 215px;
+  background-color: #303030;
+  border-radius: 15px;
+  display: none;
+  position: absolute;
+  min-width: 300px;
+  overflow-y: scroll;
+  border: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+
+
+.flex-search{
+  display: flex;  
+}
+
+.flex-search img{
+  width: 48px;
+  border-radius: 7px;
+  margin-left:-25px;
+}
+
+
+
+.mother-flex li{
+  list-style-type: none;
+}
+
+.mother-flex a{
+  text-decoration: none;
+  color: #ababab;
+}
+.flex-item-h{
+  font-size:20px;
+}
+.flex-item-h h5{
+  margin-top: 1px;
+  margin-left:10px;
+  font-size:20px;
+  font-family:bk;
+  border-radius:4px; 
+}
+.flex-item-h h5:hover{
+  background-color: plum;
+  color: #fff;
+}
+.flex-item-h h6{
+  margin-top: -10px;
+  margin-left: 10px;
+  color: aquamarine;
+}

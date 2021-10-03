@@ -206,9 +206,10 @@ body {
 /*main player*/
 
 .drive iframe{
-	border: 5px solid #ababab ;
+	border: 2.5px solid #d2e4d8 ;
+	border-radius: 6px 6px 0px 0px;
 	width: 100%;
-	height: 710px;
+	height: 650px;
 }
 .drive {
 	cursor: none;
@@ -224,7 +225,7 @@ body {
 	font-size: 25px;
 	font-family: 'Jockey One', sans-serif;
 	border: solid #303030;
-	border-radius: 0 0 15px 15px;
+	border-radius: 0px 0px 3px 3px;
 	margin: -3px 0px 15px -1px ;
 	width: 100.17%;
 	min-height:43px;
@@ -241,7 +242,7 @@ body {
 }
 
 .dwndrv li:hover{
-	background-color: #EE303B;
+	background-color: #52b788;
 	border-radius: 15px;
 }
 .dwndrv :hover a {
@@ -266,8 +267,8 @@ body {
 	font-family: 'Jockey One', sans-serif;
 }
 .lgt:hover{
-	background-color: #EE303B;
-	border-radius: 15px;
+	background-color: #52b788;
+	border-radius: 7px;
 	color: #fff;
 
 }
@@ -304,7 +305,7 @@ body {
 
 .details img{
 	border-style: solid;
-	border-color: #9032F8;
+	border-color: #52b788;
 	border-radius: 10px;
 	border-width: 4px;
 	width: 240px;
@@ -321,7 +322,7 @@ body {
 
 }
 .details h2:hover{
-	color: #FD4F66;
+	color: #fb8501;
 }
 
 .details h4{
@@ -333,7 +334,7 @@ body {
 	letter-spacing: 2px;
 }
 .details h4:hover{
-	color: #9032F8;
+	color: #52b788;
 }
 
 
@@ -399,7 +400,7 @@ body {
 	margin-top: 25px;
 	margin-bottom: 5px;
 	text-decoration: underline;
-	text-decoration-color: #EE303B;
+	text-decoration-color: #fb8501;
 }
 
 .related h5{
@@ -408,7 +409,7 @@ body {
 	font-family: 'Nerko One', cursive;
 	width: 129px;
 	text-align: center;
-	background-color: #833ab4;
+	background-color: #52b788;
 	color: white;
 	border-radius: 6px 6px 0 0;
 
@@ -422,7 +423,7 @@ body {
 	/* margin-left: 34px; */
 	text-align: center;
     width: 129px;
-	background-color: #833ab4;
+	background-color: #52b788;
 	color: white;
 	border-radius: 0 0 6px 6px;
 
@@ -444,7 +445,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	
 }
 
@@ -456,13 +457,13 @@ body {
 	line-height: 10px;
 	text-align: center;
 	text-decoration: underline;
-	text-decoration-color: #EE303B;
+	text-decoration-color: #52b788;
 	
 }
 
 .trend li{
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-right: 40px;
+	margin-bottom: 25px;
 }
 
 .trend img{
@@ -482,7 +483,7 @@ body {
 	font-family: 'Nerko One', cursive;
 	width: 177px;
 	text-align: center;
-	background-color: #833ab4;
+	background-color: #FAA307;
 	color: white;
 	border-radius: 6px 6px 0 0;
 
@@ -496,7 +497,7 @@ body {
 	/* margin-left: 34px; */
 	text-align: center;
     width: 177px;
-	background-color: #833ab4;
+	background-color: #FAA307;
 	color: white;
 	border-radius: 0 0 6px 6px;
 
@@ -513,7 +514,7 @@ body {
 	min-height: 10vh;
 	flex-direction: column;
 	width: 100%;
-	background-image: url(../tools/images/3955269.jpg);
+	background-image: url(../tools/images/4706201.jpg);
 	background-size: cover;
 	padding: 3rem 2rem;
 	margin-top:15px;
@@ -529,12 +530,13 @@ body {
 	font-family: 'Nerko One', cursive;
 	padding: 5px;
 	border-radius: 10px;
-	background-image: linear-gradient(45deg,#9032F8,#FD4F66);
+	background-image: linear-gradient(45deg,#52b788,#FAA307);
 }
+
 .hire .hire-button {
 	padding: 2rem 3rem;
 	display: inline-block;
-	background-color:#663399;
+	background-color:#52b788;
 	border-radius: 5px;
 	font-size: 1.6rem;
 	text-transform: uppercase;
@@ -545,10 +547,9 @@ body {
 	transition: .3s ease background-color;
 }
 .hire .hire-button:hover {
-	background-color:#EE303B;
+	background-color:#fb8501;
 }
 /* End Hire Section  */
-
 
 
 
@@ -557,52 +558,55 @@ body {
 /*message section*/
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  font-size: 16px
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 16px
+  }
+
+  input[type=submit] {
+	background-color: #52b788;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: transform .2s;
+  }
+
+  input[type=submit]:hover {
+	background-color: #fb8501;
+	transform: scale(1.1);
+  }
+
+  .container-1 {
+	background-image: url("./../tools/animationcover.jpg");
+	background-size: contain;
+	padding: 20px;
+	width: 100%;
 }
 
-input[type=submit] {
-  background-color: #663399;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: transform .2s;
-}
+  .container-1 h3{
+	  float: right;
+	  margin-top: 20px;
+	  color:#E83773;
+	  background-color: #663399;
+	  border-radius: 10px;
+	  padding: 5px;
+  }
+  label{
+	font-size: 16px;
+	background-color:#52b788;
+	color:white;
+	padding: 6px;
+	border-radius: 8px;
+  }
 
-input[type=submit]:hover {
-  background-color: #EE303B;
-  transform: scale(1.1);
-}
-
-.container-1 {
-  background-image: url("https://drive.google.com/uc?id=1oa7vw-uQjK-NrCf3poSoWOuzL1QgBK4c");
-  padding: 20px;
-  width: 100%;
-}
-.container-1 h3{
-	float: right;
-	margin-top: 20px;
-	color:#97DCE1;
-	background-color: #663399;
-	border-radius: 10px;
-	padding: 5px;
-}
-label{
-  font-size: 16px;
-  background-color: #663399;
-  color:white;
-  padding: 6px;
-  border-radius: 8px;
-}
 
 /*message section*/
 

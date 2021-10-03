@@ -197,7 +197,7 @@ body {
 
 
 
-.animebox{
+.animationbox{
 	margin-top: 135px;
 	background-color: #303030;
 	color: #ababab;
@@ -213,9 +213,9 @@ body {
 }
 
 .grid{
-	border:2px solid #ababab;
+	border:2px solid #b7e4c7;
 	width: 1285px;
-	height: 1600px;
+	height: auto;
 	border-radius: 10px;
 	margin-top: 20px;
 	margin-left: 5px;
@@ -225,8 +225,9 @@ body {
 
 .abox{
 	width: 496px;
-	background-image:url(../tools/images/16138394052988635.jpg);
-	border:5px solid #663399 ;
+	background-image:url(../tools/692.jpg);
+	background-size: cover;
+	border:5px solid #40916c ;
 	padding: 13.9px;
 	border-radius: 10px;
 	margin-left: 400px;
@@ -237,14 +238,17 @@ body {
 	font-size: 45px;
 	letter-spacing: 5px;
 	font-family: aq;
-	color:#8000ff;
+	color:#00C49A;
 	text-align:center;
+}
+.abox h3:hover{
+	color:#DBFF76;
 }
 
 .lftbar{
-	background-color: #EE303B;
+	background-color: #fb8501;
 	height: 79.4px;
-	width: 400px;
+	width: 401px;
 	margin-top: -2px;
 	margin-left: -2px;
 	border-radius: 10px;
@@ -253,7 +257,7 @@ body {
 	height: 120px;
 	width: 76.5px;
 	margin-top: -35px;
-	margin-left: 5px;
+	margin-left: 0px;
 
 }
 
@@ -283,9 +287,9 @@ body {
 
 
 .rgtbar{
-	background-color: #EE303B;
+	background-color: #fb8501;
 	height: 79px;
-	width: 400px;
+	width: 401px;
 	margin-top: -79px;
 	margin-left: 898.6px;
 	border-radius: 10px;
@@ -294,7 +298,7 @@ body {
 .rgtimg img{
 	height: 111.23px;
 	width: 96.53px;
-	margin-left: 306px;
+	margin-left: 310px;
 	margin-top: -25.8px;
 }
 
@@ -375,62 +379,72 @@ body {
 
 
 
-/* Anime List */
+/* animation List */
 
-.anime-list li {
+
+.animation-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 6px;
+	
+}
+
+.animation-list li:hover{
+	transform: scale(1.1);
+}
+.animation-list img{
+	width:175px;
+	height:240px;
+	margin-top:0px;
+	border-radius: 6px;
+}
+
+.animation-list li {
 	list-style-type: none;
-	margin-left: 24px;
-	margin:52px 18.9px;
+	margin:52px 38px;
 	float: left;
 	height:250px;
 	transition: transform .16s;
 }
 
-.anime-list li:hover{
+.animation-list li:hover{
 	transform: scale(1.1);
 }
-.anime-list img{
-	width:175px;
-	height:240px;
-	margin-top:0px;
-	margin-left: 34.6px;
-	border-radius: 6px;
-}
 
-.anime-list a {
+.animation-list a {
 	text-decoration: none;
 }
 
-.anime-list h5{
+.animation-list h5{
 	font-size: 23px;
 	font-weight: 50;
 	font-family: 'Nerko One', cursive;
-	margin-left: 34px;
 	width: 177px;
 	text-align: center;
-	background-color: #833ab4;
+	background-color: #52b788;
 	color: white;
 	border-radius: 6px 6px 0 0;
 
 }
-.anime-list h5:hover{
-	background-color: #FD4F66;
+.animation-list h5:hover{
+	background-color: #FAA307;
 }
-.anime-list h6{
+.animation-list h6{
 	font-family: 'Nerko One', cursive;
 	font-size: 20px;
 	font-weight: 60;
-	margin-left: 34px;
 	text-align: center;
     width: 177px;
-	background-color: #833ab4;
+	background-color: #52b788;
 	color: white;
 	border-radius: 0 0 6px 6px;
 
 }
 
 .dwnbar{
-	margin-top: 1520px;
+	margin-top: 100px;
+	margin-bottom: 20px;
 	margin-left: 1010px;
 }
 
@@ -442,35 +456,35 @@ body {
 .dwnbar1 {
 	width: 90px;
 	text-align: center;
-	background-color: #EE303B;
+	background-color: #FAA307;
 	border-radius: 5px;
 	margin-left: 45px;
 	margin-top: -1px;
 	transition: transform .1s;
 }
 .dwnbar1:hover{
-	background-color: #833ab4;
+	background-color: #52b788;
 	transform: scale(1.085);
 }
 
 .dwnbar2 {
 	width: 90px;
 	text-align: center;
-	background-color: #833ab4;
+	background-color: #52b788;
 	border-radius: 5px;
 	margin-left:150px;
 	margin-top:-20px;
 	transition: transform .1s;
 }
 .dwnbar2:hover{
-	background-color:#EE303B;
+	background-color:#FAA307;
 	transform: scale(1.085);
 }
 
 
 
 
-/* Anime List */
+/* animation List */
 
 
 
@@ -501,13 +515,13 @@ body {
 	font-family: 'Nerko One', cursive;
 	padding: 5px;
 	border-radius: 10px;
-	background-image: linear-gradient(45deg,#9032F8,#FD4F66);
+	background-image: linear-gradient(45deg,#52b788,#FAA307);
 }
 
 .hire .hire-button {
 	padding: 2rem 3rem;
 	display: inline-block;
-	background-color:#663399;
+	background-color:#52b788;
 	border-radius: 5px;
 	font-size: 1.6rem;
 	text-transform: uppercase;
@@ -518,7 +532,7 @@ body {
 	transition: .3s ease background-color;
 }
 .hire .hire-button:hover {
-	background-color:#EE303B;
+	background-color:#fb8501;
 }
 /* End Hire Section  */
 
@@ -541,7 +555,7 @@ input[type=text], select, textarea {
   }
 
   input[type=submit] {
-	background-color: #663399;
+	background-color: #52b788;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -551,12 +565,13 @@ input[type=text], select, textarea {
   }
 
   input[type=submit]:hover {
-	background-color: #EE303B;
+	background-color: #fb8501;
 	transform: scale(1.1);
   }
 
   .container-1 {
-	background-image: url("https://drive.google.com/uc?id=1oa7vw-uQjK-NrCf3poSoWOuzL1QgBK4c");
+	background-image: url("./../tools/animationcover.jpg");
+	background-size: contain;
 	padding: 20px;
 	width: 100%;
   }
@@ -570,7 +585,7 @@ input[type=text], select, textarea {
   }
   label{
 	font-size: 16px;
-	background-color: #663399;
+	background-color:#52b788;
 	color:white;
 	padding: 6px;
 	border-radius: 8px;
@@ -782,7 +797,7 @@ input[type=text], select, textarea {
     margin-left:1px;
 	}
 
-	.animebox{
+	.animationbox{
 		width:110%;
 		height:auto;
 		margin-left:-3px;
@@ -853,7 +868,7 @@ input[type=text], select, textarea {
 
 
 	/* MAIN LIST */
-    .anime-list {
+    .animation-list {
 	  margin-left: -1.5%;
 	  margin-right: -1.5%;
     margin: 0;
@@ -861,13 +876,13 @@ input[type=text], select, textarea {
     list-style: none;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		width: 45%;
 		margin-left: -3.3%;
     margin-bottom: 12%;
 	}
 
-	.anime-list li:after {
+	.animation-list li:after {
 		display: block;
 		clear: both;
 		content: ""
@@ -878,17 +893,17 @@ input[type=text], select, textarea {
 
 
 
-  .anime-list img{
+  .animation-list img{
     width: 39.3vw;
     height: 55vw;
   }
 
 
-  .anime-list h5{
+  .animation-list h5{
     width: 94%;
   }
 
-    .anime-list h6{
+    .animation-list h6{
   	  width: 94%;
   }
 
@@ -957,7 +972,7 @@ input[type=text], select, textarea {
     margin-left:1px;
 	}
 
-	.animebox{
+	.animationbox{
 		width:110%;
 		height:auto;
 		margin-left:-3px;
@@ -1028,7 +1043,7 @@ input[type=text], select, textarea {
 
 
 	/* MAIN LIST */
-    .anime-list {
+    .animation-list {
 	  margin-left: -1.5%;
 	  margin-right: -1.5%;
     margin: 0;
@@ -1036,13 +1051,13 @@ input[type=text], select, textarea {
     list-style: none;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		width: 45%;
 		margin-left: -2.5%;
     margin-bottom:20%;
 	}
 
-	.anime-list li:after {
+	.animation-list li:after {
 		display: block;
 		clear: both;
 		content: ""
@@ -1051,19 +1066,19 @@ input[type=text], select, textarea {
 
 
 
-  .anime-list img{
+  .animation-list img{
     width: 39.3vw;
     height: 55vw;
 
   }
 
 
-  .anime-list h5{
+  .animation-list h5{
     width: 94%;
 
   }
 
-    .anime-list h6{
+    .animation-list h6{
   	  width: 94%;
   }
 
@@ -1132,7 +1147,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
 	}
 
-	.animebox{
+	.animationbox{
 		width: 480px;
 		height:3280px;
     margin-left: -2px;
@@ -1206,26 +1221,26 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.anime-list{
+	.animation-list{
 		margin-top: -30px;
 		margin-left: -10px;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		margin:24px 0px;
 	}
-	.anime-list img{
+	.animation-list img{
 	margin-top: 35px;
 	margin-left: 28px;
     width: 124.929px;
     height:162.4px;
 	}
-	.anime-list h5{
+	.animation-list h5{
 		margin-left: 26px;
     width: 129px;
 	}
 
-	.anime-list h6{
+	.animation-list h6{
 		margin-left: 26px;
     width: 129px;
 	}
@@ -1286,7 +1301,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
 	}
 
-	.animebox{
+	.animationbox{
 		width: 640px;
 		height:2680px;
     margin-left: 0px;
@@ -1359,26 +1374,26 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.anime-list{
+	.animation-list{
 		margin-top: -30px;
 		margin-left: -5.5px;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		margin:24px 0px;
 	}
-	.anime-list img{
+	.animation-list img{
 		margin-top: 35px;
 		margin-left: 28px;
     width: 124.929px;
     height:162.4px;
 	}
-	.anime-list h5{
+	.animation-list h5{
 		margin-left: 26px;
     width: 129px;
 	}
 
-	.anime-list h6{
+	.animation-list h6{
 		margin-left: 26px;
     width: 129px;
 	}
@@ -1442,7 +1457,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
 	}
 
-	.animebox{
+	.animationbox{
 		width: 771px;
 		height:2130px;
     margin-left: 0px;
@@ -1515,26 +1530,26 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.anime-list{
+	.animation-list{
 		margin-top: -30px;
 		margin-left: -17px;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		margin:24px 0px;
 	}
-	.anime-list img{
+	.animation-list img{
 		margin-top: 35px;
 		margin-left: 28px;
     width: 124.929px;
     height:162.4px;
 	}
-	.anime-list h5{
+	.animation-list h5{
 		margin-left: 26px;
     width: 129px;
 	}
 
-	.anime-list h6{
+	.animation-list h6{
 		margin-left: 26px;
     width: 129px;
 	}
@@ -1600,7 +1615,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
 	}
 
-	.animebox{
+	.animationbox{
 		width: 901px;
 		height:2130px;
     margin-left: 0px;
@@ -1673,26 +1688,26 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	.anime-list{
+	.animation-list{
 		margin-top: -30px;
 		margin-left: -17px;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		margin:24px 0px;
 	}
-	.anime-list img{
+	.animation-list img{
 		margin-top: 35px;
 		margin-left: 39px;
     width:138.81px;
   	height:180.45px;
 	}
-	.anime-list h5{
+	.animation-list h5{
 		margin-left: 38.7px;
     width: 139px;
 	}
 
-	.anime-list h6{
+	.animation-list h6{
 		margin-left: 38.7px;
     width: 139px;
 	}
@@ -1752,7 +1767,7 @@ input[type=text], select, textarea {
     width: 1700px;
 	}
 
-	.animebox{
+	.animationbox{
 		width: 1720px;
 	}
 	.grid{
@@ -1809,26 +1824,26 @@ input[type=text], select, textarea {
 
 	/* MAIN LIST */
 
-	/* .anime-list{
+	/* .animation-list{
 		margin-top: -30px;
 		margin-left: -17px;
 	}
 
-	.anime-list li {
+	.animation-list li {
 		margin:24px 0px;
 	}
-	.anime-list img{
+	.animation-list img{
 		margin-top: 35px;
 		margin-left: 39px;
     width:208.215px;
   	height:270.675px;
 	}
-	.anime-list h5{
+	.animation-list h5{
 		margin-left: 38.7px;
     width: 139px;
 	}
 
-	.anime-list h6{
+	.animation-list h6{
 		margin-left: 38.7px;
     width: 139px;
 	} */
