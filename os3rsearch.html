@@ -6,10 +6,10 @@
 
 </head>
 <body>
-    <div class="dropdown">
-        <input type="text" class="dropbtn" placeholder="Search Here..." id="myInput" onInput="filterFunction()" autocomplete="off">
-        <div id="myDropdown" class="dropdown-content">
-            <ul class="mother-flex">
+    <div class="sea-dropdown">
+        <input type="text" class="sea-dropbtn" placeholder="Search Here..." id="sea-myInput" onInput="filterFunction()" autocomplete="off">
+        <div id="sea-myDropdown" class="sea-dropdown-content">
+            <ul class="sea-mother-flex">
 
                <li><a href="../../all/anime/deathnote/episode1.html">
                 <div class="flex-search">
@@ -233,8 +233,8 @@
                     <img src=" https://drive.google.com/uc?export=view&id=1f3pgFoM_EIyrOogJgy6DU57PpB-Zto0N" alt="">
                   </div>
                   <div class="flex-item-h">
-                    <h5>Fullmetal Alchemist Brotherhood</h5>
-                    <h6>Completed</h6>
+                    <h5>Fullmetal Alchemist</h5>
+                    <h6>Brotherhood</h6>
                   </div>
                 </div></a>
                </li>
@@ -264,24 +264,9 @@
 
 
 
-            <!-- <a href="#">death note</a>
-            <a href="#">attack on titan 1</a>
-            <a href="#">attack on titan 2</a>
-            <a href="#">attack on titan 3</a>
-            <a href="#">attack on titan 4</a>
-            <a href="#">avatar</a>
-            <a href="#">the legend of korra</a>
-            <a href="#">sword art online</a>
-            <a href="#">my hero academia</a>
-            <a href="#">one punch man</a>
-            <a href="#">mob psycho 100</a>
-            <a href="#">demon slayer</a>
-            <a href="#">jujutsu kaisan</a>
-            <a href="#">soul eater</a>
-            <a href="#">hunter x hunter</a> -->
         </div>
-        <div id="noMatches" class="dropdown-content">
-            <a href="#tools">No Matches</a>
+        <div id="sea-noMatches" class="sea-dropdown-content">
+            <a href="#">No Content Found</a>
         </div>
     </div>
 
@@ -289,14 +274,14 @@
     function filterFunction() {
     let isInputAvail = false;
     var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
+    input = document.getElementById("sea-myInput");
     filter = input.value.toLowerCase();
     if (filter.length > 0) {
-        document.getElementById("myDropdown").classList.add("show");
+        document.getElementById("sea-myDropdown").classList.add("sea-show");
     } else {
-        document.getElementById("myDropdown").classList.remove("show");
+        document.getElementById("sea-myDropdown").classList.remove("sea-show");
     }
-    div = document.getElementById("myDropdown");
+    div = document.getElementById("sea-myDropdown");
     a = div.getElementsByTagName("a");
     for (i = 0; i < a.length; i++) {
         txtValue = a[i].innerText;
@@ -308,9 +293,9 @@
         }
     }
     if (!isInputAvail) {
-        document.getElementById("noMatches").classList.add('show');
+        document.getElementById("sea-noMatches").classList.add('sea-show');
     } else {
-        document.getElementById("noMatches").classList.remove('show');
+        document.getElementById("sea-noMatches").classList.remove('sea-show');
     }
 }
 </script>
