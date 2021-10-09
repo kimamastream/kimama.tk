@@ -446,6 +446,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 40px;
+	margin-left: 28px;
 	
 }
 
@@ -481,7 +482,7 @@ body {
 	font-size: 23px;
 	font-weight: 50;
 	font-family: 'Nerko One', cursive;
-	width: 177px;
+	width: 174px;
 	text-align: center;
 	background-color: #FAA307;
 	color: white;
@@ -496,7 +497,7 @@ body {
 	font-weight: 60;
 	/* margin-left: 34px; */
 	text-align: center;
-    width: 177px;
+    width: 174px;
 	background-color: #FAA307;
 	color: white;
 	border-radius: 0 0 6px 6px;
@@ -1047,12 +1048,28 @@ input[type=text], select, textarea {
 		width: 174px;
 	}
 
+	.flex-trend{
+		margin-left: 10px;
+	}
 	.trend{
 		width: 104.5%;
 		/* margin-left: 11.2px; */
-
 	}
 
+	.trend li{
+		margin-right: 25px; 
+	}
+
+	.trend img{
+		width: 165px;
+	}
+
+	.trend h5{
+		width: 164px;
+	}
+	.trend h6{
+		width: 164px;
+	}
 
 
 
@@ -1188,6 +1205,12 @@ input[type=text], select, textarea {
 		width: 174px;
 	}
 
+	.flex-trend{
+		margin-left: -2px;
+	}
+	.trend li{
+		margin-right: 15px;
+	}
 	.trend{
 		width: 104.5%;
 		/* margin-left: 11.2px; */
@@ -1330,10 +1353,17 @@ input[type=text], select, textarea {
 		width: 174px;
 	}
 
+	.flex-trend{
+		margin-left: 18px;
+	}
 	.trend{
 		width: 100%;
 		/* margin-left: 11.2px; */
 
+	}
+
+	.trend li{
+		margin-right: 20px;
 	}
 
 
@@ -1473,7 +1503,9 @@ input[type=text], select, textarea {
 		/* margin-left: 11.2px; */
 
 	}
-
+	.trend li{
+		margin-right: 20px;
+	}
 
 
 
@@ -1613,6 +1645,9 @@ input[type=text], select, textarea {
 
 	}
 
+	.trend li{
+		margin-right: 20px;
+	}
 
 
 

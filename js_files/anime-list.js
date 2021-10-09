@@ -17,7 +17,20 @@ $(document).ready(function () {
   
        showPage(pageNumber);
     });
-    
+
+
+// upper button previous
+    $('#uprev').click(function () {
+      var tempagenmbr = pageNumber - 1;
+      
+      if (tempagenmbr > 0) {
+        pageNumber = tempagenmbr;
+      }
+ 
+      showPage(pageNumber);
+   });
+// End of upper button previous
+
     $('#lst-next').click(function () {
        var tempagenmbr = pageNumber + 1;
        
@@ -27,16 +40,29 @@ $(document).ready(function () {
 
        showPage(pageNumber);
     });
+
+// upper button next    
+    $('#upnext').click(function () {
+      var tempagenmbr = pageNumber + 1;
+      
+      if (tempagenmbr <= TOTAL_PAGE_COUNT) {
+        pageNumber = tempagenmbr;
+      }
+
+      showPage(pageNumber);
+   });
+// End of upper button previous
+
     
-    $('#lst-goto').click(function () {
-       pageNumber = +$("#lst-page").val();
+    // $('#lst-goto').click(function () {
+    //    pageNumber = +$("#lst-page").val();
        
-       if (!pageNumber) {
-         pageNumber = 1;
-       }
+    //    if (!pageNumber) {
+    //      pageNumber = 1;
+    //    }
        
-       showPage(pageNumber);
-    });
+    //    showPage(pageNumber);
+    // });
 });
 
 function showPage(page) {
