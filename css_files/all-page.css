@@ -196,61 +196,48 @@ body {
 /* wraper side */
 
 .wrapper{
-	width: 1335px;
-	display: flex;
-	position: relative;
-	background: #161616;
-	margin: 0 auto;
+	
 }
 
 
-
+.sea-dropdown{
+	display: flex;
+	justify-content: center;
+}
 
 .sea-dropbtn {
-  padding: 16px;
-  font-size: 16px;
-  cursor:default;
-  position:fixed;
-  left: 300px;
-  top: 130px;
-  
-  
-}
-
-#sea-myInput {
+  cursor:text;
+  width: 50%;
   box-sizing: border-box;
   background-color: #303030;
-  /* background-position: 14px 12px; */
   background-repeat: no-repeat;
-  font-size: 19.8px;
-  padding: 14px 20px 12px 45px;
+  font-size: 27px;
+  padding: 10px 45px;
   border: 3px solid #b446f0 ;
   border-radius: 17px;
   color: #fff;
+  font-family: bk;
 }
 
-#sea-myInput:focus {
+
+.sea-dropbtn:focus {
   outline: none;
   border-color: red;
 }
 
-.sea-dropdown {
-  position: relative;
-  left: 300px;
-  top: 170px;
-  display: inline-block;
-}
+
 
 .sea-dropdown-content {
-  max-height: 215px;
-  background-color: #303030;
+  height: 350px;
+  background-color: #2b2727;
   border-radius: 15px;
   display: none;
   position: absolute;
-  min-width: 300px;
+  width: 50%;
   overflow-y: scroll;
-  border: none;
+  border: 4px solid #FAA307;
   z-index: 1;
+  margin-top: 65px;
 }
 
 .sea-dropdown-content a {
@@ -262,22 +249,22 @@ body {
   display: block;
 }
 
-
-
 .flex-search{
   display: flex;  
 }
 
 .flex-search img{
-  width: 48px;
+  width: 50px;
   border-radius: 7px;
-  margin-left:-25px;
 }
 
 
 
 .sea-mother-flex li{
   list-style-type: none;
+  margin-bottom: 8px;
+  margin-left:15px;
+  margin-top: 15px;
 }
 
 .sea-mother-flex a{
@@ -290,29 +277,33 @@ body {
 .flex-item-h h5{
   margin-top: 1px;
   margin-left:10px;
-  font-size:20px;
+  font-size:23px;
   font-family:bk;
   border-radius:4px; 
   padding: 4px;
+  letter-spacing: 2px;
 }
 .flex-item-h h5:hover{
   background-color: plum;
   color: #fff;
 }
 .flex-item-h h6{
-  margin-top: -25px;
-  margin-left: 10px;
+  margin-left: 15px;
   color: aquamarine;
 }
 
-#sea-noMatches a{
+#sea-noMatches{
+	text-align: center;
+}
+#sea-noMatches h4{
   color: #ababab;
   display: inline-block;
   cursor:default;
-  font-size: 18px;
+  font-size: 32px;
   font-family: bk;
   padding: 5px;
-  margin-left: 26%;
+  letter-spacing: 2px;
+
 }
 
 
