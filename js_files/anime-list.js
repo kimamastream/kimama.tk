@@ -1,4 +1,4 @@
-var ASD_LIST_COUNT = $(".anime-list li").length;
+var ASD_LIST_COUNT = $(".flex-anime-list li").length;
 var PAGE_DATA_COUNT = 20;
 var TOTAL_PAGE_COUNT = Math.ceil(ASD_LIST_COUNT / PAGE_DATA_COUNT);
 
