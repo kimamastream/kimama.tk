@@ -31,6 +31,21 @@ $(document).ready(function () {
    });
 // End of upper button previous
 
+
+// upper button mbl previous
+$('#umblprev').click(function () {
+  var tempagenmbr = pageNumber - 1;
+  
+  if (tempagenmbr > 0) {
+    pageNumber = tempagenmbr;
+  }
+
+  showPage(pageNumber);
+});
+// End of upper button mbl previous
+
+
+
     $('#lst-next').click(function () {
        var tempagenmbr = pageNumber + 1;
        
@@ -51,8 +66,19 @@ $(document).ready(function () {
 
       showPage(pageNumber);
    });
-// End of upper button previous
+// End of upper button next
 
+// upper button mbl next    
+$('#upmblnext').click(function () {
+  var tempagenmbr = pageNumber + 1;
+  
+  if (tempagenmbr <= TOTAL_PAGE_COUNT) {
+    pageNumber = tempagenmbr;
+  }
+
+  showPage(pageNumber);
+});
+// End of upper button mbl next
     
     // $('#lst-goto').click(function () {
     //    pageNumber = +$("#lst-page").val();

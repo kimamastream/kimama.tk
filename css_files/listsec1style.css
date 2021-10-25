@@ -66,6 +66,7 @@ body {
 	z-index: 100;
 	background-color: #161616;
 	opacity: .8;
+	/* position: relative; */
 }
 .nav-bar {
 	background-color: #161616;
@@ -222,6 +223,7 @@ body {
 	border-radius: 10px;
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 0.9px;
 	
 }
 
@@ -270,6 +272,7 @@ body {
 	color:#8000ff;
 	text-align:center;
 	margin-top: 16px;
+	padding: 0 10px;
 
 }
 
@@ -280,6 +283,7 @@ body {
 	border-radius: 10px;
 	display: flex;
 	justify-content: flex-start;
+	margin-left: 1.3px;
 }
 
 .upper-rgt h5{
@@ -312,21 +316,24 @@ body {
 	margin-top: -31px;
 }
 
+.mbl-upper-box{
+	display: none;
+}
+
 .anime-list{
 	margin-top: 100px;
 	margin: 0 auto;
 	background-color: #303030;
 	padding: 20px 8px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 .flex-anime-list{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	border:2px solid #ababab;
 	border-radius: 10px;
-	ma
 	
 }
 
@@ -393,7 +400,7 @@ body {
 	justify-content: center;
 	margin-bottom: 10px;
 	background-color: #303030;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 	padding-bottom: 15px;
 }
 
@@ -409,7 +416,7 @@ body {
 	border-radius: 5px;
 	transition: transform .1s;
 	font-size: 18px;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .dwnbar1 h5:hover{
 	background-color: #833ab4;
@@ -423,6 +430,7 @@ body {
 	border-radius: 5px;
 	transition: transform .1s;
 	font-size: 18px;
+	margin-left: 5px;
 }
 .dwnbar2 h5:hover{
 	background-color:#EE303B;
@@ -714,25 +722,65 @@ body {
 	}
 
 
-	.container img{
-		margin-left: -18%;
-		width: 227.71px;
-		height: 72.57px;
-
-	}
-	.nav-bar .nav-list .hamburger {
-		height: 60px;
-		width: 60px;
-		margin-left: -90%;
+	body{
+		overflow-x: hidden;
 
 	}
 
-	.nav-bar .nav-list ul li {
-		position: relative;
-		left: 5px;
+  .container img{
+    margin-left: -18%;
+    width: 227.71px;
+    height: 72.57px;
+
+  }
+  .nav-bar .nav-list .hamburger {
+    height: 60px;
+    width: 60px;
+    margin-left: -90%;
+
+  }
+
+  .nav-bar .nav-list ul li {
+    position: relative;
+    left: 5px;
+  }
+
+	.wrapper{
+		width: 100%;
 	}
 
-	
+	.upper-down .mbl-iconp{
+		height:70px;
+		width:70px;
+		margin-right: 2vw;
+	}
+
+	.upper-down .mbl-iconn{
+		height:70px;
+		width:70px;
+		margin-left: 2vw;
+	}
+
+	.anime-list li{
+		margin: 20px 10px;
+	}
+
+	.anime-list li:hover{
+		transform: scale(1.0);
+	}
+
+	.anime-list img{
+		width: 120px;
+		height: 170px;
+	}
+
+	.anime-list h5{
+		width: 120px;
+	}	
+
+	.anime-list h6{
+		width: 120px;
+	}
 
 
 	/* mbl footer */
@@ -782,7 +830,57 @@ body {
 		left: 5px;
 	}
 
+	.upper-down .mbl-iconp{
+		margin-right: 4vw;
+	}
+
+	.upper-down .mbl-iconn{
+		margin-left: 4vw;
+	}
+
+	.wrapper{
+		width: 100%;
+	}
+
+	.flex-anime-list{
+		width: 103.7%;
+		margin-left: -8px;
+		padding: 0 5px;
+	}
+
+	.anime-list li{
+		margin: 8vw 5px;
+	}
+
+	.anime-list li:hover{
+		transform: scale(1.0);
+	}
+
+	.anime-list img{
+		width: 39.3vw;
+		height: 55vw;
+	}
 	
+	.anime-list h5{
+		width: 39.3vw;
+	}
+	
+	.anime-list h6{
+		width: 39.3vw;
+	}
+	/* .anime-list img{
+		width: 145px;
+		height: 220px;
+	}
+
+	.anime-list h5{
+		width: 145px;
+	}	
+
+	.anime-list h6{
+		width: 145px;
+	} */
+
 	
 
 
@@ -825,7 +923,36 @@ body {
 		width: 100%;
 	}
 
-	
+	.wrapper{
+		width: 100%;
+	}
+
+	.flex-anime-list{
+		width: 102.5%;
+		margin-left: -7.5px;
+		padding: 0 8px;
+	}
+
+	.anime-list li{
+		margin: 30px 10px;
+	}
+
+	.anime-list li:hover{
+		transform: scale(1.0);
+	}
+
+	.anime-list img{
+		width: 160px;
+		height: 240px;
+	}
+
+	.anime-list h5{
+		width: 160px;
+	}	
+
+	.anime-list h6{
+		width: 160px;
+	}
 
 	
 
@@ -863,7 +990,35 @@ body {
 	.nav-bar {
 		width: 100%;
 	}
+	
+	.wrapper{
+		width: 100%;
+	}
 
+	.flex-anime-list{
+		padding: 0px 8px;
+	}
+
+	.anime-list li{
+		margin: 30px 10px;
+	}
+
+	.anime-list li:hover{
+		transform: scale(1.1);
+	}
+
+	.anime-list img{
+		width: 170px;
+		height: 260px;
+	}
+
+	.anime-list h5{
+		width: 170px;
+	}	
+
+	.anime-list h6{
+		width: 170px;
+	}
 	
 	
 
@@ -898,7 +1053,7 @@ body {
 	#nav-bar{
 		position: relative;
 	}
-
+	
 }
 
 
@@ -926,4 +1081,61 @@ body {
   .slideshow-containermbl{
     display: none;
   }
+
+
+ 
+
 }
+
+
+@media only screen and (max-width: 954px) {
+
+	.upper-box{
+		display: none;
+	  }
+
+	.mbl-upper-box{
+		display: block;
+		margin-top: 0px;
+	}
+
+	.upper-mid{
+		margin-bottom: 3px;
+	}
+	.upper-mid h3{
+		margin-top: 10px;
+	}
+
+	.upper-down{
+		display: flex;
+		background-color: #EE303B;
+		height: 79.4px;
+		border-radius: 10px;
+	}
+
+	.mbl-iconp{
+		height:80px;
+		width:80px;
+		transition: transform .5s;
+		margin-right: 10vw;
+	}
+	
+	.mbl-iconp:hover{
+		transform: scale(1.085);
+	}
+
+	.mbl-iconn{
+		height:80px;
+		width:80px;
+		transition: transform .5s;
+		margin-left: 10vw;
+	}
+	
+	.mbl-iconn:hover{
+		transform: scale(1.085);
+	}
+
+
+
+
+}  
