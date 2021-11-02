@@ -184,18 +184,6 @@ body {
 /* End Nav Bar */
 
 
-
-
-/*main player code starts from here.....*/
-
-
-/*-------------------------------------------------------------------*/
-/*-------------------------------------------------------------------*/
-/*-------------------------------------------------------------------*/
-
-/* wraper side */
-
-
 /* ///////////////////MAin search/////////////////// */
 
 
@@ -320,12 +308,17 @@ body {
 	margin-top: 40px;
 }
 
+.mother-flip > div{
+	flex: 1;
+}
+
 .flip-card {
   background-color: transparent;
-  width: 400px;
+  /* width: 400px; */
   height: 200px;
   perspective: 1000px;
   margin-bottom: 20px;
+  margin-right: 30px;
 }
 
 .flip-card-inner {
@@ -389,6 +382,12 @@ body {
 
 
 /* ///////////////////ETC BOX/////////////////// */
+
+.mother-trending{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
 .trending{
 	color: white;
@@ -735,47 +734,7 @@ body {
 	.nav-bar .nav-list ul li {
 		display: inline-block;
 	}
-	.hero {
-		height: 100vh;
-		flex-direction: row;
-		padding-left: 10%;
-		justify-content: center;
-		align-items: center;
-	}
-	.hero .hero-info {
-		max-width: 30%;
-		text-align: left;
-	}
-	.hero .hero-info .hero-info-subheading {
-		font-size: 1.3rem;
-		letter-spacing: .5rem;
-	}
-	.hero .hero-img {
-		min-width: 400px;
-		max-width: 1000px;
-	}
-	.about {
-		width: 80%;
-		margin: 0 auto;
-		flex-direction: row;
-	}
-	.about .about-info {
-		width: 50%;
-		text-align: left;
-		padding-right: 17rem;
-	}
-	.services .services-header .services-header-desc {
-		max-width: 500px;
-		padding-top: 20px;
-		margin: 0 auto;
-	}
-	.services .services-info {
-		flex-direction: row;
-		width: 80%;
-	}
-	.services .services-info .service {
-		margin: 0;
-	}
+	
 
 
 }
@@ -807,12 +766,7 @@ body {
 		left: 5px;
 	}
 
-	.wrapper{
-		margin-left: -29px;
-		display: grid;
-		width: 100%;
-	}
-
+	
 	
 
 
@@ -865,14 +819,7 @@ body {
 		left: 5px;
 	}
 
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
-	}
-
 	
-
 
 
 
@@ -913,12 +860,7 @@ body {
 		width: 100%;
 	}
 
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
-	}
-
+	
 	
 
 
@@ -953,12 +895,6 @@ body {
 	}
 
 	.nav-bar {
-		width: 100%;
-	}
-
-	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
 		width: 100%;
 	}
 

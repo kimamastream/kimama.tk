@@ -67,6 +67,7 @@ body {
 	z-index: 100;
 	background-color: #161616;
 	opacity: .8;
+	position: relative;
 }
 .nav-bar {
 	background-color: #161616;
@@ -1047,7 +1048,7 @@ body {
 
 @media only screen and (min-width: 768px) {
 	#nav-bar{
-		position: relative;
+		/*position: relative;*/
 	}
 	
 }
@@ -1085,6 +1086,10 @@ body {
 
 
 @media only screen and (max-width: 954px) {
+
+	.wrapper{
+		margin-top: 0px;
+	}
 
 	.upper-box{
 		display: none;
