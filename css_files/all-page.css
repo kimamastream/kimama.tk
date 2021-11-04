@@ -306,6 +306,7 @@ body {
 	margin: 0 auto; */
 	/* flex-direction: column; */
 	margin-top: 40px;
+	margin-left: 27px;
 }
 
 .mother-flip > div{
@@ -315,7 +316,7 @@ body {
 .flip-card {
   background-color: transparent;
   /* width: 400px; */
-  height: 200px;
+  height: 18vw;
   perspective: 1000px;
   margin-bottom: 20px;
   margin-right: 30px;
