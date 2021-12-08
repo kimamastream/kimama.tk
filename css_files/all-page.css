@@ -337,11 +337,13 @@ body {
 }
 .plist a{
 	color: black;
-	animation: fadefontcolor 3s infinite;
+	animation: fadefontcolor 2s infinite;
+	/* animation-direction: alternate; */
 }
 @keyframes fadefontcolor{
-	from {color: white;}
-	to {color: black;}
+	0%   {color:white;}
+	50%  {color:black;}
+	100%  {color:white;}
 }
 
 .plist li{
@@ -354,7 +356,8 @@ body {
 	margin-left: 10px;
 	/* background-image:linear-gradient(-45deg,#9032F8,#FD4F66); */
 	background: black;
-	animation: fadebackground 3s infinite;
+	animation: fadebackground 2s infinite;
+	/* animation-direction: alternate; */
 	transition: transform .2s;
 	padding: 3px 0px;
 	width: 130px;
@@ -362,8 +365,9 @@ body {
 	
 }
 @keyframes fadebackground{
-	from {background-color: black;}
-	to {background-color: white;}
+	0%   {background-color:black;}
+	50%  {background-color:white;}
+	100%  {background-color:black;}
 }
 
 
