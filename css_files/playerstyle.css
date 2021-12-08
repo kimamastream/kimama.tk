@@ -12,6 +12,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
 @font-face {
     src: url(../tools/fonts/SpringwoodBrushDemoRegular-GpWP.otf);
     font-family: bk;
@@ -970,6 +972,7 @@ label{
 	font-weight: normal;
 	text-align: center;
 	position: relative;
+	font-family: 'Baloo Da 2', cursive;
 	top: 10px;
 }
 

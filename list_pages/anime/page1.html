@@ -32,15 +32,35 @@
         </div>
 
         <ul class="pages">
-          <li><a href="../../all/index.html">All</a></li>
+          <li><a href="../../index.html">All</a></li>
           <li><a href="../../list_pages/anime-movies/page1.html">Anime-Movies</a></li>
         </ul>
       </div>
     </header>
   </section>
-  <!-- End nav-bar  -->
+  <!-- End nav-bar  --> 
 
   <div class="wrapper">
+
+
+
+         <!-- Main search -->
+         <div class="sea-dropdown">
+          <input type="text" class="sea-dropbtn" placeholder="Search Here..." id="sea-myInput" onInput="filterFunction()" autocomplete="off">
+          <div id="sea-myDropdown" class="sea-dropdown-content">
+              <ul class="sea-mother-flex">
+                <div id="import-all-li"></div>
+              </ul>
+    
+          </div>
+          <div id="sea-noMatches" class="sea-dropdown-content">
+              <h4>NO CONTENT FOUND</h4>
+          </div>
+      </div>
+      <!-- Main search -->
+
+
+      
 
     <div class="upper-box">
       
@@ -61,6 +81,7 @@
       </div>
 
     </div>
+    
 
     <div class="mbl-upper-box">
       
@@ -78,6 +99,10 @@
       </div>
 
     </div>
+
+
+
+   
 
 
     <div class="anime-list">
@@ -374,6 +399,8 @@
   <script src="../../js_files/burger.js"></script>
   <script src="../../js_files/import/import-footer.js"></script>
   <script src="../src/anime-list.js"></script>
+  <script src="../../src/allpage-search.js"></script>
+  <script src="../../src/import-all-li.js"></script>
 
 </body>
 </html>

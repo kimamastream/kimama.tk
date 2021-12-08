@@ -1,16 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.container-2 > header{
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container-2{
+	background-image:linear-gradient(45deg,pink,#9032F8,lightblue,lightgreen);
+	/* margin-top: -1px; */
+
+}
+.container-2 > header {
+	width: 310px;
+	margin: 0 auto;
+	padding: 2em;
+	
+}
+
+.container-2 > header h1 {
+	border-radius: 20px;
+	font-size: 5.5em;
+	text-align: center;
+	line-height: 1.3;
+	color: white;
+	font-weight: 50;
+	font-family: 'Nerko One', cursive;
+	background-image: linear-gradient(45deg,#9032F8,#FD4F66);
+}
+
+.container-2 > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.7;
+	padding: 0 0 0.6em 0.1em;
+}
+
+
 
 
 .wrapper {
 	margin: 0 auto;
-	margin-top: 100px;
-	max-width: 960px;
+	margin-top: 15px;
+	max-width: 100%;
 	padding-bottom: 40px;
 }
 
 .stage {
 	list-style: none;
 	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.stage li{
+	margin-left: 18px;
+	margin-right: 17px;
+	margin-bottom: 50px;
+
 }
 
 /*************************************
@@ -20,12 +94,13 @@ Build the scene and rotate on hover
 .scene {
 	width: 260px;
 	height: 400px;
-	margin: 30px;
-	float: left;
+	/* margin: 30px; */
+	/* float: left; */
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
 }
+
 
 .movie {
 	width: 260px;
@@ -193,6 +268,11 @@ Posters and still images
   background-size: cover;
 }
 
+.scene:nth-child(4) .movie .poster {
+	background-image: url(../../../tools/images/Booklet/Boruto.jpg);
+	background-size: cover;
+}
+
 .scene:nth-child(1) .info header {
 	background-image: url(https://drive.google.com/uc?id=1tn3t3Nmxij1PYQ-3mw3XbYnemQ25nuYB);
 	background-size: cover;
@@ -211,6 +291,12 @@ Posters and still images
 	border-radius: 4px;
 }
 
+.scene:nth-child(4) .info header {
+	background-image: url(https://drive.google.com/uc?id=1tn3t3Nmxij1PYQ-3mw3XbYnemQ25nuYB);
+	background-size: cover;
+	border-radius: 4px;
+}
+
 /*************************************
 Fallback
 **************************************/
@@ -222,9 +308,9 @@ Fallback
 /*************************************
 Media Queries
 **************************************/
-@media screen and (max-width: 60.75em){
+/* @media screen and (max-width: 60.75em){
 	.scene {
 		float: none;
 		margin: 30px auto 60px;
 	}
-}
+} */
