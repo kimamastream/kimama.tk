@@ -159,43 +159,86 @@
 
 $('.owl-one').owlCarousel({
     loop:true,
-    margin:113,
     nav:false,
     dots:false,
     autoplay:true,
     autoplayTimeout:3000,
     responsive:{
-        0:{
+      0:{
             items:1
         },
         600:{
-            items:3
+            items:1
         },
-        1000:{
-            items:2
+        1100:{
+            items:2,
+            margin:80
+        },
+        1200:{
+            items:2,
+            margin:90
+        },
+        1250:{
+            items:2,
+            margin:100
+        },
+        1310:{
+            items:2,
+            margin:110
+        },
+        1360:{
+            items:2,
+            margin:120
+        },
+
+        1400:{
+            items:2,
+            margin:80
+        },
+        1600:{
+            items:2,
+            margin:80
         }
     }
 })
 
+
 $('.owl-two').owlCarousel({
+    items:2,
     loop:true,
-    margin:5,
-    nav:false,
-    dots:false,
+    margin:10,
     autoplay:true,
+    dots:false,
     autoplayTimeout:3000,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:1
         },
-        1000:{
+
+        1100:{
             items:2
+        },
+        1400:{
+            items:2,
+            stagePadding: 25
+        },
+        1600:{
+            items:2,
+            stagePadding: 40
+        },
+        1780:{
+            items:3 
+        },
+        1940:{
+            items:3,
+            stagePadding: 15
         }
     }
-})
+});
     </script>
 </body>
 </html>

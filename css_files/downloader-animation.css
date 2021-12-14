@@ -233,6 +233,7 @@ body , html {
 .pro-pic img{
 	border: 6px solid white;
 	border-radius: 4px;
+	margin-bottom: 5px;
 }
 .pro-pic a{
 	font-size: 28px;
@@ -251,6 +252,7 @@ body , html {
 	color: white;
 	font-family: 'Baloo Da 2', cursive;
 	font-size: 40px;
+	margin-top: -18px;
 }
 .details h4{
 	color: white;
@@ -266,7 +268,8 @@ body , html {
 .rgt-part{
 	width: 20%;
 	margin-left: 30px;
-	margin-top: 20px;
+	margin-top: -14px;
+	/* display: none; */
 }
 .related h3{
 	font-size: 35px;
@@ -275,7 +278,9 @@ body , html {
 	text-align: center;
 	text-decoration: red underline;
 }
-
+.trend{
+	margin-top: 25px;
+}
 .trend h3{
 	font-size: 35px;
 	color: antiquewhite;
@@ -298,9 +303,7 @@ body , html {
 
 }
 
-.owl-theme img{
-	/* width: 100px; */
-}
+
 
 
 /* Hire Section  */
@@ -624,7 +627,7 @@ label{
 		position: relative;
 		left: 5px;
 	}
-
+	
 	
 
 

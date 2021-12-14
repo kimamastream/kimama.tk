@@ -19,7 +19,7 @@
     font-family: bk;
 }
 
- 
+  
 
 * {
 	padding: 0;
@@ -196,6 +196,7 @@ body {
 .sea-dropdown{
 	display: flex;
 	justify-content: center;
+	margin-top: 9vw;
 }
 
 .sea-dropbtn {
@@ -308,7 +309,7 @@ body {
 	justify-content: center;
 	width: 100%;
 	margin:0 auto;
-	margin-top: 8px;
+	margin-top:7vw;
 	background-image: url(../../tools/images/Animebg3t.jpg);
 	height: 267px;
 	
@@ -316,7 +317,7 @@ body {
 }
 
 .proxyls h1{
-	font-size: 67px;
+	font-size: 5.5em;
 	font-weight: 20;
 	font-family: 'Nerko One', cursive;
 	background-image: linear-gradient(45deg,#9032F8,#FD4F66);
@@ -344,7 +345,7 @@ body {
 }
 .plist a{
 	color: black;
-	animation: fadefontcolor 2s infinite;
+	animation: fadefontcolor 4s infinite;
 	/* animation-direction: alternate; */
 }
 @keyframes fadefontcolor{
@@ -363,7 +364,7 @@ body {
 	margin-left: 10px;
 	/* background-image:linear-gradient(-45deg,#9032F8,#FD4F66); */
 	background: black;
-	animation: fadebackground 2s infinite;
+	animation: fadebackground 4s infinite;
 	/* animation-direction: alternate; */
 	transition: transform .2s;
 	padding: 3px 0px;
