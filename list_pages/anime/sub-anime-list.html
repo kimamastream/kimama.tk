@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+  <meta name="google-site-verification" content="2WN4IILv5vTyRFdVWbjdvRei5hfGbS7EIYzFWZPdWIA" />
+  <title>KI MAMA !Anime list!</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://drive.google.com/uc?id=1d0S10L5eNVz71lAH-rqzQ1lqarLotb_Z">
+   <link rel="stylesheet" href="../../css_files/list-anime.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  
+   
+
+
+</head>
+
+
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="../../index.html"><img src="../../tools/images/KIMAMASTREAM.png" height="86.5px; "></a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <div >
+
+        </div>
+
+        <ul class="pages">
+          <li><a href="../../index.html">All</a></li>
+          <li><a href="../../list_pages/anime/page1.html">Dub Anime</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+  <!-- End nav-bar  --> 
+
+  <div class="wrapper">
+
+
+
+         <!-- Main search -->
+         <div class="sea-dropdown">
+          <input type="text" class="sea-dropbtn" placeholder="Search Here..." id="sea-myInput" onInput="filterFunction()" autocomplete="off">
+          <div id="sea-myDropdown" class="sea-dropdown-content">
+              
+              <ul class="sea-mother-flex">
+                <div id="import-all-li"></div>
+              </ul>
+    
+          </div>
+          <div id="sea-noMatches" class="sea-dropdown-content">
+              <h4>NO CONTENT FOUND</h4>
+          </div>
+      </div>
+      <!-- Main search -->
+
+
+      
+
+    <div class="upper-box">
+      
+      <div class="upper-lft">
+        <img class="up-lft-img" src="../../tools/images/AOT eren.png" alt="AOT eren.png">
+        <a href="#"><img class="iconp" id="uprev" src="../../tools/images/previous_icon.png" alt="previous_icon"></a>
+        <h5>Prev</h5>
+      </div>
+
+      <div class="upper-mid">
+        <h3>ANIME</h3>
+      </div>
+
+      <div class="upper-rgt">
+        <h5>Next</h5>
+        <a href="#"><img class="iconn" id="upnext" src="../../tools/images/next_icon.png" alt="next_icon.png"></a>
+        <img class="up-rgt-img" src="../../tools/images/AOT shasha.png" alt="AOT eren.png">
+      </div>
+
+    </div>
+    
+
+    <div class="mbl-upper-box">
+      
+
+      <div class="upper-mid">
+        <h3>ANIME</h3>
+      </div>
+
+      <div class="upper-down">
+        <img class="up-lft-img" src="../../tools/images/AOT eren.png" alt="AOT eren.png">
+        <a href="#"><img class="mbl-iconp" id="umblprev" src="../../tools/images/previous_icon.png" alt="previous_icon"></a>
+        
+        <a href="#"><img class="mbl-iconn" id="upmblnext" src="../../tools/images/next_icon.png" alt="next_icon.png"></a>
+        <img class="up-rgt-img" src="../../tools/images/AOT shasha.png" alt="AOT eren.png">
+      </div>
+
+    </div>
+
+
+
+   
+
+
+    <div class="anime-list">
+
+      <ul class="flex-anime-list" id="animelist"></ul>
+
+
+
+    </div>
+
+    <div class="dwnbar">
+
+      <div class="dwnbar1"><h5 id="lst-prev"><a href="#"><i class="fas fa-backward"></i> Prev</a></h5></div>
+      <div class="dwnbar2"><h5 id="lst-next"><a href="#">Next <i class="fas fa-forward"></i></a></h5>
+      <!-- <button class="dwnbar1" id="lst-prev" type='button'><i class="fas fa-backward"></i> <h5 style="display: inline-block;">Prev</h5></button>
+      <button class="dwnbar2" id="lst-next" type='button'><h5 style="display: inline-block;">Right</h5> <i class="fas fa-forward" ></i></button> -->
+
+
+     </div>
+
+
+  </div>
+
+
+
+
+ 
+
+<!--Footer section  -->
+<div id="import-footer"></div>
+<!-- End Footer section  -->
+  <script src="../../js_files/burger.js"></script>
+  <script src="../../js_files/import-footer.js"></script>
+  <script src="../src/anime-list.js"></script>
+  <script src="../../src/allpage-search.js"></script>
+  <script src="../../src/import-all-li.js"></script>
+  <script src="../../js_files/data_sub-anime.js"></script>
+  <script>addAnimeList();</script>
+  <script>sufflelist();</script>
+
+</body>
+</html>

@@ -355,12 +355,12 @@ body {
 }
 
 .plist li{
-	font-size: 27px;
+	font-size: 35px;
 	font-weight: 50;
 	font-family: 'Nerko One', cursive;
 	text-align: center;
 	list-style-type: none; 
-	margin-top: 40px;
+	margin-top: 45px;
 	margin-left: 10px;
 	/* background-image:linear-gradient(-45deg,#9032F8,#FD4F66); */
 	background: black;
@@ -368,7 +368,7 @@ body {
 	/* animation-direction: alternate; */
 	transition: transform .2s;
 	padding: 3px 0px;
-	width: 130px;
+	width: 160px;
 	border-radius: 5px;
 	
 }

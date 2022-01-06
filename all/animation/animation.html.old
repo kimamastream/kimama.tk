@@ -66,7 +66,7 @@
       <div class="rgt-part">
         <div class="related">
           <h3>Related</h3>
-          <div class="owl-carousel">
+          <div class="owl-one owl-carousel owl-theme">
 
 
             <div class="item">
@@ -100,7 +100,42 @@
 
           </div>
         </div>
-       
+        <div class="trend">
+          <h3>Trending</h3>
+          <div class="owl-two owl-carousel owl-theme">
+
+
+            <div class="item">
+              <a href="">
+                <img src="../../../tools/angrybirds.jpg" alt="">
+                <h5>Angry Birds</h5>
+              </a>  
+            </div>
+
+            <div class="item">
+              <a href="">
+                <img src="../../../tools/Astro boy.jpg" alt="">
+                <h5>Angry Birds</h5>
+              </a>  
+            </div>
+
+            <div class="item">
+              <a href="">
+                <img src="../../../tools/Finding dory.jpg" alt="">
+                <h5>Angry Birds</h5>
+              </a>  
+            </div>
+            
+            <div class="item">
+              <a href="">
+                <img src="../../../tools/Megamind.jpg" alt="">
+                <h5>Angry Birds</h5>
+              </a>  
+            </div>
+
+
+          </div>
+        </div>
       </div>
 
     </div>
@@ -114,47 +149,53 @@
   <div id="import-footer"></div>
   <!-- End Footer section  -->
     <script src="../../../js_files/burger.js"></script>
-    <script src="../../../js_files/import-footer.js"></script>
+    <script src="../../../js_files/import/import-footer.js"></script>
     <!-- <script src="../../../js_files/import/message-us.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
 
 
     <script>
-var owl = $('.owl-carousel');
-owl.owlCarousel({
+
+$('.owl-one').owlCarousel({
     loop:true,
-    nav:true,
+    margin:113,
+    nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
-    margin:10,
+    autoplayTimeout:3000,
     responsive:{
         0:{
-            items:2,
-            autoplayTimeout:6000
+            items:1
         },
         600:{
-            items:3,
-            autoplayTimeout:3000
-        },            
-        880:{
-            items:4
+            items:3
         },
-        1180:{
-            items:6
+        1000:{
+            items:2
         }
     }
-});
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
+})
+
+$('.owl-two').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:2
+        }
     }
-    e.preventDefault();
-});
+})
     </script>
 </body>
 </html>

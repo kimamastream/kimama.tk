@@ -60,6 +60,7 @@ body {
 	height: auto;
 	width: 100%;
 	position: fixed;
+	position: relative;
 	z-index: 100;
 	background-color: #161616;
 	opacity: .8;
@@ -196,20 +197,29 @@ body {
 /* wraper side */
 
 .wrapper{
-	width: 1335px;
-	display: flex;
-	position: relative;
+	width: 96%;
 	background: #161616;
 	margin: 0 auto;
 }
-.wrapper .lft{
-	margin-top: 114px;
-}
-.wrapper .rgt{
-	margin-left: 20px;
-	margin-top: 114px;
+
+.mom-flex{
+	display: flex;
 }
 
+.mom-flex > div{
+	flex: 1;
+}
+
+.mom-flex > .lft{
+	flex: 2.5;
+}
+
+.lft{
+	margin-right: 7px;
+}
+.rgt{
+	margin-left: 7px;
+}
 /* End of wrapper side */
 
 
@@ -226,16 +236,13 @@ body {
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 15px 15px 0 0;
-	margin-left: 30px;
-	margin-bottom: 0;
-	width: 870px;
 	height:40px;
 }
 
 .updrv p{
-  margin-top: -9px;
+  	margin-top: -9px;
 	padding: 5px 0 0 5px;
-  text-align: center;
+  	text-align: center;
 
 }
 
@@ -248,11 +255,10 @@ body {
 /*main player*/
 
 .drive iframe{
-	margin-left: 30px;
 	margin-bottom: 0;
 	border: none;
-	width: 870px;
-	height: 490px;
+	width: 100%;
+	height: 512px;
 }
 .drive {
 	cursor: none;
@@ -273,10 +279,8 @@ body {
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 0 0 15px 15px;
-	margin-left: 30px;
 	margin-bottom: 15px;
 	margin-top: -3px;
-	width: 870px;
 	min-height:43px;
 
 }
@@ -304,7 +308,7 @@ body {
 
 }
 .lgt{
-	margin-left:250px;
+	float: right;
 	border-radius: 10px;
 	background-color: transparent;
 	border-color: transparent;
@@ -388,10 +392,8 @@ body {
 	border-style: solid;
 	border-color: #303030;
 	border-radius: 15px;
-	margin-left: 30px;
 	margin-bottom: 15px;
 	text-align: center;
-	width: 870px;
 	height:250px;
   	overflow:auto;
 
@@ -416,7 +418,7 @@ body {
 	text-align: center;
 }
 
-.anopart li{
+/* .anopart li{
 	border-style: solid;
 	border-color: transparent;
 	border-radius: 4px;
@@ -431,7 +433,7 @@ body {
 	width: 70px;
 	height: 35px;
 	text-align: center;
-}
+} */
 
 .episode li a{
 	display: block;
@@ -459,50 +461,6 @@ body {
 
 /*episode*/
 
-/* Season */
-/* .seasons{
-	background-color: #303030;
-	color: #ababab;
-	font-size: 25px;
-	font-family: 'Jockey One', sans-serif;
-	border-style: solid;
-	border-color: #303030;
-	border-radius: 15px;
-	margin-left: 30px;
-	margin-bottom: 15px;
-	margin-top: -3px;
-	width: 870px;
-	min-height:50px;
-	padding-top: 5px;
-	padding-left: 215px;
-
-}
-
-.seasons li{
-	padding:0 15px 0 10px;
-	list-style-type: none;
-	float: left;
-	text-align: center;
-}
-
-.seasons li:hover{
-	background-color: #EE303B;
-	border-radius: 15px;
-}
-.seasons :hover a {
-	color: #fff;
-}
-
-.seasons li, a {
-	display: block;
-	color: black;
-} */
-
-/* Seasons */
-
-
-
-
 
 
 
@@ -514,12 +472,9 @@ body {
 	background-color: #303030;
 	color: #ababab;
 	font-size: 15px;
-	width: 850px;
 	margin-top: 15px;
-	margin-left: 30px;
 	margin-bottom: 15px;
 	height: auto;
-	width: 870px;
 }
 
 .details img{
@@ -564,6 +519,7 @@ body {
 	font-family: 'Stick', sans-serif;
 	/* font-family: 'Architects Daughter', cursive; */
 	font-size: 20px;
+	text-align: justify;
 	letter-spacing: 0.4px;
 	color: #ababab;
 	margin-left: 215px;
@@ -649,7 +605,6 @@ body {
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:385px;
 	height: auto;
 	margin-bottom: 15px;
 
@@ -733,7 +688,6 @@ body {
 	border-radius: 15px;
 	border-color: #303030;
 	background-color: #303030;
-	width:385px;
 	height: auto;
 
 
@@ -774,6 +728,12 @@ body {
 	margin-top: 9px;
 }
 
+.trend li{
+	margin-bottom: 12px;
+}
+.trend li:not(:nth-child(-n + 4)) {
+	display:none;
+}
 .trend li, a {
 	list-style-type: none;
 	text-decoration : none;
@@ -1132,9 +1092,10 @@ label{
 	}
 
 	.wrapper{
-		margin-left: -29px;
-		display: grid;
-		width: 100%;
+		width: 102.3%;
+	}
+	.mom-flex{
+		flex-direction: column;
 	}
 
 	.updrv{
@@ -1225,21 +1186,10 @@ label{
     display: none;
   }
 
-	.related{
-		width: 105%;
-		margin-top: -115px;
-		margin-left: 10px;
-
-	}
-
-	.trend{
-		width: 105%;
-		margin-left: 10px;
-	}
-
-
-
-
+  	.rgt{
+		  margin-left: 0;
+		  width: 97.5%;
+}
 	/* mbl footer */
 	.button{
 		margin-top: 25px;
@@ -1288,13 +1238,13 @@ label{
 	}
 
 	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
-		width: 100%;
+		width: 101.4%;
 	}
 
+	.mom-flex{
+		flex-direction: column;
+	}
 	.updrv{
-		width:100%;
 		font-size: 21px;
 	}
 
@@ -1353,7 +1303,6 @@ label{
 
 	.details{
 		width: 100%;
-		margin-left: 31px;
 	}
 	.details img{
 		margin-left: 5px;
@@ -1385,20 +1334,10 @@ label{
     display: none;
   }
 
-	.related{
-		width:104.5%;
-		margin-top: -115px;
-		margin-left: 11.2px;
-
-
-	}
-
-	.trend{
-		width: 104.5%;
-		margin-left: 11.2px;
-
-	}
-
+  .rgt{
+	  margin-left: 0;
+	  width: 99%;
+  }
 
 
 
@@ -1440,9 +1379,18 @@ label{
 	}
 
 	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
 		width: 100%;
+	}
+	.mom-flex{
+		flex-direction: column;
+	}
+	.lft{
+		margin-right: 0;
+	}
+	.rgt{
+		margin-left: 0;
+		width: 75%;
+		margin: 0 auto;
 	}
 
 	.updrv{
@@ -1456,7 +1404,7 @@ label{
 
 	.drive iframe{
 		width: 100%;
-		height: 300px;
+		height: 55vw;
 	}
 
 	.dwndrv{
@@ -1509,14 +1457,7 @@ label{
     display: none;
   }
 
-	.related{
-		display: none;
-	}
-
-	.trend{
-		display: none;
-	}
-
+  .
 
 
 	/* mbl footer */
@@ -1545,7 +1486,7 @@ label{
 
 
 /* TABLETS PORTRAIT */
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (max-width: 1000px) and (min-width: 768px) {
 
 	body{
 		overflow-x: hidden;
@@ -1556,11 +1497,14 @@ label{
 	}
 
 	.wrapper{
-		margin-left: -29.6px;
-		display: grid;
 		width: 100%;
 	}
-
+	.mom-flex{
+		flex-direction: column;
+	}
+	.lft{
+		margin-right: 0;
+	}
 	.updrv{
 		width: 100%;
 		font-size: 25px;
@@ -1572,7 +1516,7 @@ label{
 
 	.drive iframe{
 		width: 100%;
-		height: 400px;
+		height: 55vw;
 	}
 
 	.dwndrv{
@@ -1623,22 +1567,22 @@ label{
 
   .adbd{
     display: none;
-  }
+  }	
+  .rgt{
+	width: 90%;
+	margin: 0 auto;
+	/* margin-left: 0; */
+	display: flex;
+	justify-content: space-between;
+
+}
 
 	.related{
-		width:45%;
-		margin-top: -115px;
-		margin-left: 30%;
-
-
+		width: 48%;
 	}
 
 	.trend{
-		/*width: 45%;
-		margin-left: 57.5%;
-		margin-top: -186.5px;*/
-		display: none;
-
+		width: 48%;
 	}
 
 

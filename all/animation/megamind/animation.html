@@ -63,46 +63,46 @@
         The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
       </div>
 
-      <div class="rgt-part">
-        <div class="related">
-          <h3>Related</h3>
-          <div class="owl-carousel">
+    </div>
+
+    <div class="rgt-part">
+      <div class="related">
+        <h3>Related</h3>
+        <div class="owl-carousel">
 
 
-            <div class="item">
-              <a href="">
-                <img src="../../../tools/angrybirds.jpg" alt="">
-                <h5>Angry Birds</h5>
-              </a>  
-            </div>
-
-            <div class="item">
-              <a href="">
-                <img src="../../../tools/Astro boy.jpg" alt="">
-                <h5>Angry Birds</h5>
-              </a>  
-            </div>
-
-            <div class="item">
-              <a href="">
-                <img src="../../../tools/Finding dory.jpg" alt="">
-                <h5>Angry Birds</h5>
-              </a>  
-            </div>
-            
-            <div class="item">
-              <a href="">
-                <img src="../../../tools/Megamind.jpg" alt="">
-                <h5>Angry Birds</h5>
-              </a>  
-            </div>
-
-
+          <div class="item" style="width: 180px;">
+            <a href="">
+              <img src="../../../tools/angrybirds.jpg" alt="">
+              <h5>Angry Birds</h5>
+            </a>  
           </div>
-        </div>
-       
-      </div>
 
+          <div class="item"style="width: 180px;">
+            <a href="">
+              <img src="../../../tools/Astro boy.jpg" alt="">
+              <h5>Angry Birds</h5>
+            </a>  
+          </div>
+
+          <div class="item"style="width: 180px;">
+            <a href="">
+              <img src="../../../tools/Finding dory.jpg" alt="">
+              <h5>Angry Birds</h5>
+            </a>  
+          </div>
+          
+          <div class="item"style="width: 180px;">
+            <a href="">
+              <img src="../../../tools/Megamind.jpg" alt="">
+              <h5>Angry Birds</h5>
+            </a>  
+          </div>
+
+
+        </div>
+      </div>
+     
     </div>
   
   </div>  
@@ -115,46 +115,45 @@
   <!-- End Footer section  -->
     <script src="../../../js_files/burger.js"></script>
     <script src="../../../js_files/import-footer.js"></script>
-    <!-- <script src="../../../js_files/import/message-us.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-
-
     <script>
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    loop:true,
-    nav:true,
-    dots:false,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
-    margin:10,
-    responsive:{
-        0:{
-            items:2,
-            autoplayTimeout:6000
-        },
-        600:{
-            items:3,
-            autoplayTimeout:3000
-        },            
-        880:{
-            items:4
-        },
-        1180:{
-            items:6
-        }
-    }
-});
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          loop:true,
+          nav:true,
+          dots:false,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayHoverPause:true,
+          margin:5,
+          center:true,
+          responsive:{
+              0:{
+                  items:2,
+                  autoplayTimeout:6000
+              },
+              600:{
+                  items:3,
+                  autoplayTimeout:3000
+              },            
+              880:{
+                  items:4
+              },
+              1180:{
+                  items:6
+              }
+          }
+      });
+      owl.on('mousewheel', '.owl-stage', function (e) {
+          if (e.deltaY>0) {
+              owl.trigger('next.owl');
+          } else {
+              owl.trigger('prev.owl');
+          }
+          e.preventDefault();
+      });
     </script>
+
 </body>
 </html>
