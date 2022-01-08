@@ -1,12 +1,12 @@
 var animedata = {
-	"assassinationclassrooms01": {
-		"animetitle": "Watch Assassination CLassroom S01",
+	"assassinationclassrooms01Dub": {
 		"animedetailsh2": "Assassina-tion Classroom",
 		"animedetailsh4": "Season 1",
-		"animedetails": `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
 		"animeimg": 'https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua',
 		"alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
 		"published": 2015,
+		"animetitle": "Watch Assassination CLassroom S01",		
+		"animedetails": `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,		
 		"open": "https://drive.google.com/file/d/1Yymy4l_tW43tT1qR7AT7V8QGHXQQW4H8/view?usp=sharing",
 		"end": "https://drive.google.com/file/d/1tHzTTyV1ouufI2fb-odX7t1QS9qqkqRi/view?usp=sharing",
 		"gogo": "https://gogoplay1.com/videos/one-punch-man-dub-episode-12",
@@ -34,17 +34,17 @@ var animedata = {
 			"https://drive.google.com/file/d/1ueKvym61HEDF1QLSnqU2Yns3KPae81__/preview",
 			"https://drive.google.com/file/d/1fK8p48TLsuGyf6XgTWq_69I1i-hWHKB6/preview"
 		],
-		"animerelated": ["assassinationclassrooms02","assassinationclassrooms01"]
+		"animerelated": ["assassinationclassrooms02Dub","assassinationclassrooms01Dub"]
   	},
 
-  	"assassinationclassrooms02": {
-		"animetitle": "Watch Assassination Classroom S02",
-		"animedetailsh2": "Assassina-tion Classroom",
+  	"assassinationclassrooms02Dub": {
+  		"animedetailsh2": "Assassina-tion Classroom",
 		"animedetailsh4": "Season 2",
-		"animedetails": `The students return as school is back in session for the second semester. Following their exploits on the island during summer vacation, Class 3-E continues to sharpen their blades with their sights set on their teacher, the slippery Koro-sensei. They have more to worry about than just their teacher, however, as enemy assassins, both old and new, are out for the increased bounty on the octopus' head. Moreover, their rivals in Class A, as well as Kunugigaoka Junior High's fearsome principal, stand to block Class E from achieving academic excellence. With all of these obstacles opposing them, the group must continue to work together in order to overcome their foes and accomplish their goal of successfully assassinating their teacher.`,
 		"animeimg": "https://drive.google.com/uc?export=view&id=1kMf26PmUeCWD4ete5nKyYS2CU3NSq1k9",
 		"alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
 		"published": 2015,
+		"animetitle": "Watch Assassination Classroom S02",		
+		"animedetails": `The students return as school is back in session for the second semester. Following their exploits on the island during summer vacation, Class 3-E continues to sharpen their blades with their sights set on their teacher, the slippery Koro-sensei. They have more to worry about than just their teacher, however, as enemy assassins, both old and new, are out for the increased bounty on the octopus' head. Moreover, their rivals in Class A, as well as Kunugigaoka Junior High's fearsome principal, stand to block Class E from achieving academic excellence. With all of these obstacles opposing them, the group must continue to work together in order to overcome their foes and accomplish their goal of successfully assassinating their teacher.`,		
 		"open": "https://drive.google.com/file/d/1Yymy4l_tW43tT1qR7AT7V8QGHXQQW4H8/view?usp=sharing",
 		"end": "https://drive.google.com/file/d/1tHzTTyV1ouufI2fb-odX7t1QS9qqkqRi/view?usp=sharing",
 		"gogo": "https://gogoplay1.com/videos/one-punch-man-dub-episode-12",
@@ -77,23 +77,23 @@ var animedata = {
 			  "https://drive.google.com/file/d/1sZoN4XX_JTHOwtBTquc8We6OtS0fwO_8/preview"
 
 		],
-		"animerelated": ["assassinationclassrooms02","assassinationclassrooms01"]
+		"animerelated": ["assassinationclassrooms02Dub","assassinationclassrooms01Dub"]
    	},
 
-   	"attackontitans01": {
-        "animetitle": "Watch Attack On Titan Season 1",
-        "animedetailsh2": "Attack on Titan",
+   	"attackontitans01Dub": {
+   		"animedetailsh2": "Attack on Titan",
         "animedetailsh4": "Season 1",
-        "animedetails": `Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations. After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.`,
         "animeimg": " https://drive.google.com/uc?export=view&id=1GI_EeMIZHTxFP2B99Y5oiTlpl1J2mIa-",
 		"alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
 		"published": 2015,
+        "animetitle": "Watch Attack On Titan Season 1",
+        "animedetails": `Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations. After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.`,
 		"open": "https://drive.google.com/file/d/1Yymy4l_tW43tT1qR7AT7V8QGHXQQW4H8/view?usp=sharing",
 		"end": "https://drive.google.com/file/d/1tHzTTyV1ouufI2fb-odX7t1QS9qqkqRi/view?usp=sharing",
 		"gogo": "https://gogoplay1.com/videos/one-punch-man-dub-episode-12",
-                "episodelinks": [
+        "episodelinks": [
 
-                        "https://drive.google.com/file/d/14uTyNlAuwAOM4KErhr56cnkI3jxYoBGd/preview",
+            "https://drive.google.com/file/d/14uTyNlAuwAOM4KErhr56cnkI3jxYoBGd/preview",
 			"https://drive.google.com/file/d/13DugTIX4wok2FXaY-zUJyJMbpKh79JyR/preview",
 			"https://drive.google.com/file/d/11w3Dt_0z4XyMkU00K8W8ckOa7GKl3TpB/preview",
 			"https://drive.google.com/file/d/1raQBFoV72n94LnbvKIGGZIyphb_-7OmA/preview",
@@ -120,17 +120,17 @@ var animedata = {
 			"https://drive.google.com/file/d/1LPtA9WA4Wo7N6eVCmo0Z5bQ7_nz5xUWY/preview"
 
                 ],
-		"animerelated": ["assassinationclassrooms02","assassinationclassrooms01"]                
+		"animerelated": ["assassinationclassrooms02Dub","assassinationclassrooms01Dub"]                
         },
 
-  	"deathnote": {
-		"animetitle": "Watch Death Note",
-		"animedetailsh2": "Death Note",
+  	"deathnoteDub": {
+  		"animedetailsh2": "Death Note",
 		"animedetailsh4": "Completed",
-		"animedetails": `Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die.With the Death Note in hand, he goes on a personal crusade and moves to kill all evil in the world and become God. He does this all in his new name, Kira, and declares himself the law and justice of the world. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.`,
 		"animeimg": "https://drive.google.com/uc?export=view&id=1GOQceqgfS18P0H8Q7BERc39R_Tq0W6IS",
 		"alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
 		"published": 2015,
+		"animetitle": "Watch Death Note",
+		"animedetails": `Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die.With the Death Note in hand, he goes on a personal crusade and moves to kill all evil in the world and become God. He does this all in his new name, Kira, and declares himself the law and justice of the world. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.`,		
 		"open": "https://drive.google.com/file/d/1Yymy4l_tW43tT1qR7AT7V8QGHXQQW4H8/view?usp=sharing",
 		"end": "https://drive.google.com/file/d/1tHzTTyV1ouufI2fb-odX7t1QS9qqkqRi/view?usp=sharing",
 		"gogo": "https://gogoplay1.com/videos/one-punch-man-dub-episode-12",
@@ -181,7 +181,7 @@ var animedata = {
 }
 
 var current_episode = 0;
-var top4trend = ["assassinationclassrooms01","assassinationclassrooms02","attackontitans01","deathnote"];
+var top4trend = ["assassinationclassrooms01Dub","assassinationclassrooms02Dub","attackontitans01Dub","deathnoteDub"];
 
 
 function getParameter(parameter_name) {
@@ -214,7 +214,7 @@ function addAnimeList() {
 	var makeList = [];
 	for (const [key, unit] of Object.entries(animedata)) {
 		makeList.push(`
-			<li><a href="../../all/anime/dub_anime.html?anime=${key}">
+			<li><a href="../../all/animeDub/animeDub.html?anime=${key}">
 			  <img onerror="this.src='${unit.alterimg}';" src="${unit.animeimg}" alt="${unit.animedetailsh2}" />
 			  <p>Ep ${unit.episodelinks.length}</p>
 			  <h5>${unit.animedetailsh2}</h5>
@@ -286,7 +286,7 @@ function top4Trending() {
 		makeTop4.push(`
 			<li>
      			<img onerror="this.src='${ii.alterimg}';" src="${ii.animeimg}" alt="${ii.animedetailsh2}" /> <br>
-				<a href="?anime=${key}">
+				<a href="../animeDub/animeDub.html?anime=${key}">
 				<h3>${ii.animedetailsh2}</h3>
 				</a>
 				<h5>${ii.animedetailsh4}</h5>
@@ -316,7 +316,7 @@ function RelatedAnime(unit) {
 			makeRelated.push(`
 				<li>
 					<img onerror="this.src='${relation.alterimg}';" src="${relation.animeimg}" alt="${relation.animedetailsh2}" /> <br>
-					<a href="?anime=${key}">
+					<a href="../animeDub/animeDub.html?anime=${key}">
 					<h3>${relation.animedetailsh2}</h3>
 					</a>
 					<h5>${relation.animedetailsh4}</h5>
@@ -335,6 +335,9 @@ function RelatedAnime(unit) {
 	var animeRelatedHtml = makeRelated.join(" ");
 	$("#relatedanime").html(animeRelatedHtml);
 } 
+
+
+
 
 // export function importToSearch() {
 // 	var makeSearch = [];
