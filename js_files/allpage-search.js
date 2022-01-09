@@ -5,8 +5,8 @@ var searchdata = {
         "animeimg": 'https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua',
         "alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
         "published": 2015,
-        "type": "anime",
-        "subtype": "animeDub"
+        "type": "animeDub",
+        "subtype": "anime"
     },    
     "deathnoteDub": {
         "animedetailsh2": "Death Note",
@@ -14,8 +14,8 @@ var searchdata = {
         "animeimg": 'https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua',
         "alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
         "published": 2015,
-        "type": "anime",
-        "subtype": "animeDub"   
+        "type": "animeDub",
+        "subtype": "anime"   
     }, 
     "attackontitans01Dub": {
         "animedetailsh2": "Attack on Titan",
@@ -23,8 +23,8 @@ var searchdata = {
         "animeimg": 'https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua',
         "alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
         "published": 2015,
-        "type": "anime",
-        "subtype": "animeDub"
+        "type": "animeDub",
+        "subtype": "anime"
     }, 
     "attackontitans02Dub": {
        "animedetailsh2": "Attack on Titan",
@@ -32,8 +32,8 @@ var searchdata = {
         "animeimg": 'https://drive.google.com/uc?export=view&id=1djuEnp1qVAAD3F3Wb2H_WzaOk4oytHua',
         "alterimg": 'https://cdnimg.xyz/cover/one-punch-man-dub.png',
         "published": 2015,
-        "type": "anime",
-        "subtype": "animeDub"
+        "type": "animeDub",
+        "subtype": "anime"
     }, 
 
 
