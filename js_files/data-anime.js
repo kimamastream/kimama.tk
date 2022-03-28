@@ -358,6 +358,7 @@ function addSubAnimeList() {
 			makeList.push(`
 				<li><a href="../../all/animeSub/animeSub.html?anime=${key}">
 				  <img onerror="this.src='${unit.alterimg}';" src="${unit.animeimg}" alt="${unit.animedetailsh2}" />
+				  <p>Ep ${unit.episodenumber}</p>
 				  <h5>${unit.animedetailsh2}</h5>
 				  <h6>${unit.animedetailsh4}</h6></a>
 				</li>
